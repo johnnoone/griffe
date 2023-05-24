@@ -67,7 +67,7 @@
             <a id="nextFileLink" class="nav" href="d_d196e69e744528ee_visitor_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io/en/7.2.5">coverage.py v7.2.5</a>,
-            created at 2023-05-22 19:47 +0200
+            created at 2023-05-24 11:37 +0200
         </p>
         <aside class="hidden">
             <button type="button" class="button_next_chunk" data-shortcut="j"/>
@@ -767,9 +767,9 @@
     <p class="run"><span class="n"><a id="t683" href="#t683">683</a></span><span class="t">        <span class="nam">left</span> <span class="op">=</span> <span class="nam">self</span><span class="op">.</span><span class="nam">_build</span><span class="op">(</span><span class="nam">node</span><span class="op">.</span><span class="nam">value</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t684" href="#t684">684</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t685" href="#t685">685</a></span><span class="t">        <span class="key">def</span> <span class="nam">resolver</span><span class="op">(</span><span class="op">)</span> <span class="op">-></span> <span class="nam">str</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t686" href="#t686">686</a></span><span class="t">            <span class="key">return</span> <span class="str">f"{left.source}.{node.attr}"</span>  <span class="com"># type: ignore[union-attr]</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t686" href="#t686">686</a></span><span class="t">            <span class="key">return</span> <span class="str">f"{left.full}.{node.attr}"</span>  <span class="com"># type: ignore[union-attr]</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t687" href="#t687">687</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t688" href="#t688">688</a></span><span class="t">        <span class="nam">right</span> <span class="op">=</span> <span class="nam">Name</span><span class="op">(</span><span class="nam">node</span><span class="op">.</span><span class="nam">attr</span><span class="op">,</span> <span class="nam">resolver</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t688" href="#t688">688</a></span><span class="t">        <span class="nam">right</span> <span class="op">=</span> <span class="nam">Name</span><span class="op">(</span><span class="nam">node</span><span class="op">.</span><span class="nam">attr</span><span class="op">,</span> <span class="nam">resolver</span><span class="op">,</span> <span class="nam">first_attr_name</span><span class="op">=</span><span class="key">False</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t689" href="#t689">689</a></span><span class="t">        <span class="key">return</span> <span class="nam">Expression</span><span class="op">(</span><span class="nam">left</span><span class="op">,</span> <span class="str">"."</span><span class="op">,</span> <span class="nam">right</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t690" href="#t690">690</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t691" href="#t691">691</a></span><span class="t">    <span class="key">def</span> <span class="nam">_build_binop</span><span class="op">(</span><span class="nam">self</span><span class="op">,</span> <span class="nam">node</span><span class="op">:</span> <span class="nam">NodeBinOp</span><span class="op">)</span> <span class="op">-></span> <span class="nam">Expression</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
@@ -1492,7 +1492,7 @@
             <a id="nextFileLink" class="nav" href="d_d196e69e744528ee_visitor_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io/en/7.2.5">coverage.py v7.2.5</a>,
-            created at 2023-05-22 19:47 +0200
+            created at 2023-05-24 11:37 +0200
         </p>
     </div>
 </footer>
