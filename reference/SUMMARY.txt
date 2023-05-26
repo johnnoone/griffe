@@ -31,3 +31,4 @@
     * [merger](griffe/merger.md)
     * [mixins](griffe/mixins.md)
     * [stats](griffe/stats.md)
+    * [tests](griffe/tests.md)

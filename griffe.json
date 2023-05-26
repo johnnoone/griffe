@@ -15485,6 +15485,1168 @@
 },
 {
 "kind": "module",
+"name": "tests",
+"path": "griffe.tests",
+"filepath": "/media/data/dev/griffe/src/griffe/tests.py",
+"relative_filepath": "src/griffe/tests.py",
+"relative_package_filepath": "griffe/tests.py",
+"docstring": {
+"value": "Test helpers and pytest fixtures.\n\nLoad fixtures in your own tests by adding `griffe.tests`\nto the [`pytest_plugins`][pytest_plugins] list:\n\n```python title=\"conftest.py\"\npytest_plugins = [\"griffe.tests\"]\n```\n\n[pytest_plugins]: https://docs.pytest.org/en/7.1.x/how-to/plugins.html#requiring-loading-plugins-in-a-test-module-or-conftest-file",
+"lineno": 1,
+"endlineno": 11,
+"parsed": [
+{
+"kind": "text",
+"value": "Test helpers and pytest fixtures.\n\nLoad fixtures in your own tests by adding `griffe.tests`\nto the [`pytest_plugins`][pytest_plugins] list:\n\n```python title=\"conftest.py\"\npytest_plugins = [\"griffe.tests\"]\n```\n\n[pytest_plugins]: https://docs.pytest.org/en/7.1.x/how-to/plugins.html#requiring-loading-plugins-in-a-test-module-or-conftest-file"
+}
+]
+},
+"labels": [],
+"members": [
+{
+"kind": "alias",
+"name": "annotations",
+"target_path": "__future__.annotations",
+"path": "griffe.tests.annotations",
+"lineno": 13,
+"endlineno": 13
+},
+{
+"kind": "alias",
+"name": "sys",
+"target_path": "sys",
+"path": "griffe.tests.sys",
+"lineno": 15,
+"endlineno": 15
+},
+{
+"kind": "alias",
+"name": "tempfile",
+"target_path": "tempfile",
+"path": "griffe.tests.tempfile",
+"lineno": 16,
+"endlineno": 16
+},
+{
+"kind": "alias",
+"name": "namedtuple",
+"target_path": "collections.namedtuple",
+"path": "griffe.tests.namedtuple",
+"lineno": 17,
+"endlineno": 17
+},
+{
+"kind": "alias",
+"name": "contextmanager",
+"target_path": "contextlib.contextmanager",
+"path": "griffe.tests.contextmanager",
+"lineno": 18,
+"endlineno": 18
+},
+{
+"kind": "alias",
+"name": "invalidate_caches",
+"target_path": "importlib.invalidate_caches",
+"path": "griffe.tests.invalidate_caches",
+"lineno": 19,
+"endlineno": 19
+},
+{
+"kind": "alias",
+"name": "Path",
+"target_path": "pathlib.Path",
+"path": "griffe.tests.Path",
+"lineno": 20,
+"endlineno": 20
+},
+{
+"kind": "alias",
+"name": "dedent",
+"target_path": "textwrap.dedent",
+"path": "griffe.tests.dedent",
+"lineno": 21,
+"endlineno": 21
+},
+{
+"kind": "alias",
+"name": "Iterator",
+"target_path": "typing.Iterator",
+"path": "griffe.tests.Iterator",
+"lineno": 22,
+"endlineno": 22
+},
+{
+"kind": "alias",
+"name": "Mapping",
+"target_path": "typing.Mapping",
+"path": "griffe.tests.Mapping",
+"lineno": 22,
+"endlineno": 22
+},
+{
+"kind": "alias",
+"name": "Sequence",
+"target_path": "typing.Sequence",
+"path": "griffe.tests.Sequence",
+"lineno": 22,
+"endlineno": 22
+},
+{
+"kind": "alias",
+"name": "inspect",
+"target_path": "griffe.agents.inspector.inspect",
+"path": "griffe.tests.inspect",
+"lineno": 24,
+"endlineno": 24
+},
+{
+"kind": "alias",
+"name": "patch_ast",
+"target_path": "griffe.agents.visitor.patch_ast",
+"path": "griffe.tests.patch_ast",
+"lineno": 25,
+"endlineno": 25
+},
+{
+"kind": "alias",
+"name": "visit",
+"target_path": "griffe.agents.visitor.visit",
+"path": "griffe.tests.visit",
+"lineno": 25,
+"endlineno": 25
+},
+{
+"kind": "alias",
+"name": "Module",
+"target_path": "griffe.dataclasses.Module",
+"path": "griffe.tests.Module",
+"lineno": 26,
+"endlineno": 26
+},
+{
+"kind": "alias",
+"name": "Object",
+"target_path": "griffe.dataclasses.Object",
+"path": "griffe.tests.Object",
+"lineno": 26,
+"endlineno": 26
+},
+{
+"kind": "alias",
+"name": "GriffeLoader",
+"target_path": "griffe.loader.GriffeLoader",
+"path": "griffe.tests.GriffeLoader",
+"lineno": 27,
+"endlineno": 27
+},
+{
+"kind": "attribute",
+"name": "TMPDIR_PREFIX",
+"path": "griffe.tests.TMPDIR_PREFIX",
+"filepath": "/media/data/dev/griffe/src/griffe/tests.py",
+"relative_filepath": "src/griffe/tests.py",
+"relative_package_filepath": "griffe/tests.py",
+"lineno": 29,
+"endlineno": 29,
+"labels": [
+"module-attribute"
+],
+"members": [],
+"value": "'griffe_'"
+},
+{
+"kind": "alias",
+"name": "pytest",
+"target_path": "pytest",
+"path": "griffe.tests.pytest",
+"lineno": 33,
+"endlineno": 33
+},
+{
+"kind": "function",
+"name": "_fixture_patch_ast",
+"path": "griffe.tests._fixture_patch_ast",
+"filepath": "/media/data/dev/griffe/src/griffe/tests.py",
+"relative_filepath": "src/griffe/tests.py",
+"relative_package_filepath": "griffe/tests.py",
+"lineno": 35,
+"endlineno": 37,
+"labels": [],
+"members": [],
+"decorators": [
+{
+"value": "pytest.fixture(scope='session', autouse=True)",
+"lineno": 35,
+"endlineno": 35
+}
+],
+"parameters": [],
+"returns": "None"
+},
+{
+"kind": "function",
+"name": "temporary_pyfile",
+"path": "griffe.tests.temporary_pyfile",
+"filepath": "/media/data/dev/griffe/src/griffe/tests.py",
+"relative_filepath": "src/griffe/tests.py",
+"relative_package_filepath": "griffe/tests.py",
+"lineno": 43,
+"endlineno": 57,
+"docstring": {
+"value": "Create a module.py file containing the given code in a temporary directory.\n\nParameters:\n    code: The code to write to the temporary file.\n\nYields:\n    module_name: The module name, as to dynamically import it.\n    module_path: The module path.",
+"lineno": 45,
+"endlineno": 53,
+"parsed": [
+{
+"kind": "text",
+"value": "Create a module.py file containing the given code in a temporary directory."
+},
+{
+"kind": "parameters",
+"value": [
+{
+"name": "code",
+"annotation": {
+"source": "str",
+"full": "str"
+},
+"description": "The code to write to the temporary file."
+}
+]
+},
+{
+"kind": "yields",
+"value": [
+{
+"name": "module_name",
+"annotation": {
+"source": "str",
+"full": "str"
+},
+"description": "The module name, as to dynamically import it."
+},
+{
+"name": "module_path",
+"annotation": {
+"source": "Path",
+"full": "pathlib.Path"
+},
+"description": "The module path."
+}
+]
+}
+]
+},
+"labels": [],
+"members": [],
+"decorators": [
+{
+"value": "contextmanager",
+"lineno": 43,
+"endlineno": 43
+}
+],
+"parameters": [
+{
+"name": "code",
+"annotation": {
+"source": "str",
+"full": "str"
+},
+"kind": "positional or keyword",
+"default": null
+}
+],
+"returns": [
+{
+"source": "Iterator",
+"full": "typing.Iterator"
+},
+"[",
+[
+{
+"source": "tuple",
+"full": "tuple"
+},
+"[",
+[
+{
+"source": "str",
+"full": "str"
+},
+", ",
+{
+"source": "Path",
+"full": "pathlib.Path"
+}
+],
+"]"
+],
+"]"
+]
+},
+{
+"kind": "attribute",
+"name": "TmpPackage",
+"path": "griffe.tests.TmpPackage",
+"filepath": "/media/data/dev/griffe/src/griffe/tests.py",
+"relative_filepath": "src/griffe/tests.py",
+"relative_package_filepath": "griffe/tests.py",
+"lineno": 60,
+"endlineno": 60,
+"labels": [
+"module-attribute"
+],
+"members": [],
+"value": "namedtuple('TmpPackage', 'tmpdir name path')"
+},
+{
+"kind": "function",
+"name": "temporary_pypackage",
+"path": "griffe.tests.temporary_pypackage",
+"filepath": "/media/data/dev/griffe/src/griffe/tests.py",
+"relative_filepath": "src/griffe/tests.py",
+"relative_package_filepath": "griffe/tests.py",
+"lineno": 63,
+"endlineno": 110,
+"docstring": {
+"value": "Create a package containing the given modules in a temporary directory.\n\nParameters:\n    package: The package name. Example: `\"a\"` gives\n        a package named `a`, while `\"a/b\"` gives a namespace package\n        named `a` with a package inside named `b`.\n        If `init` is false, then `b` is also a namespace package.\n    modules: Additional modules to create in the package.\n        If a list, simply touch the files: `[\"b.py\", \"c/d.py\", \"e/f\"]`.\n        If a dict, keys are the file names and values their contents:\n        `{\"b.py\": \"b = 1\", \"c/d.py\": \"print('hey from c')\"}`.\n    init: Whether to create an `__init__` module in the leaf package.\n\nYields:\n    A named tuple with the following fields:\n\n        - `tmp_dir`: The temporary directory containing the package.\n        - `name`: The package name, as to dynamically import it.\n        - `path`: The package path.",
+"lineno": 70,
+"endlineno": 89,
+"parsed": [
+{
+"kind": "text",
+"value": "Create a package containing the given modules in a temporary directory."
+},
+{
+"kind": "parameters",
+"value": [
+{
+"name": "package",
+"annotation": {
+"source": "str",
+"full": "str"
+},
+"description": "The package name. Example: `\"a\"` gives\na package named `a`, while `\"a/b\"` gives a namespace package\nnamed `a` with a package inside named `b`.\nIf `init` is false, then `b` is also a namespace package."
+},
+{
+"name": "modules",
+"annotation": [
+[
+[
+{
+"source": "Sequence",
+"full": "typing.Sequence"
+},
+"[",
+{
+"source": "str",
+"full": "str"
+},
+"]"
+],
+" | ",
+[
+{
+"source": "Mapping",
+"full": "typing.Mapping"
+},
+"[",
+[
+{
+"source": "str",
+"full": "str"
+},
+", ",
+{
+"source": "str",
+"full": "str"
+}
+],
+"]"
+]
+],
+" | ",
+"None"
+],
+"description": "Additional modules to create in the package.\nIf a list, simply touch the files: `[\"b.py\", \"c/d.py\", \"e/f\"]`.\nIf a dict, keys are the file names and values their contents:\n`{\"b.py\": \"b = 1\", \"c/d.py\": \"print('hey from c')\"}`.",
+"value": "None"
+},
+{
+"name": "init",
+"annotation": {
+"source": "bool",
+"full": "bool"
+},
+"description": "Whether to create an `__init__` module in the leaf package.",
+"value": "True"
+}
+]
+},
+{
+"kind": "yields",
+"value": [
+{
+"name": "",
+"annotation": [
+{
+"source": "Iterator",
+"full": "typing.Iterator"
+},
+"[",
+{
+"source": "TmpPackage",
+"full": "griffe.tests.TmpPackage"
+},
+"]"
+],
+"description": "A named tuple with the following fields:\n\n- `tmp_dir`: The temporary directory containing the package.\n- `name`: The package name, as to dynamically import it.\n- `path`: The package path."
+}
+]
+}
+]
+},
+"labels": [],
+"members": [],
+"decorators": [
+{
+"value": "contextmanager",
+"lineno": 63,
+"endlineno": 63
+}
+],
+"parameters": [
+{
+"name": "package",
+"annotation": {
+"source": "str",
+"full": "str"
+},
+"kind": "positional or keyword",
+"default": null
+},
+{
+"name": "modules",
+"annotation": [
+[
+[
+{
+"source": "Sequence",
+"full": "typing.Sequence"
+},
+"[",
+{
+"source": "str",
+"full": "str"
+},
+"]"
+],
+" | ",
+[
+{
+"source": "Mapping",
+"full": "typing.Mapping"
+},
+"[",
+[
+{
+"source": "str",
+"full": "str"
+},
+", ",
+{
+"source": "str",
+"full": "str"
+}
+],
+"]"
+]
+],
+" | ",
+"None"
+],
+"kind": "positional or keyword",
+"default": "None"
+},
+{
+"name": "init",
+"annotation": {
+"source": "bool",
+"full": "bool"
+},
+"kind": "keyword-only",
+"default": "True"
+}
+],
+"returns": [
+{
+"source": "Iterator",
+"full": "typing.Iterator"
+},
+"[",
+{
+"source": "TmpPackage",
+"full": "griffe.tests.TmpPackage"
+},
+"]"
+]
+},
+{
+"kind": "function",
+"name": "temporary_visited_package",
+"path": "griffe.tests.temporary_visited_package",
+"filepath": "/media/data/dev/griffe/src/griffe/tests.py",
+"relative_filepath": "src/griffe/tests.py",
+"relative_package_filepath": "griffe/tests.py",
+"lineno": 113,
+"endlineno": 138,
+"docstring": {
+"value": "Create and visit a temporary package.\n\nParameters:\n    package: The package name. Example: `\"a\"` gives\n        a package named `a`, while `\"a/b\"` gives a namespace package\n        named `a` with a package inside named `b`.\n        If `init` is false, then `b` is also a namespace package.\n    modules: Additional modules to create in the package.\n        If a list, simply touch the files: `[\"b.py\", \"c/d.py\", \"e/f\"]`.\n        If a dict, keys are the file names and values their contents:\n        `{\"b.py\": \"b = 1\", \"c/d.py\": \"print('hey from c')\"}`.\n    init: Whether to create an `__init__` module in the leaf package.\n\nYields:\n    A module.",
+"lineno": 120,
+"endlineno": 135,
+"parsed": [
+{
+"kind": "text",
+"value": "Create and visit a temporary package."
+},
+{
+"kind": "parameters",
+"value": [
+{
+"name": "package",
+"annotation": {
+"source": "str",
+"full": "str"
+},
+"description": "The package name. Example: `\"a\"` gives\na package named `a`, while `\"a/b\"` gives a namespace package\nnamed `a` with a package inside named `b`.\nIf `init` is false, then `b` is also a namespace package."
+},
+{
+"name": "modules",
+"annotation": [
+[
+[
+{
+"source": "Sequence",
+"full": "typing.Sequence"
+},
+"[",
+{
+"source": "str",
+"full": "str"
+},
+"]"
+],
+" | ",
+[
+{
+"source": "Mapping",
+"full": "typing.Mapping"
+},
+"[",
+[
+{
+"source": "str",
+"full": "str"
+},
+", ",
+{
+"source": "str",
+"full": "str"
+}
+],
+"]"
+]
+],
+" | ",
+"None"
+],
+"description": "Additional modules to create in the package.\nIf a list, simply touch the files: `[\"b.py\", \"c/d.py\", \"e/f\"]`.\nIf a dict, keys are the file names and values their contents:\n`{\"b.py\": \"b = 1\", \"c/d.py\": \"print('hey from c')\"}`.",
+"value": "None"
+},
+{
+"name": "init",
+"annotation": {
+"source": "bool",
+"full": "bool"
+},
+"description": "Whether to create an `__init__` module in the leaf package.",
+"value": "True"
+}
+]
+},
+{
+"kind": "yields",
+"value": [
+{
+"name": "",
+"annotation": [
+{
+"source": "Iterator",
+"full": "typing.Iterator"
+},
+"[",
+{
+"source": "Module",
+"full": "griffe.dataclasses.Module"
+},
+"]"
+],
+"description": "A module."
+}
+]
+}
+]
+},
+"labels": [],
+"members": [],
+"decorators": [
+{
+"value": "contextmanager",
+"lineno": 113,
+"endlineno": 113
+}
+],
+"parameters": [
+{
+"name": "package",
+"annotation": {
+"source": "str",
+"full": "str"
+},
+"kind": "positional or keyword",
+"default": null
+},
+{
+"name": "modules",
+"annotation": [
+[
+[
+{
+"source": "Sequence",
+"full": "typing.Sequence"
+},
+"[",
+{
+"source": "str",
+"full": "str"
+},
+"]"
+],
+" | ",
+[
+{
+"source": "Mapping",
+"full": "typing.Mapping"
+},
+"[",
+[
+{
+"source": "str",
+"full": "str"
+},
+", ",
+{
+"source": "str",
+"full": "str"
+}
+],
+"]"
+]
+],
+" | ",
+"None"
+],
+"kind": "positional or keyword",
+"default": "None"
+},
+{
+"name": "init",
+"annotation": {
+"source": "bool",
+"full": "bool"
+},
+"kind": "keyword-only",
+"default": "True"
+}
+],
+"returns": [
+{
+"source": "Iterator",
+"full": "typing.Iterator"
+},
+"[",
+{
+"source": "Module",
+"full": "griffe.dataclasses.Module"
+},
+"]"
+]
+},
+{
+"kind": "function",
+"name": "temporary_visited_module",
+"path": "griffe.tests.temporary_visited_module",
+"filepath": "/media/data/dev/griffe/src/griffe/tests.py",
+"relative_filepath": "src/griffe/tests.py",
+"relative_package_filepath": "griffe/tests.py",
+"lineno": 141,
+"endlineno": 151,
+"docstring": {
+"value": "Create and visit a temporary module with the given code.\n\nParameters:\n    code: The code of the module.\n\nYields:\n    The visited module.",
+"lineno": 143,
+"endlineno": 150,
+"parsed": [
+{
+"kind": "text",
+"value": "Create and visit a temporary module with the given code."
+},
+{
+"kind": "parameters",
+"value": [
+{
+"name": "code",
+"annotation": {
+"source": "str",
+"full": "str"
+},
+"description": "The code of the module."
+}
+]
+},
+{
+"kind": "yields",
+"value": [
+{
+"name": "",
+"annotation": [
+{
+"source": "Iterator",
+"full": "typing.Iterator"
+},
+"[",
+{
+"source": "Module",
+"full": "griffe.dataclasses.Module"
+},
+"]"
+],
+"description": "The visited module."
+}
+]
+}
+]
+},
+"labels": [],
+"members": [],
+"decorators": [
+{
+"value": "contextmanager",
+"lineno": 141,
+"endlineno": 141
+}
+],
+"parameters": [
+{
+"name": "code",
+"annotation": {
+"source": "str",
+"full": "str"
+},
+"kind": "positional or keyword",
+"default": null
+}
+],
+"returns": [
+{
+"source": "Iterator",
+"full": "typing.Iterator"
+},
+"[",
+{
+"source": "Module",
+"full": "griffe.dataclasses.Module"
+},
+"]"
+]
+},
+{
+"kind": "function",
+"name": "temporary_inspected_module",
+"path": "griffe.tests.temporary_inspected_module",
+"filepath": "/media/data/dev/griffe/src/griffe/tests.py",
+"relative_filepath": "src/griffe/tests.py",
+"relative_package_filepath": "griffe/tests.py",
+"lineno": 154,
+"endlineno": 169,
+"docstring": {
+"value": "Create and inspect a temporary module with the given code.\n\nParameters:\n    code: The code of the module.\n\nYields:\n    The inspected module.",
+"lineno": 156,
+"endlineno": 163,
+"parsed": [
+{
+"kind": "text",
+"value": "Create and inspect a temporary module with the given code."
+},
+{
+"kind": "parameters",
+"value": [
+{
+"name": "code",
+"annotation": {
+"source": "str",
+"full": "str"
+},
+"description": "The code of the module."
+}
+]
+},
+{
+"kind": "yields",
+"value": [
+{
+"name": "",
+"annotation": [
+{
+"source": "Iterator",
+"full": "typing.Iterator"
+},
+"[",
+{
+"source": "Module",
+"full": "griffe.dataclasses.Module"
+},
+"]"
+],
+"description": "The inspected module."
+}
+]
+}
+]
+},
+"labels": [],
+"members": [],
+"decorators": [
+{
+"value": "contextmanager",
+"lineno": 154,
+"endlineno": 154
+}
+],
+"parameters": [
+{
+"name": "code",
+"annotation": {
+"source": "str",
+"full": "str"
+},
+"kind": "positional or keyword",
+"default": null
+}
+],
+"returns": [
+{
+"source": "Iterator",
+"full": "typing.Iterator"
+},
+"[",
+{
+"source": "Module",
+"full": "griffe.dataclasses.Module"
+},
+"]"
+]
+},
+{
+"kind": "function",
+"name": "vtree",
+"path": "griffe.tests.vtree",
+"filepath": "/media/data/dev/griffe/src/griffe/tests.py",
+"relative_filepath": "src/griffe/tests.py",
+"relative_package_filepath": "griffe/tests.py",
+"lineno": 172,
+"endlineno": 192,
+"docstring": {
+"value": "Link objects together, vertically.\n\nParameters:\n    *objects: A sequence of objects. The first one is at the top of the tree.\n    return_leaf: Whether to return the leaf instead of the root.\n\nRaises:\n    ValueError: When no objects are provided.\n\nReturns:\n    The top or leaf object.",
+"lineno": 173,
+"endlineno": 184,
+"parsed": [
+{
+"kind": "text",
+"value": "Link objects together, vertically."
+},
+{
+"kind": "parameters",
+"value": [
+{
+"name": "*objects",
+"annotation": {
+"source": "Object",
+"full": "griffe.dataclasses.Object"
+},
+"description": "A sequence of objects. The first one is at the top of the tree.",
+"value": "()"
+},
+{
+"name": "return_leaf",
+"annotation": {
+"source": "bool",
+"full": "bool"
+},
+"description": "Whether to return the leaf instead of the root.",
+"value": "False"
+}
+]
+},
+{
+"kind": "raises",
+"value": [
+{
+"annotation": {
+"source": "ValueError",
+"full": "ValueError"
+},
+"description": "When no objects are provided."
+}
+]
+},
+{
+"kind": "returns",
+"value": [
+{
+"name": "",
+"annotation": {
+"source": "Object",
+"full": "griffe.dataclasses.Object"
+},
+"description": "The top or leaf object."
+}
+]
+}
+]
+},
+"labels": [],
+"members": [],
+"decorators": [],
+"parameters": [
+{
+"name": "objects",
+"annotation": {
+"source": "Object",
+"full": "griffe.dataclasses.Object"
+},
+"kind": "variadic positional",
+"default": "()"
+},
+{
+"name": "return_leaf",
+"annotation": {
+"source": "bool",
+"full": "bool"
+},
+"kind": "keyword-only",
+"default": "False"
+}
+],
+"returns": {
+"source": "Object",
+"full": "griffe.dataclasses.Object"
+}
+},
+{
+"kind": "function",
+"name": "htree",
+"path": "griffe.tests.htree",
+"filepath": "/media/data/dev/griffe/src/griffe/tests.py",
+"relative_filepath": "src/griffe/tests.py",
+"relative_package_filepath": "griffe/tests.py",
+"lineno": 195,
+"endlineno": 212,
+"docstring": {
+"value": "Link objects together, horizontally.\n\nParameters:\n    *objects: A sequence of objects. All objects starting at the second become members of the first.\n\nRaises:\n    ValueError: When no objects are provided.\n\nReturns:\n    The first given object, with all the other objects as members of it.",
+"lineno": 196,
+"endlineno": 206,
+"parsed": [
+{
+"kind": "text",
+"value": "Link objects together, horizontally."
+},
+{
+"kind": "parameters",
+"value": [
+{
+"name": "*objects",
+"annotation": {
+"source": "Object",
+"full": "griffe.dataclasses.Object"
+},
+"description": "A sequence of objects. All objects starting at the second become members of the first.",
+"value": "()"
+}
+]
+},
+{
+"kind": "raises",
+"value": [
+{
+"annotation": {
+"source": "ValueError",
+"full": "ValueError"
+},
+"description": "When no objects are provided."
+}
+]
+},
+{
+"kind": "returns",
+"value": [
+{
+"name": "",
+"annotation": {
+"source": "Object",
+"full": "griffe.dataclasses.Object"
+},
+"description": "The first given object, with all the other objects as members of it."
+}
+]
+}
+]
+},
+"labels": [],
+"members": [],
+"decorators": [],
+"parameters": [
+{
+"name": "objects",
+"annotation": {
+"source": "Object",
+"full": "griffe.dataclasses.Object"
+},
+"kind": "variadic positional",
+"default": "()"
+}
+],
+"returns": {
+"source": "Object",
+"full": "griffe.dataclasses.Object"
+}
+},
+{
+"kind": "function",
+"name": "module_vtree",
+"path": "griffe.tests.module_vtree",
+"filepath": "/media/data/dev/griffe/src/griffe/tests.py",
+"relative_filepath": "src/griffe/tests.py",
+"relative_package_filepath": "griffe/tests.py",
+"lineno": 215,
+"endlineno": 237,
+"docstring": {
+"value": "Link objects together, vertically.\n\nParameters:\n    path: The complete module path, like `\"a.b.c.d\"`.\n    leaf_package: Whether the deepest module should also be a package.\n    return_leaf: Whether to return the leaf instead of the root.\n\nRaises:\n    ValueError: When no objects are provided.\n\nReturns:\n    The top or leaf module.",
+"lineno": 216,
+"endlineno": 228,
+"parsed": [
+{
+"kind": "text",
+"value": "Link objects together, vertically."
+},
+{
+"kind": "parameters",
+"value": [
+{
+"name": "path",
+"annotation": {
+"source": "str",
+"full": "str"
+},
+"description": "The complete module path, like `\"a.b.c.d\"`."
+},
+{
+"name": "leaf_package",
+"annotation": {
+"source": "bool",
+"full": "bool"
+},
+"description": "Whether the deepest module should also be a package.",
+"value": "True"
+},
+{
+"name": "return_leaf",
+"annotation": {
+"source": "bool",
+"full": "bool"
+},
+"description": "Whether to return the leaf instead of the root.",
+"value": "False"
+}
+]
+},
+{
+"kind": "raises",
+"value": [
+{
+"annotation": {
+"source": "ValueError",
+"full": "ValueError"
+},
+"description": "When no objects are provided."
+}
+]
+},
+{
+"kind": "returns",
+"value": [
+{
+"name": "",
+"annotation": {
+"source": "Module",
+"full": "griffe.dataclasses.Module"
+},
+"description": "The top or leaf module."
+}
+]
+}
+]
+},
+"labels": [],
+"members": [],
+"decorators": [],
+"parameters": [
+{
+"name": "path",
+"annotation": {
+"source": "str",
+"full": "str"
+},
+"kind": "positional or keyword",
+"default": null
+},
+{
+"name": "leaf_package",
+"annotation": {
+"source": "bool",
+"full": "bool"
+},
+"kind": "keyword-only",
+"default": "True"
+},
+{
+"name": "return_leaf",
+"annotation": {
+"source": "bool",
+"full": "bool"
+},
+"kind": "keyword-only",
+"default": "False"
+}
+],
+"returns": {
+"source": "Module",
+"full": "griffe.dataclasses.Module"
+}
+}
+]
+},
+{
+"kind": "module",
 "name": "expressions",
 "path": "griffe.expressions",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
@@ -27692,7 +28854,7 @@
 "relative_filepath": "src/griffe/agents/visitor.py",
 "relative_package_filepath": "griffe/agents/visitor.py",
 "lineno": 114,
-"endlineno": 676,
+"endlineno": 678,
 "docstring": {
 "value": "This class is used to instantiate a visitor.\n\nVisitors iterate on AST nodes to extract data from them.",
 "lineno": 115,
@@ -28823,7 +29985,7 @@
 "relative_filepath": "src/griffe/agents/visitor.py",
 "relative_package_filepath": "griffe/agents/visitor.py",
 "lineno": 313,
-"endlineno": 472,
+"endlineno": 474,
 "docstring": {
 "value": "Handle a function definition node.\n\nParameters:\n    node: The node to visit.\n    labels: Labels to add to the data object.",
 "lineno": 314,
@@ -28945,12 +30107,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/visitor.py",
 "relative_filepath": "src/griffe/agents/visitor.py",
 "relative_package_filepath": "griffe/agents/visitor.py",
-"lineno": 474,
-"endlineno": 480,
+"lineno": 476,
+"endlineno": 482,
 "docstring": {
 "value": "Visit a function definition node.\n\nParameters:\n    node: The node to visit.",
-"lineno": 475,
-"endlineno": 479,
+"lineno": 477,
+"endlineno": 481,
 "parsed": [
 {
 "kind": "text",
@@ -29014,12 +30176,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/visitor.py",
 "relative_filepath": "src/griffe/agents/visitor.py",
 "relative_package_filepath": "griffe/agents/visitor.py",
-"lineno": 482,
-"endlineno": 488,
+"lineno": 484,
+"endlineno": 490,
 "docstring": {
 "value": "Visit an async function definition node.\n\nParameters:\n    node: The node to visit.",
-"lineno": 483,
-"endlineno": 487,
+"lineno": 485,
+"endlineno": 489,
 "parsed": [
 {
 "kind": "text",
@@ -29083,12 +30245,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/visitor.py",
 "relative_filepath": "src/griffe/agents/visitor.py",
 "relative_package_filepath": "griffe/agents/visitor.py",
-"lineno": 490,
-"endlineno": 506,
+"lineno": 492,
+"endlineno": 508,
 "docstring": {
 "value": "Visit an import node.\n\nParameters:\n    node: The node to visit.",
-"lineno": 491,
-"endlineno": 495,
+"lineno": 493,
+"endlineno": 497,
 "parsed": [
 {
 "kind": "text",
@@ -29152,12 +30314,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/visitor.py",
 "relative_filepath": "src/griffe/agents/visitor.py",
 "relative_package_filepath": "griffe/agents/visitor.py",
-"lineno": 508,
-"endlineno": 535,
+"lineno": 510,
+"endlineno": 537,
 "docstring": {
 "value": "Visit an \"import from\" node.\n\nParameters:\n    node: The node to visit.",
-"lineno": 509,
-"endlineno": 513,
+"lineno": 511,
+"endlineno": 515,
 "parsed": [
 {
 "kind": "text",
@@ -29221,12 +30383,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/visitor.py",
 "relative_filepath": "src/griffe/agents/visitor.py",
 "relative_package_filepath": "griffe/agents/visitor.py",
-"lineno": 537,
-"endlineno": 631,
+"lineno": 539,
+"endlineno": 633,
 "docstring": {
 "value": "Handle an attribute (assignment) node.\n\nParameters:\n    node: The node to visit.\n    annotation: A potential annotation.",
-"lineno": 542,
-"endlineno": 547,
+"lineno": 544,
+"endlineno": 549,
 "parsed": [
 {
 "kind": "text",
@@ -29372,12 +30534,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/visitor.py",
 "relative_filepath": "src/griffe/agents/visitor.py",
 "relative_package_filepath": "griffe/agents/visitor.py",
-"lineno": 633,
-"endlineno": 639,
+"lineno": 635,
+"endlineno": 641,
 "docstring": {
 "value": "Visit an assignment node.\n\nParameters:\n    node: The node to visit.",
-"lineno": 634,
-"endlineno": 638,
+"lineno": 636,
+"endlineno": 640,
 "parsed": [
 {
 "kind": "text",
@@ -29441,12 +30603,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/visitor.py",
 "relative_filepath": "src/griffe/agents/visitor.py",
 "relative_package_filepath": "griffe/agents/visitor.py",
-"lineno": 641,
-"endlineno": 647,
+"lineno": 643,
+"endlineno": 649,
 "docstring": {
 "value": "Visit an annotated assignment node.\n\nParameters:\n    node: The node to visit.",
-"lineno": 642,
-"endlineno": 646,
+"lineno": 644,
+"endlineno": 648,
 "parsed": [
 {
 "kind": "text",
@@ -29510,12 +30672,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/visitor.py",
 "relative_filepath": "src/griffe/agents/visitor.py",
 "relative_package_filepath": "griffe/agents/visitor.py",
-"lineno": 649,
-"endlineno": 663,
+"lineno": 651,
+"endlineno": 665,
 "docstring": {
 "value": "Visit an augmented assignment node.\n\nParameters:\n    node: The node to visit.",
-"lineno": 650,
-"endlineno": 654,
+"lineno": 652,
+"endlineno": 656,
 "parsed": [
 {
 "kind": "text",
@@ -29579,12 +30741,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/visitor.py",
 "relative_filepath": "src/griffe/agents/visitor.py",
 "relative_package_filepath": "griffe/agents/visitor.py",
-"lineno": 665,
-"endlineno": 676,
+"lineno": 667,
+"endlineno": 678,
 "docstring": {
 "value": "Visit an \"if\" node.\n\nParameters:\n    node: The node to visit.",
-"lineno": 666,
-"endlineno": 670,
+"lineno": 668,
+"endlineno": 672,
 "parsed": [
 {
 "kind": "text",
@@ -29657,8 +30819,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/visitor.py",
 "relative_filepath": "src/griffe/agents/visitor.py",
 "relative_package_filepath": "griffe/agents/visitor.py",
-"lineno": 679,
-"endlineno": 679,
+"lineno": 681,
+"endlineno": 681,
 "labels": [
 "module-attribute"
 ],
@@ -29672,12 +30834,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/visitor.py",
 "relative_filepath": "src/griffe/agents/visitor.py",
 "relative_package_filepath": "griffe/agents/visitor.py",
-"lineno": 682,
-"endlineno": 690,
+"lineno": 684,
+"endlineno": 692,
 "docstring": {
 "value": "Extend the base `ast.AST` class to provide more functionality.",
-"lineno": 683,
-"endlineno": 683,
+"lineno": 685,
+"endlineno": 685,
 "parsed": [
 {
 "kind": "text",
