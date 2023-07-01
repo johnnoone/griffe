@@ -67,7 +67,7 @@
             <a id="nextFileLink" class="nav" href="d_f2af9067e8be8028_finder_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io/en/7.2.7">coverage.py v7.2.7</a>,
-            created at 2023-06-16 20:06 +0200
+            created at 2023-06-30 00:11 +0200
         </p>
         <aside class="hidden">
             <button type="button" class="button_next_chunk" data-shortcut="j"/>
@@ -152,7 +152,7 @@
     <p class="pln"><span class="n"><a id="t68" href="#t68">68</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="mis show_mis"><span class="n"><a id="t69" href="#t69">69</a></span><span class="t">    <span class="key">def</span> <span class="nam">visit</span><span class="op">(</span><span class="nam">self</span><span class="op">,</span> <span class="nam">node</span><span class="op">:</span> <span class="nam">ast</span><span class="op">.</span><span class="nam">AST</span><span class="op">)</span> <span class="op">-></span> <span class="key">None</span><span class="op">:</span>  <span class="com"># noqa: D102</span>&nbsp;</span><span class="r"></span></p>
     <p class="mis show_mis"><span class="n"><a id="t70" href="#t70">70</a></span><span class="t">        <span class="key">try</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t71" href="#t71">71</a></span><span class="t">            <span class="nam">just_visited</span> <span class="op">=</span> <span class="nam">self</span><span class="op">.</span><span class="nam">visitor</span><span class="op">.</span><span class="nam">current</span><span class="op">[</span><span class="nam">node</span><span class="op">.</span><span class="nam">name</span><span class="op">]</span>  <span class="com"># type: ignore[attr-defined]</span>&nbsp;</span><span class="r"></span></p>
+    <p class="mis show_mis"><span class="n"><a id="t71" href="#t71">71</a></span><span class="t">            <span class="nam">just_visited</span> <span class="op">=</span> <span class="nam">self</span><span class="op">.</span><span class="nam">visitor</span><span class="op">.</span><span class="nam">current</span><span class="op">.</span><span class="nam">get_member</span><span class="op">(</span><span class="nam">node</span><span class="op">.</span><span class="nam">name</span><span class="op">)</span>  <span class="com"># type: ignore[attr-defined]</span>&nbsp;</span><span class="r"></span></p>
     <p class="mis show_mis"><span class="n"><a id="t72" href="#t72">72</a></span><span class="t">        <span class="key">except</span> <span class="op">(</span><span class="nam">KeyError</span><span class="op">,</span> <span class="nam">AttributeError</span><span class="op">,</span> <span class="nam">TypeError</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="mis show_mis"><span class="n"><a id="t73" href="#t73">73</a></span><span class="t">            <span class="key">return</span>&nbsp;</span><span class="r"></span></p>
     <p class="mis show_mis"><span class="n"><a id="t74" href="#t74">74</a></span><span class="t">        <span class="key">if</span> <span class="nam">self</span><span class="op">.</span><span class="nam">object_paths</span> <span class="key">and</span> <span class="key">not</span> <span class="nam">any</span><span class="op">(</span><span class="nam">op</span><span class="op">.</span><span class="nam">search</span><span class="op">(</span><span class="nam">just_visited</span><span class="op">.</span><span class="nam">path</span><span class="op">)</span> <span class="key">for</span> <span class="nam">op</span> <span class="key">in</span> <span class="nam">self</span><span class="op">.</span><span class="nam">object_paths</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
@@ -184,7 +184,7 @@
             <a id="nextFileLink" class="nav" href="d_f2af9067e8be8028_finder_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io/en/7.2.7">coverage.py v7.2.7</a>,
-            created at 2023-06-16 20:06 +0200
+            created at 2023-06-30 00:11 +0200
         </p>
     </div>
 </footer>

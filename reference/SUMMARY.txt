@@ -5,6 +5,7 @@
         * [<code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> inspector](griffe/agents/inspector.md)
         * [<code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> nodes](griffe/agents/nodes.md)
         * [<code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> visitor](griffe/agents/visitor.md)
+    * [<code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> c3linear](griffe/c3linear.md)
     * [<code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> cli](griffe/cli.md)
     * [<code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> collections](griffe/collections.md)
     * [<code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> dataclasses](griffe/dataclasses.md)
