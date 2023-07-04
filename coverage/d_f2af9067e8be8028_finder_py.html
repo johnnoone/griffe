@@ -67,7 +67,7 @@
             <a id="nextFileLink" class="nav" href="d_f2af9067e8be8028_git_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io/en/7.2.7">coverage.py v7.2.7</a>,
-            created at 2023-06-30 17:48 +0200
+            created at 2023-07-04 02:04 +0200
         </p>
         <aside class="hidden">
             <button type="button" class="button_next_chunk" data-shortcut="j"/>
@@ -203,14 +203,14 @@
     <p class="pln"><span class="n"><a id="t119" href="#t119">119</a></span><span class="t"><span class="str">        """</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t120" href="#t120">120</a></span><span class="t">        <span class="nam">module_path</span><span class="op">:</span> <span class="nam">Path</span> <span class="op">|</span> <span class="nam">list</span><span class="op">[</span><span class="nam">Path</span><span class="op">]</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t121" href="#t121">121</a></span><span class="t">        <span class="key">if</span> <span class="nam">isinstance</span><span class="op">(</span><span class="nam">module</span><span class="op">,</span> <span class="nam">Path</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t122" href="#t122">122</a></span><span class="t">            <span class="nam">module_name</span><span class="op">,</span> <span class="nam">module_path</span> <span class="op">=</span> <span class="nam">self</span><span class="op">.</span><span class="nam">_module_name_path</span><span class="op">(</span><span class="nam">module</span><span class="op">)</span>  <span class="com"># type: ignore[arg-type]</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t122" href="#t122">122</a></span><span class="t">            <span class="nam">module_name</span><span class="op">,</span> <span class="nam">module_path</span> <span class="op">=</span> <span class="nam">self</span><span class="op">.</span><span class="nam">_module_name_path</span><span class="op">(</span><span class="nam">module</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t123" href="#t123">123</a></span><span class="t">            <span class="nam">top_module_name</span> <span class="op">=</span> <span class="nam">self</span><span class="op">.</span><span class="nam">_top_module_name</span><span class="op">(</span><span class="nam">module_path</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t124" href="#t124">124</a></span><span class="t">        <span class="key">elif</span> <span class="nam">try_relative_path</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t125" href="#t125">125</a></span><span class="t">            <span class="key">try</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t126" href="#t126">126</a></span><span class="t">                <span class="nam">module_name</span><span class="op">,</span> <span class="nam">module_path</span> <span class="op">=</span> <span class="nam">self</span><span class="op">.</span><span class="nam">_module_name_path</span><span class="op">(</span><span class="nam">Path</span><span class="op">(</span><span class="nam">module</span><span class="op">)</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t127" href="#t127">127</a></span><span class="t">            <span class="key">except</span> <span class="nam">FileNotFoundError</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t128" href="#t128">128</a></span><span class="t">                <span class="nam">module_name</span> <span class="op">=</span> <span class="nam">module</span>  <span class="com"># type: ignore[assignment]</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t129" href="#t129">129</a></span><span class="t">                <span class="nam">top_module_name</span> <span class="op">=</span> <span class="nam">module</span><span class="op">.</span><span class="nam">split</span><span class="op">(</span><span class="str">"."</span><span class="op">,</span> <span class="num">1</span><span class="op">)</span><span class="op">[</span><span class="num">0</span><span class="op">]</span>  <span class="com"># type: ignore[union-attr]</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t128" href="#t128">128</a></span><span class="t">                <span class="nam">module_name</span> <span class="op">=</span> <span class="nam">module</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t129" href="#t129">129</a></span><span class="t">                <span class="nam">top_module_name</span> <span class="op">=</span> <span class="nam">module</span><span class="op">.</span><span class="nam">split</span><span class="op">(</span><span class="str">"."</span><span class="op">,</span> <span class="num">1</span><span class="op">)</span><span class="op">[</span><span class="num">0</span><span class="op">]</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t130" href="#t130">130</a></span><span class="t">            <span class="key">else</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t131" href="#t131">131</a></span><span class="t">                <span class="nam">top_module_name</span> <span class="op">=</span> <span class="nam">self</span><span class="op">.</span><span class="nam">_top_module_name</span><span class="op">(</span><span class="nam">module_path</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t132" href="#t132">132</a></span><span class="t">        <span class="key">else</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
@@ -462,7 +462,7 @@
             <a id="nextFileLink" class="nav" href="d_f2af9067e8be8028_git_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io/en/7.2.7">coverage.py v7.2.7</a>,
-            created at 2023-06-30 17:48 +0200
+            created at 2023-07-04 02:04 +0200
         </p>
     </div>
 </footer>

@@ -1,7 +1,6 @@
 * [<code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> griffe](griffe/index.md)
     * [<code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> agents](griffe/agents/index.md)
         * [<code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> base](griffe/agents/base.md)
-        * [<code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> extensions](griffe/agents/extensions.md)
         * [<code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> inspector](griffe/agents/inspector.md)
         * [<code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> nodes](griffe/agents/nodes.md)
         * [<code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> visitor](griffe/agents/visitor.md)
