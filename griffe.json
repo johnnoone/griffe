@@ -29215,6 +29215,14 @@
 },
 {
 "kind": "alias",
+"name": "Sequence",
+"target_path": "typing.Sequence",
+"path": "griffe.importer.Sequence",
+"lineno": 8,
+"endlineno": 8
+},
+{
+"kind": "alias",
 "name": "Path",
 "target_path": "pathlib.Path",
 "path": "griffe.importer.Path",
@@ -29358,14 +29366,23 @@
 "annotation": [
 [
 {
-"source": "list",
-"full": "list"
+"source": "Sequence",
+"full": "typing.Sequence"
 },
 "[",
+[
+{
+"source": "str",
+"full": "str"
+},
+" ",
+"|",
+" ",
 {
 "source": "Path",
 "full": "pathlib.Path"
-},
+}
+],
 "]"
 ],
 " ",
@@ -29430,14 +29447,23 @@
 "annotation": [
 [
 {
-"source": "list",
-"full": "list"
+"source": "Sequence",
+"full": "typing.Sequence"
 },
 "[",
+[
+{
+"source": "str",
+"full": "str"
+},
+" ",
+"|",
+" ",
 {
 "source": "Path",
 "full": "pathlib.Path"
-},
+}
+],
 "]"
 ],
 " ",
@@ -36741,6 +36767,14 @@
 },
 {
 "kind": "alias",
+"name": "Sequence",
+"target_path": "typing.Sequence",
+"path": "griffe.agents.inspector.Sequence",
+"lineno": 29,
+"endlineno": 29
+},
+{
+"kind": "alias",
 "name": "ObjectKind",
 "target_path": "griffe.agents.nodes.ObjectKind",
 "path": "griffe.agents.inspector.ObjectKind",
@@ -36973,14 +37007,23 @@
 "annotation": [
 [
 {
-"source": "list",
-"full": "list"
+"source": "Sequence",
+"full": "typing.Sequence"
 },
 "[",
+[
+{
+"source": "str",
+"full": "str"
+},
+" ",
+"|",
+" ",
 {
 "source": "Path",
 "full": "pathlib.Path"
-},
+}
+],
 "]"
 ],
 " ",
@@ -37146,14 +37189,23 @@
 "annotation": [
 [
 {
-"source": "list",
-"full": "list"
+"source": "Sequence",
+"full": "typing.Sequence"
 },
 "[",
+[
+{
+"source": "str",
+"full": "str"
+},
+" ",
+"|",
+" ",
 {
 "source": "Path",
 "full": "pathlib.Path"
-},
+}
+],
 "]"
 ],
 " ",
@@ -37926,14 +37978,23 @@
 "annotation": [
 [
 {
-"source": "list",
-"full": "list"
+"source": "Sequence",
+"full": "typing.Sequence"
 },
 "[",
+[
+{
+"source": "str",
+"full": "str"
+},
+" ",
+"|",
+" ",
 {
 "source": "Path",
 "full": "pathlib.Path"
-},
+}
+],
 "]"
 ],
 " ",
@@ -37976,14 +38037,23 @@
 "annotation": [
 [
 {
-"source": "list",
-"full": "list"
+"source": "Sequence",
+"full": "typing.Sequence"
 },
 "[",
+[
+{
+"source": "str",
+"full": "str"
+},
+" ",
+"|",
+" ",
 {
 "source": "Path",
 "full": "pathlib.Path"
-},
+}
+],
 "]"
 ],
 " ",
@@ -41689,163 +41759,91 @@
 },
 {
 "kind": "alias",
-"name": "AST",
-"target_path": "ast.AST",
-"path": "griffe.agents.nodes._all.AST",
+"name": "ast",
+"target_path": "ast",
+"path": "griffe.agents.nodes._all.ast",
 "lineno": 5,
 "endlineno": 5
-},
-{
-"kind": "alias",
-"name": "NodeAssign",
-"target_path": "ast.Assign",
-"path": "griffe.agents.nodes._all.NodeAssign",
-"lineno": 6,
-"endlineno": 6
-},
-{
-"kind": "alias",
-"name": "NodeAugAssign",
-"target_path": "ast.AugAssign",
-"path": "griffe.agents.nodes._all.NodeAugAssign",
-"lineno": 7,
-"endlineno": 7
-},
-{
-"kind": "alias",
-"name": "NodeBinOp",
-"target_path": "ast.BinOp",
-"path": "griffe.agents.nodes._all.NodeBinOp",
-"lineno": 8,
-"endlineno": 8
-},
-{
-"kind": "alias",
-"name": "NodeConstant",
-"target_path": "ast.Constant",
-"path": "griffe.agents.nodes._all.NodeConstant",
-"lineno": 9,
-"endlineno": 9
-},
-{
-"kind": "alias",
-"name": "NodeList",
-"target_path": "ast.List",
-"path": "griffe.agents.nodes._all.NodeList",
-"lineno": 10,
-"endlineno": 10
-},
-{
-"kind": "alias",
-"name": "NodeName",
-"target_path": "ast.Name",
-"path": "griffe.agents.nodes._all.NodeName",
-"lineno": 11,
-"endlineno": 11
-},
-{
-"kind": "alias",
-"name": "NodeSet",
-"target_path": "ast.Set",
-"path": "griffe.agents.nodes._all.NodeSet",
-"lineno": 12,
-"endlineno": 12
-},
-{
-"kind": "alias",
-"name": "NodeStarred",
-"target_path": "ast.Starred",
-"path": "griffe.agents.nodes._all.NodeStarred",
-"lineno": 13,
-"endlineno": 13
-},
-{
-"kind": "alias",
-"name": "NodeTuple",
-"target_path": "ast.Tuple",
-"path": "griffe.agents.nodes._all.NodeTuple",
-"lineno": 14,
-"endlineno": 14
 },
 {
 "kind": "alias",
 "name": "suppress",
 "target_path": "contextlib.suppress",
 "path": "griffe.agents.nodes._all.suppress",
-"lineno": 15,
-"endlineno": 15
+"lineno": 6,
+"endlineno": 6
 },
 {
 "kind": "alias",
 "name": "partial",
 "target_path": "functools.partial",
 "path": "griffe.agents.nodes._all.partial",
-"lineno": 16,
-"endlineno": 16
+"lineno": 7,
+"endlineno": 7
 },
 {
 "kind": "alias",
 "name": "TYPE_CHECKING",
 "target_path": "typing.TYPE_CHECKING",
 "path": "griffe.agents.nodes._all.TYPE_CHECKING",
-"lineno": 17,
-"endlineno": 17
+"lineno": 8,
+"endlineno": 8
 },
 {
 "kind": "alias",
 "name": "Any",
 "target_path": "typing.Any",
 "path": "griffe.agents.nodes._all.Any",
-"lineno": 17,
-"endlineno": 17
+"lineno": 8,
+"endlineno": 8
 },
 {
 "kind": "alias",
 "name": "Callable",
 "target_path": "typing.Callable",
 "path": "griffe.agents.nodes._all.Callable",
-"lineno": 17,
-"endlineno": 17
+"lineno": 8,
+"endlineno": 8
 },
 {
 "kind": "alias",
 "name": "get_value",
 "target_path": "griffe.agents.nodes._values.get_value",
 "path": "griffe.agents.nodes._all.get_value",
-"lineno": 19,
-"endlineno": 19
+"lineno": 10,
+"endlineno": 10
 },
 {
 "kind": "alias",
 "name": "Name",
 "target_path": "griffe.expressions.Name",
 "path": "griffe.agents.nodes._all.Name",
-"lineno": 20,
-"endlineno": 20
+"lineno": 11,
+"endlineno": 11
 },
 {
 "kind": "alias",
 "name": "LogLevel",
 "target_path": "griffe.logger.LogLevel",
 "path": "griffe.agents.nodes._all.LogLevel",
-"lineno": 21,
-"endlineno": 21
+"lineno": 12,
+"endlineno": 12
 },
 {
 "kind": "alias",
 "name": "get_logger",
 "target_path": "griffe.logger.get_logger",
 "path": "griffe.agents.nodes._all.get_logger",
-"lineno": 21,
-"endlineno": 21
+"lineno": 12,
+"endlineno": 12
 },
 {
 "kind": "alias",
 "name": "Module",
 "target_path": "griffe.dataclasses.Module",
 "path": "griffe.agents.nodes._all.Module",
-"lineno": 24,
-"endlineno": 24
+"lineno": 15,
+"endlineno": 15
 },
 {
 "kind": "attribute",
@@ -41854,8 +41852,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_all.py",
 "relative_filepath": "src/griffe/agents/nodes/_all.py",
 "relative_package_filepath": "griffe/agents/nodes/_all.py",
-"lineno": 27,
-"endlineno": 27,
+"lineno": 18,
+"endlineno": 18,
 "labels": [
 "module-attribute"
 ],
@@ -41882,18 +41880,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_all.py",
 "relative_filepath": "src/griffe/agents/nodes/_all.py",
 "relative_package_filepath": "griffe/agents/nodes/_all.py",
-"lineno": 30,
-"endlineno": 31,
+"lineno": 21,
+"endlineno": 22,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeConstant",
-"full": "ast.Constant"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Constant",
+"full": "ast.Constant"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -41936,18 +41941,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_all.py",
 "relative_filepath": "src/griffe/agents/nodes/_all.py",
 "relative_package_filepath": "griffe/agents/nodes/_all.py",
-"lineno": 34,
-"endlineno": 35,
+"lineno": 25,
+"endlineno": 26,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeName",
-"full": "ast.Name"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Name",
+"full": "ast.Name"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -41990,18 +42002,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_all.py",
 "relative_filepath": "src/griffe/agents/nodes/_all.py",
 "relative_package_filepath": "griffe/agents/nodes/_all.py",
-"lineno": 38,
-"endlineno": 39,
+"lineno": 29,
+"endlineno": 30,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeStarred",
-"full": "ast.Starred"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Starred",
+"full": "ast.Starred"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -42044,8 +42063,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_all.py",
 "relative_filepath": "src/griffe/agents/nodes/_all.py",
 "relative_package_filepath": "griffe/agents/nodes/_all.py",
-"lineno": 42,
-"endlineno": 46,
+"lineno": 33,
+"endlineno": 37,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -42054,25 +42073,46 @@
 "name": "node",
 "annotation": [
 [
+[
 {
-"source": "NodeList",
-"full": "ast.List"
+"source": "ast",
+"full": "ast"
 },
-" ",
-"|",
-" ",
+".",
 {
-"source": "NodeSet",
-"full": "ast.Set"
+"source": "List",
+"full": "ast.List"
 }
 ],
 " ",
 "|",
 " ",
+[
 {
-"source": "NodeTuple",
+"source": "ast",
+"full": "ast"
+},
+".",
+{
+"source": "Set",
+"full": "ast.Set"
+}
+]
+],
+" ",
+"|",
+" ",
+[
+{
+"source": "ast",
+"full": "ast"
+},
+".",
+{
+"source": "Tuple",
 "full": "ast.Tuple"
 }
+]
 ],
 "kind": "positional or keyword",
 "default": null
@@ -42116,18 +42156,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_all.py",
 "relative_filepath": "src/griffe/agents/nodes/_all.py",
 "relative_package_filepath": "griffe/agents/nodes/_all.py",
-"lineno": 49,
-"endlineno": 52,
+"lineno": 40,
+"endlineno": 43,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeBinOp",
-"full": "ast.BinOp"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BinOp",
+"full": "ast.BinOp"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -42170,8 +42217,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_all.py",
 "relative_filepath": "src/griffe/agents/nodes/_all.py",
 "relative_package_filepath": "griffe/agents/nodes/_all.py",
-"lineno": 55,
-"endlineno": 63,
+"lineno": 46,
+"endlineno": 54,
 "labels": [
 "module-attribute"
 ],
@@ -42180,10 +42227,17 @@
 "{",
 [
 [
+[
 {
-"source": "NodeConstant",
-"full": "ast.Constant"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Constant",
+"full": "ast.Constant"
+}
+],
 ": ",
 {
 "source": "_extract_constant",
@@ -42192,10 +42246,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeName",
-"full": "ast.Name"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Name",
+"full": "ast.Name"
+}
+],
 ": ",
 {
 "source": "_extract_name",
@@ -42204,10 +42265,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeStarred",
-"full": "ast.Starred"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Starred",
+"full": "ast.Starred"
+}
+],
 ": ",
 {
 "source": "_extract_starred",
@@ -42216,10 +42284,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeList",
+"source": "ast",
+"full": "ast"
+},
+".",
+{
+"source": "List",
 "full": "ast.List"
-},
+}
+],
 ": ",
 {
 "source": "_extract_sequence",
@@ -42228,10 +42303,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeSet",
+"source": "ast",
+"full": "ast"
+},
+".",
+{
+"source": "Set",
 "full": "ast.Set"
-},
+}
+],
 ": ",
 {
 "source": "_extract_sequence",
@@ -42240,10 +42322,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeTuple",
+"source": "ast",
+"full": "ast"
+},
+".",
+{
+"source": "Tuple",
 "full": "ast.Tuple"
-},
+}
+],
 ": ",
 {
 "source": "_extract_sequence",
@@ -42252,10 +42341,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeBinOp",
-"full": "ast.BinOp"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BinOp",
+"full": "ast.BinOp"
+}
+],
 ": ",
 {
 "source": "_extract_binop",
@@ -42333,18 +42429,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_all.py",
 "relative_filepath": "src/griffe/agents/nodes/_all.py",
 "relative_package_filepath": "griffe/agents/nodes/_all.py",
-"lineno": 66,
-"endlineno": 67,
+"lineno": 57,
+"endlineno": 58,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
+},
+".",
+{
 "source": "AST",
 "full": "ast.AST"
-},
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -42387,12 +42490,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_all.py",
 "relative_filepath": "src/griffe/agents/nodes/_all.py",
 "relative_package_filepath": "griffe/agents/nodes/_all.py",
-"lineno": 70,
-"endlineno": 82,
+"lineno": 61,
+"endlineno": 73,
 "docstring": {
 "value": "Get the values declared in `__all__`.\n\nParameters:\n    node: The assignment node.\n    parent: The parent module.\n\nReturns:\n    A set of names.",
-"lineno": 71,
-"endlineno": 79,
+"lineno": 62,
+"endlineno": 70,
 "parsed": [
 {
 "kind": "text",
@@ -42404,17 +42507,31 @@
 {
 "name": "node",
 "annotation": [
+[
 {
-"source": "NodeAssign",
-"full": "ast.Assign"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Assign",
+"full": "ast.Assign"
+}
+],
 " ",
 "|",
 " ",
+[
 {
-"source": "NodeAugAssign",
+"source": "ast",
+"full": "ast"
+},
+".",
+{
+"source": "AugAssign",
 "full": "ast.AugAssign"
 }
+]
 ],
 "description": "The assignment node."
 },
@@ -42467,17 +42584,31 @@
 {
 "name": "node",
 "annotation": [
+[
 {
-"source": "NodeAssign",
-"full": "ast.Assign"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Assign",
+"full": "ast.Assign"
+}
+],
 " ",
 "|",
 " ",
+[
 {
-"source": "NodeAugAssign",
+"source": "ast",
+"full": "ast"
+},
+".",
+{
+"source": "AugAssign",
 "full": "ast.AugAssign"
 }
+]
 ],
 "kind": "positional or keyword",
 "default": null
@@ -42521,12 +42652,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_all.py",
 "relative_filepath": "src/griffe/agents/nodes/_all.py",
 "relative_package_filepath": "griffe/agents/nodes/_all.py",
-"lineno": 85,
-"endlineno": 111,
+"lineno": 76,
+"endlineno": 102,
 "docstring": {
 "value": "Safely (no exception) extract values in `__all__`.\n\nParameters:\n    node: The `__all__` assignment node.\n    parent: The parent used to resolve the names.\n    log_level: Log level to use to log a message.\n\nReturns:\n    A list of strings or resovable names.",
-"lineno": 90,
-"endlineno": 99,
+"lineno": 81,
+"endlineno": 90,
 "parsed": [
 {
 "kind": "text",
@@ -42538,17 +42669,31 @@
 {
 "name": "node",
 "annotation": [
+[
 {
-"source": "NodeAssign",
-"full": "ast.Assign"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Assign",
+"full": "ast.Assign"
+}
+],
 " ",
 "|",
 " ",
+[
 {
-"source": "NodeAugAssign",
+"source": "ast",
+"full": "ast"
+},
+".",
+{
+"source": "AugAssign",
 "full": "ast.AugAssign"
 }
+]
 ],
 "description": "The `__all__` assignment node."
 },
@@ -42620,17 +42765,31 @@
 {
 "name": "node",
 "annotation": [
+[
 {
-"source": "NodeAssign",
-"full": "ast.Assign"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Assign",
+"full": "ast.Assign"
+}
+],
 " ",
 "|",
 " ",
+[
 {
-"source": "NodeAugAssign",
+"source": "ast",
+"full": "ast"
+},
+".",
+{
+"source": "AugAssign",
 "full": "ast.AugAssign"
 }
+]
 ],
 "kind": "positional or keyword",
 "default": null
@@ -42693,8 +42852,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_all.py",
 "relative_filepath": "src/griffe/agents/nodes/_all.py",
 "relative_package_filepath": "griffe/agents/nodes/_all.py",
-"lineno": 114,
-"endlineno": 114,
+"lineno": 105,
+"endlineno": 105,
 "labels": [
 "module-attribute"
 ],
@@ -42739,67 +42898,35 @@
 },
 {
 "kind": "alias",
-"name": "AST",
-"target_path": "ast.AST",
-"path": "griffe.agents.nodes._names.AST",
+"name": "ast",
+"target_path": "ast",
+"path": "griffe.agents.nodes._names.ast",
 "lineno": 5,
 "endlineno": 5
-},
-{
-"kind": "alias",
-"name": "NodeAnnAssign",
-"target_path": "ast.AnnAssign",
-"path": "griffe.agents.nodes._names.NodeAnnAssign",
-"lineno": 6,
-"endlineno": 6
-},
-{
-"kind": "alias",
-"name": "NodeAssign",
-"target_path": "ast.Assign",
-"path": "griffe.agents.nodes._names.NodeAssign",
-"lineno": 7,
-"endlineno": 7
-},
-{
-"kind": "alias",
-"name": "NodeAttribute",
-"target_path": "ast.Attribute",
-"path": "griffe.agents.nodes._names.NodeAttribute",
-"lineno": 8,
-"endlineno": 8
-},
-{
-"kind": "alias",
-"name": "NodeName",
-"target_path": "ast.Name",
-"path": "griffe.agents.nodes._names.NodeName",
-"lineno": 9,
-"endlineno": 9
 },
 {
 "kind": "alias",
 "name": "Any",
 "target_path": "typing.Any",
 "path": "griffe.agents.nodes._names.Any",
-"lineno": 10,
-"endlineno": 10
+"lineno": 6,
+"endlineno": 6
 },
 {
 "kind": "alias",
 "name": "Callable",
 "target_path": "typing.Callable",
 "path": "griffe.agents.nodes._names.Callable",
-"lineno": 10,
-"endlineno": 10
+"lineno": 6,
+"endlineno": 6
 },
 {
 "kind": "alias",
 "name": "get_logger",
 "target_path": "griffe.logger.get_logger",
 "path": "griffe.agents.nodes._names.get_logger",
-"lineno": 12,
-"endlineno": 12
+"lineno": 8,
+"endlineno": 8
 },
 {
 "kind": "attribute",
@@ -42808,8 +42935,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_names.py",
 "relative_filepath": "src/griffe/agents/nodes/_names.py",
 "relative_package_filepath": "griffe/agents/nodes/_names.py",
-"lineno": 14,
-"endlineno": 14,
+"lineno": 10,
+"endlineno": 10,
 "labels": [
 "module-attribute"
 ],
@@ -42836,18 +42963,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_names.py",
 "relative_filepath": "src/griffe/agents/nodes/_names.py",
 "relative_package_filepath": "griffe/agents/nodes/_names.py",
-"lineno": 17,
-"endlineno": 18,
+"lineno": 13,
+"endlineno": 14,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeAttribute",
-"full": "ast.Attribute"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Attribute",
+"full": "ast.Attribute"
+}
+],
 "kind": "positional or keyword",
 "default": null
 }
@@ -42864,18 +42998,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_names.py",
 "relative_filepath": "src/griffe/agents/nodes/_names.py",
 "relative_package_filepath": "griffe/agents/nodes/_names.py",
-"lineno": 21,
-"endlineno": 22,
+"lineno": 17,
+"endlineno": 18,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeName",
-"full": "ast.Name"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Name",
+"full": "ast.Name"
+}
+],
 "kind": "positional or keyword",
 "default": null
 }
@@ -42892,8 +43033,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_names.py",
 "relative_filepath": "src/griffe/agents/nodes/_names.py",
 "relative_package_filepath": "griffe/agents/nodes/_names.py",
-"lineno": 25,
-"endlineno": 28,
+"lineno": 21,
+"endlineno": 24,
 "labels": [
 "module-attribute"
 ],
@@ -42902,10 +43043,17 @@
 "{",
 [
 [
+[
 {
-"source": "NodeName",
-"full": "ast.Name"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Name",
+"full": "ast.Name"
+}
+],
 ": ",
 {
 "source": "_get_name_name",
@@ -42914,10 +43062,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeAttribute",
-"full": "ast.Attribute"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Attribute",
+"full": "ast.Attribute"
+}
+],
 ": ",
 {
 "source": "_get_attribute_name",
@@ -42973,12 +43128,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_names.py",
 "relative_filepath": "src/griffe/agents/nodes/_names.py",
 "relative_package_filepath": "griffe/agents/nodes/_names.py",
-"lineno": 31,
-"endlineno": 40,
+"lineno": 27,
+"endlineno": 36,
 "docstring": {
 "value": "Extract name from an assignment node.\n\nParameters:\n    node: The node to extract names from.\n\nReturns:\n    A list of names.",
-"lineno": 32,
-"endlineno": 39,
+"lineno": 28,
+"endlineno": 35,
 "parsed": [
 {
 "kind": "text",
@@ -42989,10 +43144,17 @@
 "value": [
 {
 "name": "node",
-"annotation": {
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
+},
+".",
+{
 "source": "AST",
 "full": "ast.AST"
-},
+}
+],
 "description": "The node to extract names from."
 }
 ]
@@ -43018,10 +43180,17 @@
 "parameters": [
 {
 "name": "node",
-"annotation": {
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
+},
+".",
+{
 "source": "AST",
 "full": "ast.AST"
-},
+}
+],
 "kind": "positional or keyword",
 "default": null
 }
@@ -43038,18 +43207,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_names.py",
 "relative_filepath": "src/griffe/agents/nodes/_names.py",
 "relative_package_filepath": "griffe/agents/nodes/_names.py",
-"lineno": 43,
-"endlineno": 45,
+"lineno": 39,
+"endlineno": 41,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeAssign",
-"full": "ast.Assign"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Assign",
+"full": "ast.Assign"
+}
+],
 "kind": "positional or keyword",
 "default": null
 }
@@ -43074,18 +43250,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_names.py",
 "relative_filepath": "src/griffe/agents/nodes/_names.py",
 "relative_package_filepath": "griffe/agents/nodes/_names.py",
-"lineno": 48,
-"endlineno": 50,
+"lineno": 44,
+"endlineno": 46,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeAnnAssign",
-"full": "ast.AnnAssign"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "AnnAssign",
+"full": "ast.AnnAssign"
+}
+],
 "kind": "positional or keyword",
 "default": null
 }
@@ -43110,8 +43293,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_names.py",
 "relative_filepath": "src/griffe/agents/nodes/_names.py",
 "relative_package_filepath": "griffe/agents/nodes/_names.py",
-"lineno": 53,
-"endlineno": 56,
+"lineno": 49,
+"endlineno": 52,
 "labels": [
 "module-attribute"
 ],
@@ -43120,10 +43303,17 @@
 "{",
 [
 [
+[
 {
-"source": "NodeAssign",
-"full": "ast.Assign"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Assign",
+"full": "ast.Assign"
+}
+],
 ": ",
 {
 "source": "_get_assign_names",
@@ -43132,10 +43322,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeAnnAssign",
-"full": "ast.AnnAssign"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "AnnAssign",
+"full": "ast.AnnAssign"
+}
+],
 ": ",
 {
 "source": "_get_annassign_names",
@@ -43199,12 +43396,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_names.py",
 "relative_filepath": "src/griffe/agents/nodes/_names.py",
 "relative_package_filepath": "griffe/agents/nodes/_names.py",
-"lineno": 59,
-"endlineno": 68,
+"lineno": 55,
+"endlineno": 64,
 "docstring": {
 "value": "Extract names from an assignment node.\n\nParameters:\n    node: The node to extract names from.\n\nReturns:\n    A list of names.",
-"lineno": 60,
-"endlineno": 67,
+"lineno": 56,
+"endlineno": 63,
 "parsed": [
 {
 "kind": "text",
@@ -43215,10 +43412,17 @@
 "value": [
 {
 "name": "node",
-"annotation": {
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
+},
+".",
+{
 "source": "AST",
 "full": "ast.AST"
-},
+}
+],
 "description": "The node to extract names from."
 }
 ]
@@ -43252,10 +43456,17 @@
 "parameters": [
 {
 "name": "node",
-"annotation": {
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
+},
+".",
+{
 "source": "AST",
 "full": "ast.AST"
-},
+}
+],
 "kind": "positional or keyword",
 "default": null
 }
@@ -43280,12 +43491,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_names.py",
 "relative_filepath": "src/griffe/agents/nodes/_names.py",
 "relative_package_filepath": "griffe/agents/nodes/_names.py",
-"lineno": 71,
-"endlineno": 80,
+"lineno": 67,
+"endlineno": 76,
 "docstring": {
 "value": "Extract names from an assignment node, only for instance attributes.\n\nParameters:\n    node: The node to extract names from.\n\nReturns:\n    A list of names.",
-"lineno": 72,
-"endlineno": 79,
+"lineno": 68,
+"endlineno": 75,
 "parsed": [
 {
 "kind": "text",
@@ -43296,10 +43507,17 @@
 "value": [
 {
 "name": "node",
-"annotation": {
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
+},
+".",
+{
 "source": "AST",
 "full": "ast.AST"
-},
+}
+],
 "description": "The node to extract names from."
 }
 ]
@@ -43333,10 +43551,17 @@
 "parameters": [
 {
 "name": "node",
-"annotation": {
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
+},
+".",
+{
 "source": "AST",
 "full": "ast.AST"
-},
+}
+],
 "kind": "positional or keyword",
 "default": null
 }
@@ -43361,8 +43586,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_names.py",
 "relative_filepath": "src/griffe/agents/nodes/_names.py",
 "relative_package_filepath": "griffe/agents/nodes/_names.py",
-"lineno": 83,
-"endlineno": 83,
+"lineno": 79,
+"endlineno": 79,
 "labels": [
 "module-attribute"
 ],
@@ -43409,539 +43634,59 @@
 },
 {
 "kind": "alias",
-"name": "sys",
-"target_path": "sys",
-"path": "griffe.agents.nodes._values.sys",
+"name": "ast",
+"target_path": "ast",
+"path": "griffe.agents.nodes._values.ast",
 "lineno": 5,
 "endlineno": 5
 },
 {
 "kind": "alias",
-"name": "AST",
-"target_path": "ast.AST",
-"path": "griffe.agents.nodes._values.AST",
+"name": "sys",
+"target_path": "sys",
+"path": "griffe.agents.nodes._values.sys",
 "lineno": 6,
 "endlineno": 6
-},
-{
-"kind": "alias",
-"name": "NodeAdd",
-"target_path": "ast.Add",
-"path": "griffe.agents.nodes._values.NodeAdd",
-"lineno": 7,
-"endlineno": 7
-},
-{
-"kind": "alias",
-"name": "NodeAnd",
-"target_path": "ast.And",
-"path": "griffe.agents.nodes._values.NodeAnd",
-"lineno": 8,
-"endlineno": 8
-},
-{
-"kind": "alias",
-"name": "NodeAttribute",
-"target_path": "ast.Attribute",
-"path": "griffe.agents.nodes._values.NodeAttribute",
-"lineno": 9,
-"endlineno": 9
-},
-{
-"kind": "alias",
-"name": "NodeBinOp",
-"target_path": "ast.BinOp",
-"path": "griffe.agents.nodes._values.NodeBinOp",
-"lineno": 10,
-"endlineno": 10
-},
-{
-"kind": "alias",
-"name": "NodeBitAnd",
-"target_path": "ast.BitAnd",
-"path": "griffe.agents.nodes._values.NodeBitAnd",
-"lineno": 11,
-"endlineno": 11
-},
-{
-"kind": "alias",
-"name": "NodeBitOr",
-"target_path": "ast.BitOr",
-"path": "griffe.agents.nodes._values.NodeBitOr",
-"lineno": 12,
-"endlineno": 12
-},
-{
-"kind": "alias",
-"name": "NodeBitXor",
-"target_path": "ast.BitXor",
-"path": "griffe.agents.nodes._values.NodeBitXor",
-"lineno": 13,
-"endlineno": 13
-},
-{
-"kind": "alias",
-"name": "NodeBoolOp",
-"target_path": "ast.BoolOp",
-"path": "griffe.agents.nodes._values.NodeBoolOp",
-"lineno": 14,
-"endlineno": 14
-},
-{
-"kind": "alias",
-"name": "NodeCall",
-"target_path": "ast.Call",
-"path": "griffe.agents.nodes._values.NodeCall",
-"lineno": 15,
-"endlineno": 15
-},
-{
-"kind": "alias",
-"name": "NodeCompare",
-"target_path": "ast.Compare",
-"path": "griffe.agents.nodes._values.NodeCompare",
-"lineno": 16,
-"endlineno": 16
-},
-{
-"kind": "alias",
-"name": "NodeConstant",
-"target_path": "ast.Constant",
-"path": "griffe.agents.nodes._values.NodeConstant",
-"lineno": 17,
-"endlineno": 17
-},
-{
-"kind": "alias",
-"name": "NodeDict",
-"target_path": "ast.Dict",
-"path": "griffe.agents.nodes._values.NodeDict",
-"lineno": 18,
-"endlineno": 18
-},
-{
-"kind": "alias",
-"name": "NodeDictComp",
-"target_path": "ast.DictComp",
-"path": "griffe.agents.nodes._values.NodeDictComp",
-"lineno": 19,
-"endlineno": 19
-},
-{
-"kind": "alias",
-"name": "NodeDiv",
-"target_path": "ast.Div",
-"path": "griffe.agents.nodes._values.NodeDiv",
-"lineno": 20,
-"endlineno": 20
-},
-{
-"kind": "alias",
-"name": "NodeEllipsis",
-"target_path": "ast.Ellipsis",
-"path": "griffe.agents.nodes._values.NodeEllipsis",
-"lineno": 21,
-"endlineno": 21
-},
-{
-"kind": "alias",
-"name": "NodeEq",
-"target_path": "ast.Eq",
-"path": "griffe.agents.nodes._values.NodeEq",
-"lineno": 22,
-"endlineno": 22
-},
-{
-"kind": "alias",
-"name": "NodeFloorDiv",
-"target_path": "ast.FloorDiv",
-"path": "griffe.agents.nodes._values.NodeFloorDiv",
-"lineno": 23,
-"endlineno": 23
-},
-{
-"kind": "alias",
-"name": "NodeFormattedValue",
-"target_path": "ast.FormattedValue",
-"path": "griffe.agents.nodes._values.NodeFormattedValue",
-"lineno": 24,
-"endlineno": 24
-},
-{
-"kind": "alias",
-"name": "NodeGeneratorExp",
-"target_path": "ast.GeneratorExp",
-"path": "griffe.agents.nodes._values.NodeGeneratorExp",
-"lineno": 25,
-"endlineno": 25
-},
-{
-"kind": "alias",
-"name": "NodeGt",
-"target_path": "ast.Gt",
-"path": "griffe.agents.nodes._values.NodeGt",
-"lineno": 26,
-"endlineno": 26
-},
-{
-"kind": "alias",
-"name": "NodeGtE",
-"target_path": "ast.GtE",
-"path": "griffe.agents.nodes._values.NodeGtE",
-"lineno": 27,
-"endlineno": 27
-},
-{
-"kind": "alias",
-"name": "NodeIfExp",
-"target_path": "ast.IfExp",
-"path": "griffe.agents.nodes._values.NodeIfExp",
-"lineno": 28,
-"endlineno": 28
-},
-{
-"kind": "alias",
-"name": "NodeIn",
-"target_path": "ast.In",
-"path": "griffe.agents.nodes._values.NodeIn",
-"lineno": 29,
-"endlineno": 29
-},
-{
-"kind": "alias",
-"name": "NodeInvert",
-"target_path": "ast.Invert",
-"path": "griffe.agents.nodes._values.NodeInvert",
-"lineno": 30,
-"endlineno": 30
-},
-{
-"kind": "alias",
-"name": "NodeIs",
-"target_path": "ast.Is",
-"path": "griffe.agents.nodes._values.NodeIs",
-"lineno": 31,
-"endlineno": 31
-},
-{
-"kind": "alias",
-"name": "NodeIsNot",
-"target_path": "ast.IsNot",
-"path": "griffe.agents.nodes._values.NodeIsNot",
-"lineno": 32,
-"endlineno": 32
-},
-{
-"kind": "alias",
-"name": "NodeJoinedStr",
-"target_path": "ast.JoinedStr",
-"path": "griffe.agents.nodes._values.NodeJoinedStr",
-"lineno": 33,
-"endlineno": 33
-},
-{
-"kind": "alias",
-"name": "NodeLambda",
-"target_path": "ast.Lambda",
-"path": "griffe.agents.nodes._values.NodeLambda",
-"lineno": 34,
-"endlineno": 34
-},
-{
-"kind": "alias",
-"name": "NodeList",
-"target_path": "ast.List",
-"path": "griffe.agents.nodes._values.NodeList",
-"lineno": 35,
-"endlineno": 35
-},
-{
-"kind": "alias",
-"name": "NodeListComp",
-"target_path": "ast.ListComp",
-"path": "griffe.agents.nodes._values.NodeListComp",
-"lineno": 36,
-"endlineno": 36
-},
-{
-"kind": "alias",
-"name": "NodeLShift",
-"target_path": "ast.LShift",
-"path": "griffe.agents.nodes._values.NodeLShift",
-"lineno": 37,
-"endlineno": 37
-},
-{
-"kind": "alias",
-"name": "NodeLt",
-"target_path": "ast.Lt",
-"path": "griffe.agents.nodes._values.NodeLt",
-"lineno": 38,
-"endlineno": 38
-},
-{
-"kind": "alias",
-"name": "NodeLtE",
-"target_path": "ast.LtE",
-"path": "griffe.agents.nodes._values.NodeLtE",
-"lineno": 39,
-"endlineno": 39
-},
-{
-"kind": "alias",
-"name": "NodeMatMult",
-"target_path": "ast.MatMult",
-"path": "griffe.agents.nodes._values.NodeMatMult",
-"lineno": 40,
-"endlineno": 40
-},
-{
-"kind": "alias",
-"name": "NodeMod",
-"target_path": "ast.Mod",
-"path": "griffe.agents.nodes._values.NodeMod",
-"lineno": 41,
-"endlineno": 41
-},
-{
-"kind": "alias",
-"name": "NodeMult",
-"target_path": "ast.Mult",
-"path": "griffe.agents.nodes._values.NodeMult",
-"lineno": 42,
-"endlineno": 42
-},
-{
-"kind": "alias",
-"name": "NodeName",
-"target_path": "ast.Name",
-"path": "griffe.agents.nodes._values.NodeName",
-"lineno": 43,
-"endlineno": 43
-},
-{
-"kind": "alias",
-"name": "NodeNamedExpr",
-"target_path": "ast.NamedExpr",
-"path": "griffe.agents.nodes._values.NodeNamedExpr",
-"lineno": 44,
-"endlineno": 44
-},
-{
-"kind": "alias",
-"name": "NodeNot",
-"target_path": "ast.Not",
-"path": "griffe.agents.nodes._values.NodeNot",
-"lineno": 45,
-"endlineno": 45
-},
-{
-"kind": "alias",
-"name": "NodeNotEq",
-"target_path": "ast.NotEq",
-"path": "griffe.agents.nodes._values.NodeNotEq",
-"lineno": 46,
-"endlineno": 46
-},
-{
-"kind": "alias",
-"name": "NodeNotIn",
-"target_path": "ast.NotIn",
-"path": "griffe.agents.nodes._values.NodeNotIn",
-"lineno": 47,
-"endlineno": 47
-},
-{
-"kind": "alias",
-"name": "NodeOr",
-"target_path": "ast.Or",
-"path": "griffe.agents.nodes._values.NodeOr",
-"lineno": 48,
-"endlineno": 48
-},
-{
-"kind": "alias",
-"name": "NodePow",
-"target_path": "ast.Pow",
-"path": "griffe.agents.nodes._values.NodePow",
-"lineno": 49,
-"endlineno": 49
-},
-{
-"kind": "alias",
-"name": "NodeRShift",
-"target_path": "ast.RShift",
-"path": "griffe.agents.nodes._values.NodeRShift",
-"lineno": 50,
-"endlineno": 50
-},
-{
-"kind": "alias",
-"name": "NodeSet",
-"target_path": "ast.Set",
-"path": "griffe.agents.nodes._values.NodeSet",
-"lineno": 51,
-"endlineno": 51
-},
-{
-"kind": "alias",
-"name": "NodeSetComp",
-"target_path": "ast.SetComp",
-"path": "griffe.agents.nodes._values.NodeSetComp",
-"lineno": 52,
-"endlineno": 52
-},
-{
-"kind": "alias",
-"name": "NodeSlice",
-"target_path": "ast.Slice",
-"path": "griffe.agents.nodes._values.NodeSlice",
-"lineno": 53,
-"endlineno": 53
-},
-{
-"kind": "alias",
-"name": "NodeStarred",
-"target_path": "ast.Starred",
-"path": "griffe.agents.nodes._values.NodeStarred",
-"lineno": 54,
-"endlineno": 54
-},
-{
-"kind": "alias",
-"name": "NodeSub",
-"target_path": "ast.Sub",
-"path": "griffe.agents.nodes._values.NodeSub",
-"lineno": 55,
-"endlineno": 55
-},
-{
-"kind": "alias",
-"name": "NodeSubscript",
-"target_path": "ast.Subscript",
-"path": "griffe.agents.nodes._values.NodeSubscript",
-"lineno": 56,
-"endlineno": 56
-},
-{
-"kind": "alias",
-"name": "NodeTuple",
-"target_path": "ast.Tuple",
-"path": "griffe.agents.nodes._values.NodeTuple",
-"lineno": 57,
-"endlineno": 57
-},
-{
-"kind": "alias",
-"name": "NodeUAdd",
-"target_path": "ast.UAdd",
-"path": "griffe.agents.nodes._values.NodeUAdd",
-"lineno": 58,
-"endlineno": 58
-},
-{
-"kind": "alias",
-"name": "NodeUnaryOp",
-"target_path": "ast.UnaryOp",
-"path": "griffe.agents.nodes._values.NodeUnaryOp",
-"lineno": 59,
-"endlineno": 59
-},
-{
-"kind": "alias",
-"name": "NodeUSub",
-"target_path": "ast.USub",
-"path": "griffe.agents.nodes._values.NodeUSub",
-"lineno": 60,
-"endlineno": 60
-},
-{
-"kind": "alias",
-"name": "NodeYield",
-"target_path": "ast.Yield",
-"path": "griffe.agents.nodes._values.NodeYield",
-"lineno": 61,
-"endlineno": 61
-},
-{
-"kind": "alias",
-"name": "NodeArguments",
-"target_path": "ast.arguments",
-"path": "griffe.agents.nodes._values.NodeArguments",
-"lineno": 62,
-"endlineno": 62
-},
-{
-"kind": "alias",
-"name": "NodeComprehension",
-"target_path": "ast.comprehension",
-"path": "griffe.agents.nodes._values.NodeComprehension",
-"lineno": 63,
-"endlineno": 63
-},
-{
-"kind": "alias",
-"name": "NodeKeyword",
-"target_path": "ast.keyword",
-"path": "griffe.agents.nodes._values.NodeKeyword",
-"lineno": 64,
-"endlineno": 64
 },
 {
 "kind": "alias",
 "name": "TYPE_CHECKING",
 "target_path": "typing.TYPE_CHECKING",
 "path": "griffe.agents.nodes._values.TYPE_CHECKING",
-"lineno": 65,
-"endlineno": 65
+"lineno": 7,
+"endlineno": 7
 },
 {
 "kind": "alias",
 "name": "Any",
 "target_path": "typing.Any",
 "path": "griffe.agents.nodes._values.Any",
-"lineno": 65,
-"endlineno": 65
+"lineno": 7,
+"endlineno": 7
 },
 {
 "kind": "alias",
 "name": "Callable",
 "target_path": "typing.Callable",
 "path": "griffe.agents.nodes._values.Callable",
-"lineno": 65,
-"endlineno": 65
+"lineno": 7,
+"endlineno": 7
 },
 {
 "kind": "alias",
 "name": "get_logger",
 "target_path": "griffe.logger.get_logger",
 "path": "griffe.agents.nodes._values.get_logger",
-"lineno": 67,
-"endlineno": 67
-},
-{
-"kind": "alias",
-"name": "NodeExtSlice",
-"target_path": "ast.ExtSlice",
-"path": "griffe.agents.nodes._values.NodeExtSlice",
-"lineno": 71,
-"endlineno": 71
-},
-{
-"kind": "alias",
-"name": "NodeIndex",
-"target_path": "ast.Index",
-"path": "griffe.agents.nodes._values.NodeIndex",
-"lineno": 72,
-"endlineno": 72
+"lineno": 9,
+"endlineno": 9
 },
 {
 "kind": "alias",
 "name": "Path",
 "target_path": "pathlib.Path",
 "path": "griffe.agents.nodes._values.Path",
-"lineno": 75,
-"endlineno": 75
+"lineno": 12,
+"endlineno": 12
 },
 {
 "kind": "attribute",
@@ -43950,8 +43695,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 78,
-"endlineno": 78,
+"lineno": 15,
+"endlineno": 15,
 "labels": [
 "module-attribute"
 ],
@@ -43978,18 +43723,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 81,
-"endlineno": 82,
+"lineno": 18,
+"endlineno": 19,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeAdd",
-"full": "ast.Add"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Add",
+"full": "ast.Add"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44015,18 +43767,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 85,
-"endlineno": 86,
+"lineno": 22,
+"endlineno": 23,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeAnd",
-"full": "ast.And"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "And",
+"full": "ast.And"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44052,18 +43811,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 89,
-"endlineno": 90,
+"lineno": 26,
+"endlineno": 27,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeArguments",
-"full": "ast.arguments"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "arguments",
+"full": "ast.arguments"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44089,18 +43855,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 93,
-"endlineno": 94,
+"lineno": 30,
+"endlineno": 31,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeAttribute",
-"full": "ast.Attribute"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Attribute",
+"full": "ast.Attribute"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44126,18 +43899,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 97,
-"endlineno": 98,
+"lineno": 34,
+"endlineno": 35,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeBinOp",
-"full": "ast.BinOp"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BinOp",
+"full": "ast.BinOp"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44163,18 +43943,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 101,
-"endlineno": 102,
+"lineno": 38,
+"endlineno": 39,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeBitOr",
-"full": "ast.BitOr"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BitOr",
+"full": "ast.BitOr"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44200,18 +43987,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 105,
-"endlineno": 106,
+"lineno": 42,
+"endlineno": 43,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeBitAnd",
-"full": "ast.BitAnd"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BitAnd",
+"full": "ast.BitAnd"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44237,18 +44031,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 109,
-"endlineno": 110,
+"lineno": 46,
+"endlineno": 47,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeBitXor",
-"full": "ast.BitXor"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BitXor",
+"full": "ast.BitXor"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44274,18 +44075,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 113,
-"endlineno": 114,
+"lineno": 50,
+"endlineno": 51,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeBoolOp",
-"full": "ast.BoolOp"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BoolOp",
+"full": "ast.BoolOp"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44311,18 +44119,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 117,
-"endlineno": 128,
+"lineno": 54,
+"endlineno": 65,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeCall",
-"full": "ast.Call"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Call",
+"full": "ast.Call"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44348,18 +44163,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 131,
-"endlineno": 135,
+"lineno": 68,
+"endlineno": 72,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeCompare",
-"full": "ast.Compare"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Compare",
+"full": "ast.Compare"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44385,18 +44207,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 138,
-"endlineno": 147,
+"lineno": 75,
+"endlineno": 84,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeComprehension",
-"full": "ast.comprehension"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "comprehension",
+"full": "ast.comprehension"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44422,18 +44251,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 150,
-"endlineno": 159,
+"lineno": 87,
+"endlineno": 96,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeConstant",
-"full": "ast.Constant"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Constant",
+"full": "ast.Constant"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44477,18 +44313,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 162,
-"endlineno": 165,
+"lineno": 99,
+"endlineno": 102,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeDict",
-"full": "ast.Dict"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Dict",
+"full": "ast.Dict"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44514,18 +44357,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 168,
-"endlineno": 172,
+"lineno": 105,
+"endlineno": 109,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeDictComp",
-"full": "ast.DictComp"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "DictComp",
+"full": "ast.DictComp"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44551,55 +44401,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 175,
-"endlineno": 176,
+"lineno": 112,
+"endlineno": 113,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeDiv",
-"full": "ast.Div"
-},
-"kind": "positional or keyword",
-"default": null
-},
+"annotation": [
 {
-"name": "kwargs",
-"annotation": {
-"source": "Any",
-"full": "typing.Any"
+"source": "ast",
+"full": "ast"
 },
-"kind": "variadic keyword",
-"default": "{}"
+".",
+{
+"source": "Div",
+"full": "ast.Div"
 }
 ],
-"returns": {
-"source": "str",
-"full": "str"
-}
-},
-{
-"kind": "function",
-"name": "_extract_ellipsis",
-"path": "griffe.agents.nodes._values._extract_ellipsis",
-"filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
-"relative_filepath": "src/griffe/agents/nodes/_values.py",
-"relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 179,
-"endlineno": 180,
-"labels": [],
-"members": [],
-"decorators": [],
-"parameters": [
-{
-"name": "node",
-"annotation": {
-"source": "NodeEllipsis",
-"full": "ast.Ellipsis"
-},
 "kind": "positional or keyword",
 "default": null
 },
@@ -44625,18 +44445,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 183,
-"endlineno": 184,
+"lineno": 116,
+"endlineno": 117,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeEq",
-"full": "ast.Eq"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Eq",
+"full": "ast.Eq"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44662,18 +44489,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 187,
-"endlineno": 188,
+"lineno": 120,
+"endlineno": 121,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeFloorDiv",
-"full": "ast.FloorDiv"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "FloorDiv",
+"full": "ast.FloorDiv"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44699,18 +44533,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 191,
-"endlineno": 192,
+"lineno": 124,
+"endlineno": 125,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeFormattedValue",
-"full": "ast.FormattedValue"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "FormattedValue",
+"full": "ast.FormattedValue"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44736,18 +44577,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 195,
-"endlineno": 198,
+"lineno": 128,
+"endlineno": 131,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeGeneratorExp",
-"full": "ast.GeneratorExp"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "GeneratorExp",
+"full": "ast.GeneratorExp"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44773,18 +44621,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 201,
-"endlineno": 202,
+"lineno": 134,
+"endlineno": 135,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeNotEq",
-"full": "ast.NotEq"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "NotEq",
+"full": "ast.NotEq"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44810,18 +44665,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 205,
-"endlineno": 206,
+"lineno": 138,
+"endlineno": 139,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeNotEq",
-"full": "ast.NotEq"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "NotEq",
+"full": "ast.NotEq"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44847,18 +44709,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 209,
-"endlineno": 210,
+"lineno": 142,
+"endlineno": 143,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeIfExp",
-"full": "ast.IfExp"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "IfExp",
+"full": "ast.IfExp"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44884,18 +44753,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 213,
-"endlineno": 214,
+"lineno": 146,
+"endlineno": 147,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeInvert",
-"full": "ast.Invert"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Invert",
+"full": "ast.Invert"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44921,18 +44797,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 217,
-"endlineno": 218,
+"lineno": 150,
+"endlineno": 151,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeIn",
-"full": "ast.In"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "In",
+"full": "ast.In"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44958,18 +44841,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 221,
-"endlineno": 222,
+"lineno": 154,
+"endlineno": 155,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeIs",
-"full": "ast.Is"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Is",
+"full": "ast.Is"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -44995,18 +44885,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 225,
-"endlineno": 226,
+"lineno": 158,
+"endlineno": 159,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeIsNot",
-"full": "ast.IsNot"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "IsNot",
+"full": "ast.IsNot"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45032,18 +44929,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 229,
-"endlineno": 230,
+"lineno": 162,
+"endlineno": 163,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeJoinedStr",
-"full": "ast.JoinedStr"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "JoinedStr",
+"full": "ast.JoinedStr"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45069,18 +44973,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 233,
-"endlineno": 236,
+"lineno": 166,
+"endlineno": 169,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeKeyword",
-"full": "ast.keyword"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "keyword",
+"full": "ast.keyword"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45106,18 +45017,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 239,
-"endlineno": 240,
+"lineno": 172,
+"endlineno": 173,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeLambda",
-"full": "ast.Lambda"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Lambda",
+"full": "ast.Lambda"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45143,18 +45061,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 243,
-"endlineno": 244,
+"lineno": 176,
+"endlineno": 177,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeList",
-"full": "ast.List"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "List",
+"full": "ast.List"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45180,18 +45105,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 247,
-"endlineno": 250,
+"lineno": 180,
+"endlineno": 183,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeListComp",
-"full": "ast.ListComp"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "ListComp",
+"full": "ast.ListComp"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45217,18 +45149,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 253,
-"endlineno": 254,
+"lineno": 186,
+"endlineno": 187,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeLShift",
-"full": "ast.LShift"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "LShift",
+"full": "ast.LShift"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45254,18 +45193,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 257,
-"endlineno": 258,
+"lineno": 190,
+"endlineno": 191,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeNotEq",
-"full": "ast.NotEq"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "NotEq",
+"full": "ast.NotEq"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45291,18 +45237,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 261,
-"endlineno": 262,
+"lineno": 194,
+"endlineno": 195,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeNotEq",
-"full": "ast.NotEq"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "NotEq",
+"full": "ast.NotEq"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45328,18 +45281,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 265,
-"endlineno": 266,
+"lineno": 198,
+"endlineno": 199,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeMatMult",
-"full": "ast.MatMult"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "MatMult",
+"full": "ast.MatMult"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45365,18 +45325,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 269,
-"endlineno": 270,
+"lineno": 202,
+"endlineno": 203,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeMod",
-"full": "ast.Mod"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Mod",
+"full": "ast.Mod"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45402,18 +45369,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 273,
-"endlineno": 274,
+"lineno": 206,
+"endlineno": 207,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeMult",
-"full": "ast.Mult"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Mult",
+"full": "ast.Mult"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45439,18 +45413,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 277,
-"endlineno": 278,
+"lineno": 210,
+"endlineno": 211,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeName",
-"full": "ast.Name"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Name",
+"full": "ast.Name"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45476,18 +45457,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 281,
-"endlineno": 282,
+"lineno": 214,
+"endlineno": 215,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeNamedExpr",
-"full": "ast.NamedExpr"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "NamedExpr",
+"full": "ast.NamedExpr"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45513,18 +45501,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 285,
-"endlineno": 286,
+"lineno": 218,
+"endlineno": 219,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeNot",
-"full": "ast.Not"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Not",
+"full": "ast.Not"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45550,18 +45545,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 289,
-"endlineno": 290,
+"lineno": 222,
+"endlineno": 223,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeNotEq",
-"full": "ast.NotEq"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "NotEq",
+"full": "ast.NotEq"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45587,18 +45589,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 293,
-"endlineno": 294,
+"lineno": 226,
+"endlineno": 227,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeNotIn",
-"full": "ast.NotIn"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "NotIn",
+"full": "ast.NotIn"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45624,18 +45633,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 297,
-"endlineno": 298,
+"lineno": 230,
+"endlineno": 231,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeOr",
-"full": "ast.Or"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Or",
+"full": "ast.Or"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45661,18 +45677,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 301,
-"endlineno": 302,
+"lineno": 234,
+"endlineno": 235,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodePow",
-"full": "ast.Pow"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Pow",
+"full": "ast.Pow"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45698,18 +45721,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 305,
-"endlineno": 306,
+"lineno": 238,
+"endlineno": 239,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeRShift",
-"full": "ast.RShift"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "RShift",
+"full": "ast.RShift"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45735,18 +45765,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 309,
-"endlineno": 310,
+"lineno": 242,
+"endlineno": 243,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeSet",
-"full": "ast.Set"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Set",
+"full": "ast.Set"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45772,18 +45809,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 313,
-"endlineno": 316,
+"lineno": 246,
+"endlineno": 249,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeSetComp",
-"full": "ast.SetComp"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "SetComp",
+"full": "ast.SetComp"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45809,18 +45853,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 319,
-"endlineno": 325,
+"lineno": 252,
+"endlineno": 258,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeSlice",
-"full": "ast.Slice"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Slice",
+"full": "ast.Slice"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45846,18 +45897,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 328,
-"endlineno": 329,
+"lineno": 261,
+"endlineno": 262,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeStarred",
-"full": "ast.Starred"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Starred",
+"full": "ast.Starred"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45883,18 +45941,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 332,
-"endlineno": 333,
+"lineno": 265,
+"endlineno": 266,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeSub",
-"full": "ast.Sub"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Sub",
+"full": "ast.Sub"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45920,18 +45985,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 336,
-"endlineno": 340,
+"lineno": 269,
+"endlineno": 273,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeSubscript",
-"full": "ast.Subscript"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Subscript",
+"full": "ast.Subscript"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45957,18 +46029,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 343,
-"endlineno": 344,
+"lineno": 276,
+"endlineno": 277,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeTuple",
-"full": "ast.Tuple"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Tuple",
+"full": "ast.Tuple"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -45994,18 +46073,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 347,
-"endlineno": 348,
+"lineno": 280,
+"endlineno": 281,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeUAdd",
-"full": "ast.UAdd"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "UAdd",
+"full": "ast.UAdd"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -46031,18 +46117,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 351,
-"endlineno": 352,
+"lineno": 284,
+"endlineno": 285,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeUnaryOp",
-"full": "ast.UnaryOp"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "UnaryOp",
+"full": "ast.UnaryOp"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -46068,18 +46161,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 355,
-"endlineno": 356,
+"lineno": 288,
+"endlineno": 289,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeUSub",
-"full": "ast.USub"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "USub",
+"full": "ast.USub"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -46105,18 +46205,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 359,
-"endlineno": 362,
+"lineno": 292,
+"endlineno": 295,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeYield",
-"full": "ast.Yield"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Yield",
+"full": "ast.Yield"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -46142,8 +46249,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 365,
-"endlineno": 424,
+"lineno": 298,
+"endlineno": 356,
 "labels": [
 "module-attribute"
 ],
@@ -46152,10 +46259,17 @@
 "{",
 [
 [
+[
 {
-"source": "NodeAdd",
-"full": "ast.Add"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Add",
+"full": "ast.Add"
+}
+],
 ": ",
 {
 "source": "_extract_add",
@@ -46164,10 +46278,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeAnd",
-"full": "ast.And"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "And",
+"full": "ast.And"
+}
+],
 ": ",
 {
 "source": "_extract_and",
@@ -46176,10 +46297,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeArguments",
-"full": "ast.arguments"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "arguments",
+"full": "ast.arguments"
+}
+],
 ": ",
 {
 "source": "_extract_arguments",
@@ -46188,10 +46316,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeAttribute",
-"full": "ast.Attribute"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Attribute",
+"full": "ast.Attribute"
+}
+],
 ": ",
 {
 "source": "_extract_attribute",
@@ -46200,10 +46335,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeBinOp",
-"full": "ast.BinOp"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BinOp",
+"full": "ast.BinOp"
+}
+],
 ": ",
 {
 "source": "_extract_binop",
@@ -46212,10 +46354,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeBitAnd",
-"full": "ast.BitAnd"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BitAnd",
+"full": "ast.BitAnd"
+}
+],
 ": ",
 {
 "source": "_extract_bitand",
@@ -46224,10 +46373,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeBitOr",
-"full": "ast.BitOr"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BitOr",
+"full": "ast.BitOr"
+}
+],
 ": ",
 {
 "source": "_extract_bitor",
@@ -46236,10 +46392,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeBitXor",
-"full": "ast.BitXor"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BitXor",
+"full": "ast.BitXor"
+}
+],
 ": ",
 {
 "source": "_extract_bitxor",
@@ -46248,10 +46411,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeBoolOp",
-"full": "ast.BoolOp"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BoolOp",
+"full": "ast.BoolOp"
+}
+],
 ": ",
 {
 "source": "_extract_boolop",
@@ -46260,10 +46430,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeCall",
-"full": "ast.Call"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Call",
+"full": "ast.Call"
+}
+],
 ": ",
 {
 "source": "_extract_call",
@@ -46272,10 +46449,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeCompare",
-"full": "ast.Compare"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Compare",
+"full": "ast.Compare"
+}
+],
 ": ",
 {
 "source": "_extract_compare",
@@ -46284,10 +46468,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeComprehension",
-"full": "ast.comprehension"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "comprehension",
+"full": "ast.comprehension"
+}
+],
 ": ",
 {
 "source": "_extract_comprehension",
@@ -46296,10 +46487,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeConstant",
-"full": "ast.Constant"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Constant",
+"full": "ast.Constant"
+}
+],
 ": ",
 {
 "source": "_extract_constant",
@@ -46308,10 +46506,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeDictComp",
-"full": "ast.DictComp"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "DictComp",
+"full": "ast.DictComp"
+}
+],
 ": ",
 {
 "source": "_extract_dictcomp",
@@ -46320,10 +46525,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeDict",
-"full": "ast.Dict"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Dict",
+"full": "ast.Dict"
+}
+],
 ": ",
 {
 "source": "_extract_dict",
@@ -46332,10 +46544,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeDiv",
-"full": "ast.Div"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Div",
+"full": "ast.Div"
+}
+],
 ": ",
 {
 "source": "_extract_div",
@@ -46344,22 +46563,17 @@
 ],
 ", ",
 [
-{
-"source": "NodeEllipsis",
-"full": "ast.Ellipsis"
-},
-": ",
-{
-"source": "_extract_ellipsis",
-"full": "griffe.agents.nodes._values._extract_ellipsis"
-}
-],
-", ",
 [
 {
-"source": "NodeEq",
-"full": "ast.Eq"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Eq",
+"full": "ast.Eq"
+}
+],
 ": ",
 {
 "source": "_extract_eq",
@@ -46368,10 +46582,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeFloorDiv",
-"full": "ast.FloorDiv"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "FloorDiv",
+"full": "ast.FloorDiv"
+}
+],
 ": ",
 {
 "source": "_extract_floordiv",
@@ -46380,10 +46601,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeFormattedValue",
-"full": "ast.FormattedValue"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "FormattedValue",
+"full": "ast.FormattedValue"
+}
+],
 ": ",
 {
 "source": "_extract_formatted",
@@ -46392,10 +46620,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeGeneratorExp",
-"full": "ast.GeneratorExp"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "GeneratorExp",
+"full": "ast.GeneratorExp"
+}
+],
 ": ",
 {
 "source": "_extract_generatorexp",
@@ -46404,10 +46639,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeGtE",
-"full": "ast.GtE"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "GtE",
+"full": "ast.GtE"
+}
+],
 ": ",
 {
 "source": "_extract_gte",
@@ -46416,10 +46658,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeGt",
-"full": "ast.Gt"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Gt",
+"full": "ast.Gt"
+}
+],
 ": ",
 {
 "source": "_extract_gt",
@@ -46428,10 +46677,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeIfExp",
-"full": "ast.IfExp"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "IfExp",
+"full": "ast.IfExp"
+}
+],
 ": ",
 {
 "source": "_extract_ifexp",
@@ -46440,10 +46696,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeIn",
-"full": "ast.In"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "In",
+"full": "ast.In"
+}
+],
 ": ",
 {
 "source": "_extract_in",
@@ -46452,10 +46715,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeInvert",
-"full": "ast.Invert"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Invert",
+"full": "ast.Invert"
+}
+],
 ": ",
 {
 "source": "_extract_invert",
@@ -46464,10 +46734,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeIs",
-"full": "ast.Is"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Is",
+"full": "ast.Is"
+}
+],
 ": ",
 {
 "source": "_extract_is",
@@ -46476,10 +46753,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeIsNot",
-"full": "ast.IsNot"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "IsNot",
+"full": "ast.IsNot"
+}
+],
 ": ",
 {
 "source": "_extract_isnot",
@@ -46488,10 +46772,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeJoinedStr",
-"full": "ast.JoinedStr"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "JoinedStr",
+"full": "ast.JoinedStr"
+}
+],
 ": ",
 {
 "source": "_extract_joinedstr",
@@ -46500,10 +46791,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeKeyword",
-"full": "ast.keyword"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "keyword",
+"full": "ast.keyword"
+}
+],
 ": ",
 {
 "source": "_extract_keyword",
@@ -46512,10 +46810,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeLambda",
-"full": "ast.Lambda"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Lambda",
+"full": "ast.Lambda"
+}
+],
 ": ",
 {
 "source": "_extract_lambda",
@@ -46524,10 +46829,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeListComp",
-"full": "ast.ListComp"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "ListComp",
+"full": "ast.ListComp"
+}
+],
 ": ",
 {
 "source": "_extract_listcomp",
@@ -46536,10 +46848,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeList",
-"full": "ast.List"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "List",
+"full": "ast.List"
+}
+],
 ": ",
 {
 "source": "_extract_list",
@@ -46548,10 +46867,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeLShift",
-"full": "ast.LShift"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "LShift",
+"full": "ast.LShift"
+}
+],
 ": ",
 {
 "source": "_extract_lshift",
@@ -46560,10 +46886,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeLtE",
-"full": "ast.LtE"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "LtE",
+"full": "ast.LtE"
+}
+],
 ": ",
 {
 "source": "_extract_lte",
@@ -46572,10 +46905,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeLt",
-"full": "ast.Lt"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Lt",
+"full": "ast.Lt"
+}
+],
 ": ",
 {
 "source": "_extract_lt",
@@ -46584,10 +46924,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeMatMult",
-"full": "ast.MatMult"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "MatMult",
+"full": "ast.MatMult"
+}
+],
 ": ",
 {
 "source": "_extract_matmult",
@@ -46596,10 +46943,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeMod",
-"full": "ast.Mod"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Mod",
+"full": "ast.Mod"
+}
+],
 ": ",
 {
 "source": "_extract_mod",
@@ -46608,10 +46962,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeMult",
-"full": "ast.Mult"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Mult",
+"full": "ast.Mult"
+}
+],
 ": ",
 {
 "source": "_extract_mult",
@@ -46620,10 +46981,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeName",
-"full": "ast.Name"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Name",
+"full": "ast.Name"
+}
+],
 ": ",
 {
 "source": "_extract_name",
@@ -46632,10 +47000,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeNamedExpr",
-"full": "ast.NamedExpr"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "NamedExpr",
+"full": "ast.NamedExpr"
+}
+],
 ": ",
 {
 "source": "_extract_named_expr",
@@ -46644,10 +47019,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeNotEq",
-"full": "ast.NotEq"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "NotEq",
+"full": "ast.NotEq"
+}
+],
 ": ",
 {
 "source": "_extract_noteq",
@@ -46656,10 +47038,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeNot",
-"full": "ast.Not"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Not",
+"full": "ast.Not"
+}
+],
 ": ",
 {
 "source": "_extract_not",
@@ -46668,10 +47057,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeNotIn",
-"full": "ast.NotIn"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "NotIn",
+"full": "ast.NotIn"
+}
+],
 ": ",
 {
 "source": "_extract_notin",
@@ -46680,10 +47076,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeOr",
-"full": "ast.Or"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Or",
+"full": "ast.Or"
+}
+],
 ": ",
 {
 "source": "_extract_or",
@@ -46692,10 +47095,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodePow",
-"full": "ast.Pow"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Pow",
+"full": "ast.Pow"
+}
+],
 ": ",
 {
 "source": "_extract_pow",
@@ -46704,10 +47114,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeRShift",
-"full": "ast.RShift"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "RShift",
+"full": "ast.RShift"
+}
+],
 ": ",
 {
 "source": "_extract_rshift",
@@ -46716,10 +47133,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeSetComp",
-"full": "ast.SetComp"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "SetComp",
+"full": "ast.SetComp"
+}
+],
 ": ",
 {
 "source": "_extract_setcomp",
@@ -46728,10 +47152,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeSet",
-"full": "ast.Set"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Set",
+"full": "ast.Set"
+}
+],
 ": ",
 {
 "source": "_extract_set",
@@ -46740,10 +47171,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeSlice",
-"full": "ast.Slice"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Slice",
+"full": "ast.Slice"
+}
+],
 ": ",
 {
 "source": "_extract_slice",
@@ -46752,10 +47190,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeStarred",
-"full": "ast.Starred"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Starred",
+"full": "ast.Starred"
+}
+],
 ": ",
 {
 "source": "_extract_starred",
@@ -46764,10 +47209,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeSub",
-"full": "ast.Sub"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Sub",
+"full": "ast.Sub"
+}
+],
 ": ",
 {
 "source": "_extract_sub",
@@ -46776,10 +47228,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeSubscript",
-"full": "ast.Subscript"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Subscript",
+"full": "ast.Subscript"
+}
+],
 ": ",
 {
 "source": "_extract_subscript",
@@ -46788,10 +47247,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeTuple",
-"full": "ast.Tuple"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Tuple",
+"full": "ast.Tuple"
+}
+],
 ": ",
 {
 "source": "_extract_tuple",
@@ -46800,10 +47266,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeUAdd",
-"full": "ast.UAdd"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "UAdd",
+"full": "ast.UAdd"
+}
+],
 ": ",
 {
 "source": "_extract_uadd",
@@ -46812,10 +47285,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeUnaryOp",
-"full": "ast.UnaryOp"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "UnaryOp",
+"full": "ast.UnaryOp"
+}
+],
 ": ",
 {
 "source": "_extract_unaryop",
@@ -46824,10 +47304,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeUSub",
-"full": "ast.USub"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "USub",
+"full": "ast.USub"
+}
+],
 ": ",
 {
 "source": "_extract_usub",
@@ -46836,10 +47323,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeYield",
-"full": "ast.Yield"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Yield",
+"full": "ast.Yield"
+}
+],
 ": ",
 {
 "source": "_extract_yield",
@@ -46895,18 +47389,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 429,
-"endlineno": 430,
+"lineno": 361,
+"endlineno": 362,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeExtSlice",
-"full": "ast.ExtSlice"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "ExtSlice",
+"full": "ast.ExtSlice"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -46932,18 +47433,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 432,
-"endlineno": 433,
+"lineno": 364,
+"endlineno": 365,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeIndex",
-"full": "ast.Index"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Index",
+"full": "ast.Index"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -46969,18 +47477,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 439,
-"endlineno": 440,
+"lineno": 371,
+"endlineno": 372,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
+},
+".",
+{
 "source": "AST",
 "full": "ast.AST"
-},
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -47006,12 +47521,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 443,
-"endlineno": 454,
+"lineno": 375,
+"endlineno": 386,
 "docstring": {
 "value": "Get the string representation of a node.\n\nParameters:\n    node: The node to represent.\n\nReturns:\n    The representing code for the node.",
-"lineno": 444,
-"endlineno": 451,
+"lineno": 376,
+"endlineno": 383,
 "parsed": [
 {
 "kind": "text",
@@ -47023,10 +47538,17 @@
 {
 "name": "node",
 "annotation": [
+[
+{
+"source": "ast",
+"full": "ast"
+},
+".",
 {
 "source": "AST",
 "full": "ast.AST"
-},
+}
+],
 " ",
 "|",
 " ",
@@ -47064,10 +47586,17 @@
 {
 "name": "node",
 "annotation": [
+[
+{
+"source": "ast",
+"full": "ast"
+},
+".",
 {
 "source": "AST",
 "full": "ast.AST"
-},
+}
+],
 " ",
 "|",
 " ",
@@ -47095,12 +47624,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 457,
-"endlineno": 475,
+"lineno": 389,
+"endlineno": 407,
 "docstring": {
 "value": "Safely (no exception) get the string representation of a node.\n\nParameters:\n    node: The node to represent.\n    filepath: An optional filepath from where the node comes.\n\nReturns:\n    The representing code for the node.",
-"lineno": 458,
-"endlineno": 466,
+"lineno": 390,
+"endlineno": 398,
 "parsed": [
 {
 "kind": "text",
@@ -47112,10 +47641,17 @@
 {
 "name": "node",
 "annotation": [
+[
+{
+"source": "ast",
+"full": "ast"
+},
+".",
 {
 "source": "AST",
 "full": "ast.AST"
-},
+}
+],
 " ",
 "|",
 " ",
@@ -47177,10 +47713,17 @@
 {
 "name": "node",
 "annotation": [
+[
+{
+"source": "ast",
+"full": "ast"
+},
+".",
 {
 "source": "AST",
 "full": "ast.AST"
-},
+}
+],
 " ",
 "|",
 " ",
@@ -47232,8 +47775,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_values.py",
 "relative_filepath": "src/griffe/agents/nodes/_values.py",
 "relative_package_filepath": "griffe/agents/nodes/_values.py",
-"lineno": 478,
-"endlineno": 478,
+"lineno": 410,
+"endlineno": 410,
 "labels": [
 "module-attribute"
 ],
@@ -47278,603 +47821,115 @@
 },
 {
 "kind": "alias",
-"name": "sys",
-"target_path": "sys",
-"path": "griffe.agents.nodes._expressions.sys",
+"name": "ast",
+"target_path": "ast",
+"path": "griffe.agents.nodes._expressions.ast",
 "lineno": 5,
 "endlineno": 5
 },
 {
 "kind": "alias",
-"name": "AST",
-"target_path": "ast.AST",
-"path": "griffe.agents.nodes._expressions.AST",
+"name": "sys",
+"target_path": "sys",
+"path": "griffe.agents.nodes._expressions.sys",
 "lineno": 6,
 "endlineno": 6
-},
-{
-"kind": "alias",
-"name": "PyCF_ONLY_AST",
-"target_path": "ast.PyCF_ONLY_AST",
-"path": "griffe.agents.nodes._expressions.PyCF_ONLY_AST",
-"lineno": 6,
-"endlineno": 6
-},
-{
-"kind": "alias",
-"name": "NodeAdd",
-"target_path": "ast.Add",
-"path": "griffe.agents.nodes._expressions.NodeAdd",
-"lineno": 7,
-"endlineno": 7
-},
-{
-"kind": "alias",
-"name": "NodeAnd",
-"target_path": "ast.And",
-"path": "griffe.agents.nodes._expressions.NodeAnd",
-"lineno": 8,
-"endlineno": 8
-},
-{
-"kind": "alias",
-"name": "NodeAttribute",
-"target_path": "ast.Attribute",
-"path": "griffe.agents.nodes._expressions.NodeAttribute",
-"lineno": 9,
-"endlineno": 9
-},
-{
-"kind": "alias",
-"name": "NodeBinOp",
-"target_path": "ast.BinOp",
-"path": "griffe.agents.nodes._expressions.NodeBinOp",
-"lineno": 10,
-"endlineno": 10
-},
-{
-"kind": "alias",
-"name": "NodeBitAnd",
-"target_path": "ast.BitAnd",
-"path": "griffe.agents.nodes._expressions.NodeBitAnd",
-"lineno": 11,
-"endlineno": 11
-},
-{
-"kind": "alias",
-"name": "NodeBitOr",
-"target_path": "ast.BitOr",
-"path": "griffe.agents.nodes._expressions.NodeBitOr",
-"lineno": 12,
-"endlineno": 12
-},
-{
-"kind": "alias",
-"name": "NodeBitXor",
-"target_path": "ast.BitXor",
-"path": "griffe.agents.nodes._expressions.NodeBitXor",
-"lineno": 13,
-"endlineno": 13
-},
-{
-"kind": "alias",
-"name": "NodeBoolOp",
-"target_path": "ast.BoolOp",
-"path": "griffe.agents.nodes._expressions.NodeBoolOp",
-"lineno": 14,
-"endlineno": 14
-},
-{
-"kind": "alias",
-"name": "NodeCall",
-"target_path": "ast.Call",
-"path": "griffe.agents.nodes._expressions.NodeCall",
-"lineno": 15,
-"endlineno": 15
-},
-{
-"kind": "alias",
-"name": "NodeCompare",
-"target_path": "ast.Compare",
-"path": "griffe.agents.nodes._expressions.NodeCompare",
-"lineno": 16,
-"endlineno": 16
-},
-{
-"kind": "alias",
-"name": "NodeConstant",
-"target_path": "ast.Constant",
-"path": "griffe.agents.nodes._expressions.NodeConstant",
-"lineno": 17,
-"endlineno": 17
-},
-{
-"kind": "alias",
-"name": "NodeDict",
-"target_path": "ast.Dict",
-"path": "griffe.agents.nodes._expressions.NodeDict",
-"lineno": 18,
-"endlineno": 18
-},
-{
-"kind": "alias",
-"name": "NodeDictComp",
-"target_path": "ast.DictComp",
-"path": "griffe.agents.nodes._expressions.NodeDictComp",
-"lineno": 19,
-"endlineno": 19
-},
-{
-"kind": "alias",
-"name": "NodeDiv",
-"target_path": "ast.Div",
-"path": "griffe.agents.nodes._expressions.NodeDiv",
-"lineno": 20,
-"endlineno": 20
-},
-{
-"kind": "alias",
-"name": "NodeEllipsis",
-"target_path": "ast.Ellipsis",
-"path": "griffe.agents.nodes._expressions.NodeEllipsis",
-"lineno": 21,
-"endlineno": 21
-},
-{
-"kind": "alias",
-"name": "NodeEq",
-"target_path": "ast.Eq",
-"path": "griffe.agents.nodes._expressions.NodeEq",
-"lineno": 22,
-"endlineno": 22
-},
-{
-"kind": "alias",
-"name": "NodeFloorDiv",
-"target_path": "ast.FloorDiv",
-"path": "griffe.agents.nodes._expressions.NodeFloorDiv",
-"lineno": 23,
-"endlineno": 23
-},
-{
-"kind": "alias",
-"name": "NodeFormattedValue",
-"target_path": "ast.FormattedValue",
-"path": "griffe.agents.nodes._expressions.NodeFormattedValue",
-"lineno": 24,
-"endlineno": 24
-},
-{
-"kind": "alias",
-"name": "NodeGeneratorExp",
-"target_path": "ast.GeneratorExp",
-"path": "griffe.agents.nodes._expressions.NodeGeneratorExp",
-"lineno": 25,
-"endlineno": 25
-},
-{
-"kind": "alias",
-"name": "NodeGt",
-"target_path": "ast.Gt",
-"path": "griffe.agents.nodes._expressions.NodeGt",
-"lineno": 26,
-"endlineno": 26
-},
-{
-"kind": "alias",
-"name": "NodeGtE",
-"target_path": "ast.GtE",
-"path": "griffe.agents.nodes._expressions.NodeGtE",
-"lineno": 27,
-"endlineno": 27
-},
-{
-"kind": "alias",
-"name": "NodeIfExp",
-"target_path": "ast.IfExp",
-"path": "griffe.agents.nodes._expressions.NodeIfExp",
-"lineno": 28,
-"endlineno": 28
-},
-{
-"kind": "alias",
-"name": "NodeIn",
-"target_path": "ast.In",
-"path": "griffe.agents.nodes._expressions.NodeIn",
-"lineno": 29,
-"endlineno": 29
-},
-{
-"kind": "alias",
-"name": "NodeInvert",
-"target_path": "ast.Invert",
-"path": "griffe.agents.nodes._expressions.NodeInvert",
-"lineno": 30,
-"endlineno": 30
-},
-{
-"kind": "alias",
-"name": "NodeIs",
-"target_path": "ast.Is",
-"path": "griffe.agents.nodes._expressions.NodeIs",
-"lineno": 31,
-"endlineno": 31
-},
-{
-"kind": "alias",
-"name": "NodeIsNot",
-"target_path": "ast.IsNot",
-"path": "griffe.agents.nodes._expressions.NodeIsNot",
-"lineno": 32,
-"endlineno": 32
-},
-{
-"kind": "alias",
-"name": "NodeJoinedStr",
-"target_path": "ast.JoinedStr",
-"path": "griffe.agents.nodes._expressions.NodeJoinedStr",
-"lineno": 33,
-"endlineno": 33
-},
-{
-"kind": "alias",
-"name": "NodeLambda",
-"target_path": "ast.Lambda",
-"path": "griffe.agents.nodes._expressions.NodeLambda",
-"lineno": 34,
-"endlineno": 34
-},
-{
-"kind": "alias",
-"name": "NodeList",
-"target_path": "ast.List",
-"path": "griffe.agents.nodes._expressions.NodeList",
-"lineno": 35,
-"endlineno": 35
-},
-{
-"kind": "alias",
-"name": "NodeListComp",
-"target_path": "ast.ListComp",
-"path": "griffe.agents.nodes._expressions.NodeListComp",
-"lineno": 36,
-"endlineno": 36
-},
-{
-"kind": "alias",
-"name": "NodeLShift",
-"target_path": "ast.LShift",
-"path": "griffe.agents.nodes._expressions.NodeLShift",
-"lineno": 37,
-"endlineno": 37
-},
-{
-"kind": "alias",
-"name": "NodeLt",
-"target_path": "ast.Lt",
-"path": "griffe.agents.nodes._expressions.NodeLt",
-"lineno": 38,
-"endlineno": 38
-},
-{
-"kind": "alias",
-"name": "NodeLtE",
-"target_path": "ast.LtE",
-"path": "griffe.agents.nodes._expressions.NodeLtE",
-"lineno": 39,
-"endlineno": 39
-},
-{
-"kind": "alias",
-"name": "NodeMatMult",
-"target_path": "ast.MatMult",
-"path": "griffe.agents.nodes._expressions.NodeMatMult",
-"lineno": 40,
-"endlineno": 40
-},
-{
-"kind": "alias",
-"name": "NodeMod",
-"target_path": "ast.Mod",
-"path": "griffe.agents.nodes._expressions.NodeMod",
-"lineno": 41,
-"endlineno": 41
-},
-{
-"kind": "alias",
-"name": "NodeMult",
-"target_path": "ast.Mult",
-"path": "griffe.agents.nodes._expressions.NodeMult",
-"lineno": 42,
-"endlineno": 42
-},
-{
-"kind": "alias",
-"name": "NodeName",
-"target_path": "ast.Name",
-"path": "griffe.agents.nodes._expressions.NodeName",
-"lineno": 43,
-"endlineno": 43
-},
-{
-"kind": "alias",
-"name": "NodeNamedExpr",
-"target_path": "ast.NamedExpr",
-"path": "griffe.agents.nodes._expressions.NodeNamedExpr",
-"lineno": 44,
-"endlineno": 44
-},
-{
-"kind": "alias",
-"name": "NodeNot",
-"target_path": "ast.Not",
-"path": "griffe.agents.nodes._expressions.NodeNot",
-"lineno": 45,
-"endlineno": 45
-},
-{
-"kind": "alias",
-"name": "NodeNotEq",
-"target_path": "ast.NotEq",
-"path": "griffe.agents.nodes._expressions.NodeNotEq",
-"lineno": 46,
-"endlineno": 46
-},
-{
-"kind": "alias",
-"name": "NodeNotIn",
-"target_path": "ast.NotIn",
-"path": "griffe.agents.nodes._expressions.NodeNotIn",
-"lineno": 47,
-"endlineno": 47
-},
-{
-"kind": "alias",
-"name": "NodeOr",
-"target_path": "ast.Or",
-"path": "griffe.agents.nodes._expressions.NodeOr",
-"lineno": 48,
-"endlineno": 48
-},
-{
-"kind": "alias",
-"name": "NodePow",
-"target_path": "ast.Pow",
-"path": "griffe.agents.nodes._expressions.NodePow",
-"lineno": 49,
-"endlineno": 49
-},
-{
-"kind": "alias",
-"name": "NodeRShift",
-"target_path": "ast.RShift",
-"path": "griffe.agents.nodes._expressions.NodeRShift",
-"lineno": 50,
-"endlineno": 50
-},
-{
-"kind": "alias",
-"name": "NodeSet",
-"target_path": "ast.Set",
-"path": "griffe.agents.nodes._expressions.NodeSet",
-"lineno": 51,
-"endlineno": 51
-},
-{
-"kind": "alias",
-"name": "NodeSetComp",
-"target_path": "ast.SetComp",
-"path": "griffe.agents.nodes._expressions.NodeSetComp",
-"lineno": 52,
-"endlineno": 52
-},
-{
-"kind": "alias",
-"name": "NodeSlice",
-"target_path": "ast.Slice",
-"path": "griffe.agents.nodes._expressions.NodeSlice",
-"lineno": 53,
-"endlineno": 53
-},
-{
-"kind": "alias",
-"name": "NodeStarred",
-"target_path": "ast.Starred",
-"path": "griffe.agents.nodes._expressions.NodeStarred",
-"lineno": 54,
-"endlineno": 54
-},
-{
-"kind": "alias",
-"name": "NodeSub",
-"target_path": "ast.Sub",
-"path": "griffe.agents.nodes._expressions.NodeSub",
-"lineno": 55,
-"endlineno": 55
-},
-{
-"kind": "alias",
-"name": "NodeSubscript",
-"target_path": "ast.Subscript",
-"path": "griffe.agents.nodes._expressions.NodeSubscript",
-"lineno": 56,
-"endlineno": 56
-},
-{
-"kind": "alias",
-"name": "NodeTuple",
-"target_path": "ast.Tuple",
-"path": "griffe.agents.nodes._expressions.NodeTuple",
-"lineno": 57,
-"endlineno": 57
-},
-{
-"kind": "alias",
-"name": "NodeUAdd",
-"target_path": "ast.UAdd",
-"path": "griffe.agents.nodes._expressions.NodeUAdd",
-"lineno": 58,
-"endlineno": 58
-},
-{
-"kind": "alias",
-"name": "NodeUnaryOp",
-"target_path": "ast.UnaryOp",
-"path": "griffe.agents.nodes._expressions.NodeUnaryOp",
-"lineno": 59,
-"endlineno": 59
-},
-{
-"kind": "alias",
-"name": "NodeUSub",
-"target_path": "ast.USub",
-"path": "griffe.agents.nodes._expressions.NodeUSub",
-"lineno": 60,
-"endlineno": 60
-},
-{
-"kind": "alias",
-"name": "NodeYield",
-"target_path": "ast.Yield",
-"path": "griffe.agents.nodes._expressions.NodeYield",
-"lineno": 61,
-"endlineno": 61
-},
-{
-"kind": "alias",
-"name": "NodeArguments",
-"target_path": "ast.arguments",
-"path": "griffe.agents.nodes._expressions.NodeArguments",
-"lineno": 62,
-"endlineno": 62
-},
-{
-"kind": "alias",
-"name": "NodeComprehension",
-"target_path": "ast.comprehension",
-"path": "griffe.agents.nodes._expressions.NodeComprehension",
-"lineno": 63,
-"endlineno": 63
-},
-{
-"kind": "alias",
-"name": "NodeKeyword",
-"target_path": "ast.keyword",
-"path": "griffe.agents.nodes._expressions.NodeKeyword",
-"lineno": 64,
-"endlineno": 64
 },
 {
 "kind": "alias",
 "name": "partial",
 "target_path": "functools.partial",
 "path": "griffe.agents.nodes._expressions.partial",
-"lineno": 65,
-"endlineno": 65
+"lineno": 7,
+"endlineno": 7
 },
 {
 "kind": "alias",
 "name": "TYPE_CHECKING",
 "target_path": "typing.TYPE_CHECKING",
 "path": "griffe.agents.nodes._expressions.TYPE_CHECKING",
-"lineno": 66,
-"endlineno": 66
+"lineno": 8,
+"endlineno": 8
 },
 {
 "kind": "alias",
 "name": "Any",
 "target_path": "typing.Any",
 "path": "griffe.agents.nodes._expressions.Any",
-"lineno": 66,
-"endlineno": 66
+"lineno": 8,
+"endlineno": 8
 },
 {
 "kind": "alias",
 "name": "Callable",
 "target_path": "typing.Callable",
 "path": "griffe.agents.nodes._expressions.Callable",
-"lineno": 66,
-"endlineno": 66
+"lineno": 8,
+"endlineno": 8
 },
 {
 "kind": "alias",
 "name": "Sequence",
 "target_path": "typing.Sequence",
 "path": "griffe.agents.nodes._expressions.Sequence",
-"lineno": 66,
-"endlineno": 66
+"lineno": 8,
+"endlineno": 8
 },
 {
 "kind": "alias",
 "name": "Expression",
 "target_path": "griffe.expressions.Expression",
 "path": "griffe.agents.nodes._expressions.Expression",
-"lineno": 68,
-"endlineno": 68
+"lineno": 10,
+"endlineno": 10
 },
 {
 "kind": "alias",
 "name": "Name",
 "target_path": "griffe.expressions.Name",
 "path": "griffe.agents.nodes._expressions.Name",
-"lineno": 68,
-"endlineno": 68
+"lineno": 10,
+"endlineno": 10
 },
 {
 "kind": "alias",
 "name": "LogLevel",
 "target_path": "griffe.logger.LogLevel",
 "path": "griffe.agents.nodes._expressions.LogLevel",
-"lineno": 69,
-"endlineno": 69
+"lineno": 11,
+"endlineno": 11
 },
 {
 "kind": "alias",
 "name": "get_logger",
 "target_path": "griffe.logger.get_logger",
 "path": "griffe.agents.nodes._expressions.get_logger",
-"lineno": 69,
-"endlineno": 69
-},
-{
-"kind": "alias",
-"name": "NodeExtSlice",
-"target_path": "ast.ExtSlice",
-"path": "griffe.agents.nodes._expressions.NodeExtSlice",
-"lineno": 73,
-"endlineno": 73
-},
-{
-"kind": "alias",
-"name": "NodeIndex",
-"target_path": "ast.Index",
-"path": "griffe.agents.nodes._expressions.NodeIndex",
-"lineno": 74,
-"endlineno": 74
+"lineno": 11,
+"endlineno": 11
 },
 {
 "kind": "alias",
 "name": "Path",
 "target_path": "pathlib.Path",
 "path": "griffe.agents.nodes._expressions.Path",
-"lineno": 77,
-"endlineno": 77
+"lineno": 14,
+"endlineno": 14
 },
 {
 "kind": "alias",
 "name": "Class",
 "target_path": "griffe.dataclasses.Class",
 "path": "griffe.agents.nodes._expressions.Class",
-"lineno": 79,
-"endlineno": 79
+"lineno": 16,
+"endlineno": 16
 },
 {
 "kind": "alias",
 "name": "Module",
 "target_path": "griffe.dataclasses.Module",
 "path": "griffe.agents.nodes._expressions.Module",
-"lineno": 79,
-"endlineno": 79
+"lineno": 16,
+"endlineno": 16
 },
 {
 "kind": "attribute",
@@ -47883,8 +47938,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 82,
-"endlineno": 82,
+"lineno": 19,
+"endlineno": 19,
 "labels": [
 "module-attribute"
 ],
@@ -47911,8 +47966,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 85,
-"endlineno": 92,
+"lineno": 22,
+"endlineno": 29,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -47966,18 +48021,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 95,
-"endlineno": 96,
+"lineno": 32,
+"endlineno": 33,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeAdd",
-"full": "ast.Add"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Add",
+"full": "ast.Add"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -48021,18 +48083,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 99,
-"endlineno": 100,
+"lineno": 36,
+"endlineno": 37,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeAnd",
-"full": "ast.And"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "And",
+"full": "ast.And"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -48076,18 +48145,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 103,
-"endlineno": 104,
+"lineno": 40,
+"endlineno": 41,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeArguments",
-"full": "ast.arguments"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "arguments",
+"full": "ast.arguments"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -48131,18 +48207,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 107,
-"endlineno": 118,
+"lineno": 44,
+"endlineno": 55,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeAttribute",
-"full": "ast.Attribute"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Attribute",
+"full": "ast.Attribute"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -48186,18 +48269,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 121,
-"endlineno": 124,
+"lineno": 58,
+"endlineno": 61,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeBinOp",
-"full": "ast.BinOp"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BinOp",
+"full": "ast.BinOp"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -48241,18 +48331,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 127,
-"endlineno": 128,
+"lineno": 64,
+"endlineno": 65,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeBitAnd",
-"full": "ast.BitAnd"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BitAnd",
+"full": "ast.BitAnd"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -48296,18 +48393,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 131,
-"endlineno": 132,
+"lineno": 68,
+"endlineno": 69,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeBitOr",
-"full": "ast.BitOr"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BitOr",
+"full": "ast.BitOr"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -48351,18 +48455,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 135,
-"endlineno": 136,
+"lineno": 72,
+"endlineno": 73,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeBitXor",
-"full": "ast.BitXor"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BitXor",
+"full": "ast.BitXor"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -48406,18 +48517,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 139,
-"endlineno": 142,
+"lineno": 76,
+"endlineno": 79,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeBoolOp",
-"full": "ast.BoolOp"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BoolOp",
+"full": "ast.BoolOp"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -48461,18 +48579,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 145,
-"endlineno": 157,
+"lineno": 82,
+"endlineno": 94,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeCall",
-"full": "ast.Call"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Call",
+"full": "ast.Call"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -48516,18 +48641,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 160,
-"endlineno": 164,
+"lineno": 97,
+"endlineno": 101,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeCompare",
-"full": "ast.Compare"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Compare",
+"full": "ast.Compare"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -48571,18 +48703,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 167,
-"endlineno": 176,
+"lineno": 104,
+"endlineno": 113,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeComprehension",
-"full": "ast.comprehension"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "comprehension",
+"full": "ast.comprehension"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -48626,18 +48765,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 179,
-"endlineno": 214,
+"lineno": 116,
+"endlineno": 151,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeConstant",
-"full": "ast.Constant"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Constant",
+"full": "ast.Constant"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -48735,18 +48881,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 217,
-"endlineno": 223,
+"lineno": 154,
+"endlineno": 160,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeDict",
-"full": "ast.Dict"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Dict",
+"full": "ast.Dict"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -48790,18 +48943,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 226,
-"endlineno": 230,
+"lineno": 163,
+"endlineno": 167,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeDictComp",
-"full": "ast.DictComp"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "DictComp",
+"full": "ast.DictComp"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -48845,73 +49005,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 233,
-"endlineno": 234,
+"lineno": 170,
+"endlineno": 171,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeDiv",
-"full": "ast.Div"
-},
-"kind": "positional or keyword",
-"default": null
-},
-{
-"name": "parent",
 "annotation": [
 {
-"source": "Module",
-"full": "griffe.dataclasses.Module"
+"source": "ast",
+"full": "ast"
 },
-" ",
-"|",
-" ",
+".",
 {
-"source": "Class",
-"full": "griffe.dataclasses.Class"
+"source": "Div",
+"full": "ast.Div"
 }
 ],
-"kind": "positional or keyword",
-"default": null
-},
-{
-"name": "kwargs",
-"annotation": {
-"source": "Any",
-"full": "typing.Any"
-},
-"kind": "variadic keyword",
-"default": "{}"
-}
-],
-"returns": {
-"source": "str",
-"full": "str"
-}
-},
-{
-"kind": "function",
-"name": "_build_ellipsis",
-"path": "griffe.agents.nodes._expressions._build_ellipsis",
-"filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
-"relative_filepath": "src/griffe/agents/nodes/_expressions.py",
-"relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 237,
-"endlineno": 238,
-"labels": [],
-"members": [],
-"decorators": [],
-"parameters": [
-{
-"name": "node",
-"annotation": {
-"source": "NodeEllipsis",
-"full": "ast.Ellipsis"
-},
 "kind": "positional or keyword",
 "default": null
 },
@@ -48955,18 +49067,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 241,
-"endlineno": 242,
+"lineno": 174,
+"endlineno": 175,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeEq",
-"full": "ast.Eq"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Eq",
+"full": "ast.Eq"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -49010,18 +49129,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 245,
-"endlineno": 246,
+"lineno": 178,
+"endlineno": 179,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeFloorDiv",
-"full": "ast.FloorDiv"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "FloorDiv",
+"full": "ast.FloorDiv"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -49065,18 +49191,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 249,
-"endlineno": 250,
+"lineno": 182,
+"endlineno": 183,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeFormattedValue",
-"full": "ast.FormattedValue"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "FormattedValue",
+"full": "ast.FormattedValue"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -49120,18 +49253,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 253,
-"endlineno": 256,
+"lineno": 186,
+"endlineno": 189,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeGeneratorExp",
-"full": "ast.GeneratorExp"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "GeneratorExp",
+"full": "ast.GeneratorExp"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -49175,18 +49315,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 259,
-"endlineno": 260,
+"lineno": 192,
+"endlineno": 193,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeGtE",
-"full": "ast.GtE"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "GtE",
+"full": "ast.GtE"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -49230,18 +49377,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 263,
-"endlineno": 264,
+"lineno": 196,
+"endlineno": 197,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeGt",
-"full": "ast.Gt"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Gt",
+"full": "ast.Gt"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -49285,18 +49439,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 267,
-"endlineno": 274,
+"lineno": 200,
+"endlineno": 207,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeIfExp",
-"full": "ast.IfExp"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "IfExp",
+"full": "ast.IfExp"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -49340,18 +49501,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 277,
-"endlineno": 278,
+"lineno": 210,
+"endlineno": 211,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeInvert",
-"full": "ast.Invert"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Invert",
+"full": "ast.Invert"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -49395,18 +49563,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 281,
-"endlineno": 282,
+"lineno": 214,
+"endlineno": 215,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeIn",
-"full": "ast.In"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "In",
+"full": "ast.In"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -49450,18 +49625,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 285,
-"endlineno": 286,
+"lineno": 218,
+"endlineno": 219,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeIs",
-"full": "ast.Is"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Is",
+"full": "ast.Is"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -49505,18 +49687,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 289,
-"endlineno": 290,
+"lineno": 222,
+"endlineno": 223,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeIsNot",
-"full": "ast.IsNot"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "IsNot",
+"full": "ast.IsNot"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -49560,18 +49749,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 293,
-"endlineno": 294,
+"lineno": 226,
+"endlineno": 227,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeJoinedStr",
-"full": "ast.JoinedStr"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "JoinedStr",
+"full": "ast.JoinedStr"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -49615,18 +49811,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 297,
-"endlineno": 300,
+"lineno": 230,
+"endlineno": 233,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeKeyword",
-"full": "ast.keyword"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "keyword",
+"full": "ast.keyword"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -49670,18 +49873,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 303,
-"endlineno": 304,
+"lineno": 236,
+"endlineno": 237,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeLambda",
-"full": "ast.Lambda"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Lambda",
+"full": "ast.Lambda"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -49725,18 +49935,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 307,
-"endlineno": 308,
+"lineno": 240,
+"endlineno": 241,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeList",
-"full": "ast.List"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "List",
+"full": "ast.List"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -49780,18 +49997,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 311,
-"endlineno": 314,
+"lineno": 244,
+"endlineno": 247,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeListComp",
-"full": "ast.ListComp"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "ListComp",
+"full": "ast.ListComp"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -49835,18 +50059,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 317,
-"endlineno": 318,
+"lineno": 250,
+"endlineno": 251,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeLShift",
-"full": "ast.LShift"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "LShift",
+"full": "ast.LShift"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -49890,18 +50121,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 321,
-"endlineno": 322,
+"lineno": 254,
+"endlineno": 255,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeLtE",
-"full": "ast.LtE"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "LtE",
+"full": "ast.LtE"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -49945,18 +50183,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 325,
-"endlineno": 326,
+"lineno": 258,
+"endlineno": 259,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeLt",
-"full": "ast.Lt"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Lt",
+"full": "ast.Lt"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -50000,18 +50245,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 329,
-"endlineno": 330,
+"lineno": 262,
+"endlineno": 263,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeMatMult",
-"full": "ast.MatMult"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "MatMult",
+"full": "ast.MatMult"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -50055,18 +50307,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 333,
-"endlineno": 334,
+"lineno": 266,
+"endlineno": 267,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeMod",
-"full": "ast.Mod"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Mod",
+"full": "ast.Mod"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -50110,18 +50369,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 337,
-"endlineno": 338,
+"lineno": 270,
+"endlineno": 271,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeMult",
-"full": "ast.Mult"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Mult",
+"full": "ast.Mult"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -50165,18 +50431,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 341,
-"endlineno": 342,
+"lineno": 274,
+"endlineno": 275,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeName",
-"full": "ast.Name"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Name",
+"full": "ast.Name"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -50220,18 +50493,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 345,
-"endlineno": 346,
+"lineno": 278,
+"endlineno": 279,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeNamedExpr",
-"full": "ast.NamedExpr"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "NamedExpr",
+"full": "ast.NamedExpr"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -50275,18 +50555,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 349,
-"endlineno": 350,
+"lineno": 282,
+"endlineno": 283,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeNot",
-"full": "ast.Not"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Not",
+"full": "ast.Not"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -50330,18 +50617,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 353,
-"endlineno": 354,
+"lineno": 286,
+"endlineno": 287,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeNotEq",
-"full": "ast.NotEq"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "NotEq",
+"full": "ast.NotEq"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -50385,18 +50679,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 357,
-"endlineno": 358,
+"lineno": 290,
+"endlineno": 291,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeNotIn",
-"full": "ast.NotIn"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "NotIn",
+"full": "ast.NotIn"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -50440,18 +50741,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 361,
-"endlineno": 362,
+"lineno": 294,
+"endlineno": 295,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeOr",
-"full": "ast.Or"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Or",
+"full": "ast.Or"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -50495,18 +50803,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 365,
-"endlineno": 366,
+"lineno": 298,
+"endlineno": 299,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodePow",
-"full": "ast.Pow"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Pow",
+"full": "ast.Pow"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -50550,18 +50865,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 369,
-"endlineno": 370,
+"lineno": 302,
+"endlineno": 303,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeRShift",
-"full": "ast.RShift"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "RShift",
+"full": "ast.RShift"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -50605,18 +50927,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 373,
-"endlineno": 374,
+"lineno": 306,
+"endlineno": 307,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeSet",
-"full": "ast.Set"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Set",
+"full": "ast.Set"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -50660,18 +50989,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 377,
-"endlineno": 380,
+"lineno": 310,
+"endlineno": 313,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeSetComp",
-"full": "ast.SetComp"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "SetComp",
+"full": "ast.SetComp"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -50715,18 +51051,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 383,
-"endlineno": 389,
+"lineno": 316,
+"endlineno": 322,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeSlice",
-"full": "ast.Slice"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Slice",
+"full": "ast.Slice"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -50770,18 +51113,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 392,
-"endlineno": 393,
+"lineno": 325,
+"endlineno": 326,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeStarred",
-"full": "ast.Starred"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Starred",
+"full": "ast.Starred"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -50825,18 +51175,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 396,
-"endlineno": 397,
+"lineno": 329,
+"endlineno": 330,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeSub",
-"full": "ast.Sub"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Sub",
+"full": "ast.Sub"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -50880,18 +51237,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 400,
-"endlineno": 413,
+"lineno": 333,
+"endlineno": 346,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeSubscript",
-"full": "ast.Subscript"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Subscript",
+"full": "ast.Subscript"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -50944,18 +51308,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 416,
-"endlineno": 417,
+"lineno": 349,
+"endlineno": 350,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeTuple",
-"full": "ast.Tuple"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Tuple",
+"full": "ast.Tuple"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -50999,18 +51370,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 420,
-"endlineno": 421,
+"lineno": 353,
+"endlineno": 354,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeUAdd",
-"full": "ast.UAdd"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "UAdd",
+"full": "ast.UAdd"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -51054,18 +51432,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 424,
-"endlineno": 425,
+"lineno": 357,
+"endlineno": 358,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeUnaryOp",
-"full": "ast.UnaryOp"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "UnaryOp",
+"full": "ast.UnaryOp"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -51109,18 +51494,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 428,
-"endlineno": 429,
+"lineno": 361,
+"endlineno": 362,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeUSub",
-"full": "ast.USub"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "USub",
+"full": "ast.USub"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -51164,18 +51556,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 432,
-"endlineno": 435,
+"lineno": 365,
+"endlineno": 368,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeYield",
-"full": "ast.Yield"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Yield",
+"full": "ast.Yield"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -51237,8 +51636,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 438,
-"endlineno": 497,
+"lineno": 371,
+"endlineno": 429,
 "labels": [
 "module-attribute"
 ],
@@ -51247,10 +51646,17 @@
 "{",
 [
 [
+[
 {
-"source": "NodeAdd",
-"full": "ast.Add"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Add",
+"full": "ast.Add"
+}
+],
 ": ",
 {
 "source": "_build_add",
@@ -51259,10 +51665,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeAnd",
-"full": "ast.And"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "And",
+"full": "ast.And"
+}
+],
 ": ",
 {
 "source": "_build_and",
@@ -51271,10 +51684,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeArguments",
-"full": "ast.arguments"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "arguments",
+"full": "ast.arguments"
+}
+],
 ": ",
 {
 "source": "_build_arguments",
@@ -51283,10 +51703,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeAttribute",
-"full": "ast.Attribute"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Attribute",
+"full": "ast.Attribute"
+}
+],
 ": ",
 {
 "source": "_build_attribute",
@@ -51295,10 +51722,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeBinOp",
-"full": "ast.BinOp"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BinOp",
+"full": "ast.BinOp"
+}
+],
 ": ",
 {
 "source": "_build_binop",
@@ -51307,10 +51741,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeBitAnd",
-"full": "ast.BitAnd"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BitAnd",
+"full": "ast.BitAnd"
+}
+],
 ": ",
 {
 "source": "_build_bitand",
@@ -51319,10 +51760,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeBitOr",
-"full": "ast.BitOr"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BitOr",
+"full": "ast.BitOr"
+}
+],
 ": ",
 {
 "source": "_build_bitor",
@@ -51331,10 +51779,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeBitXor",
-"full": "ast.BitXor"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BitXor",
+"full": "ast.BitXor"
+}
+],
 ": ",
 {
 "source": "_build_bitxor",
@@ -51343,10 +51798,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeBoolOp",
-"full": "ast.BoolOp"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "BoolOp",
+"full": "ast.BoolOp"
+}
+],
 ": ",
 {
 "source": "_build_boolop",
@@ -51355,10 +51817,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeCall",
-"full": "ast.Call"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Call",
+"full": "ast.Call"
+}
+],
 ": ",
 {
 "source": "_build_call",
@@ -51367,10 +51836,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeCompare",
-"full": "ast.Compare"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Compare",
+"full": "ast.Compare"
+}
+],
 ": ",
 {
 "source": "_build_compare",
@@ -51379,10 +51855,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeComprehension",
-"full": "ast.comprehension"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "comprehension",
+"full": "ast.comprehension"
+}
+],
 ": ",
 {
 "source": "_build_comprehension",
@@ -51391,10 +51874,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeConstant",
-"full": "ast.Constant"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Constant",
+"full": "ast.Constant"
+}
+],
 ": ",
 {
 "source": "_build_constant",
@@ -51403,10 +51893,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeDict",
-"full": "ast.Dict"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Dict",
+"full": "ast.Dict"
+}
+],
 ": ",
 {
 "source": "_build_dict",
@@ -51415,10 +51912,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeDictComp",
-"full": "ast.DictComp"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "DictComp",
+"full": "ast.DictComp"
+}
+],
 ": ",
 {
 "source": "_build_dictcomp",
@@ -51427,10 +51931,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeDiv",
-"full": "ast.Div"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Div",
+"full": "ast.Div"
+}
+],
 ": ",
 {
 "source": "_build_div",
@@ -51439,22 +51950,17 @@
 ],
 ", ",
 [
-{
-"source": "NodeEllipsis",
-"full": "ast.Ellipsis"
-},
-": ",
-{
-"source": "_build_ellipsis",
-"full": "griffe.agents.nodes._expressions._build_ellipsis"
-}
-],
-", ",
 [
 {
-"source": "NodeEq",
-"full": "ast.Eq"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Eq",
+"full": "ast.Eq"
+}
+],
 ": ",
 {
 "source": "_build_eq",
@@ -51463,10 +51969,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeFloorDiv",
-"full": "ast.FloorDiv"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "FloorDiv",
+"full": "ast.FloorDiv"
+}
+],
 ": ",
 {
 "source": "_build_floordiv",
@@ -51475,10 +51988,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeFormattedValue",
-"full": "ast.FormattedValue"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "FormattedValue",
+"full": "ast.FormattedValue"
+}
+],
 ": ",
 {
 "source": "_build_formatted",
@@ -51487,10 +52007,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeGeneratorExp",
-"full": "ast.GeneratorExp"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "GeneratorExp",
+"full": "ast.GeneratorExp"
+}
+],
 ": ",
 {
 "source": "_build_generatorexp",
@@ -51499,10 +52026,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeGt",
-"full": "ast.Gt"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Gt",
+"full": "ast.Gt"
+}
+],
 ": ",
 {
 "source": "_build_gt",
@@ -51511,10 +52045,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeGtE",
-"full": "ast.GtE"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "GtE",
+"full": "ast.GtE"
+}
+],
 ": ",
 {
 "source": "_build_gte",
@@ -51523,10 +52064,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeIfExp",
-"full": "ast.IfExp"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "IfExp",
+"full": "ast.IfExp"
+}
+],
 ": ",
 {
 "source": "_build_ifexp",
@@ -51535,10 +52083,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeIn",
-"full": "ast.In"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "In",
+"full": "ast.In"
+}
+],
 ": ",
 {
 "source": "_build_in",
@@ -51547,10 +52102,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeInvert",
-"full": "ast.Invert"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Invert",
+"full": "ast.Invert"
+}
+],
 ": ",
 {
 "source": "_build_invert",
@@ -51559,10 +52121,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeIs",
-"full": "ast.Is"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Is",
+"full": "ast.Is"
+}
+],
 ": ",
 {
 "source": "_build_is",
@@ -51571,10 +52140,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeIsNot",
-"full": "ast.IsNot"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "IsNot",
+"full": "ast.IsNot"
+}
+],
 ": ",
 {
 "source": "_build_isnot",
@@ -51583,10 +52159,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeJoinedStr",
-"full": "ast.JoinedStr"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "JoinedStr",
+"full": "ast.JoinedStr"
+}
+],
 ": ",
 {
 "source": "_build_joinedstr",
@@ -51595,10 +52178,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeKeyword",
-"full": "ast.keyword"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "keyword",
+"full": "ast.keyword"
+}
+],
 ": ",
 {
 "source": "_build_keyword",
@@ -51607,10 +52197,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeLambda",
-"full": "ast.Lambda"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Lambda",
+"full": "ast.Lambda"
+}
+],
 ": ",
 {
 "source": "_build_lambda",
@@ -51619,10 +52216,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeList",
-"full": "ast.List"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "List",
+"full": "ast.List"
+}
+],
 ": ",
 {
 "source": "_build_list",
@@ -51631,10 +52235,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeListComp",
-"full": "ast.ListComp"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "ListComp",
+"full": "ast.ListComp"
+}
+],
 ": ",
 {
 "source": "_build_listcomp",
@@ -51643,10 +52254,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeLShift",
-"full": "ast.LShift"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "LShift",
+"full": "ast.LShift"
+}
+],
 ": ",
 {
 "source": "_build_lshift",
@@ -51655,10 +52273,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeLt",
-"full": "ast.Lt"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Lt",
+"full": "ast.Lt"
+}
+],
 ": ",
 {
 "source": "_build_lt",
@@ -51667,10 +52292,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeLtE",
-"full": "ast.LtE"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "LtE",
+"full": "ast.LtE"
+}
+],
 ": ",
 {
 "source": "_build_lte",
@@ -51679,10 +52311,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeMatMult",
-"full": "ast.MatMult"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "MatMult",
+"full": "ast.MatMult"
+}
+],
 ": ",
 {
 "source": "_build_matmult",
@@ -51691,10 +52330,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeMod",
-"full": "ast.Mod"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Mod",
+"full": "ast.Mod"
+}
+],
 ": ",
 {
 "source": "_build_mod",
@@ -51703,10 +52349,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeMult",
-"full": "ast.Mult"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Mult",
+"full": "ast.Mult"
+}
+],
 ": ",
 {
 "source": "_build_mult",
@@ -51715,10 +52368,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeName",
-"full": "ast.Name"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Name",
+"full": "ast.Name"
+}
+],
 ": ",
 {
 "source": "_build_name",
@@ -51727,10 +52387,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeNamedExpr",
-"full": "ast.NamedExpr"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "NamedExpr",
+"full": "ast.NamedExpr"
+}
+],
 ": ",
 {
 "source": "_build_named_expr",
@@ -51739,10 +52406,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeNot",
-"full": "ast.Not"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Not",
+"full": "ast.Not"
+}
+],
 ": ",
 {
 "source": "_build_not",
@@ -51751,10 +52425,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeNotEq",
-"full": "ast.NotEq"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "NotEq",
+"full": "ast.NotEq"
+}
+],
 ": ",
 {
 "source": "_build_noteq",
@@ -51763,10 +52444,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeNotIn",
-"full": "ast.NotIn"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "NotIn",
+"full": "ast.NotIn"
+}
+],
 ": ",
 {
 "source": "_build_notin",
@@ -51775,10 +52463,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeOr",
-"full": "ast.Or"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Or",
+"full": "ast.Or"
+}
+],
 ": ",
 {
 "source": "_build_or",
@@ -51787,10 +52482,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodePow",
-"full": "ast.Pow"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Pow",
+"full": "ast.Pow"
+}
+],
 ": ",
 {
 "source": "_build_pow",
@@ -51799,10 +52501,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeRShift",
-"full": "ast.RShift"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "RShift",
+"full": "ast.RShift"
+}
+],
 ": ",
 {
 "source": "_build_rshift",
@@ -51811,10 +52520,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeSet",
-"full": "ast.Set"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Set",
+"full": "ast.Set"
+}
+],
 ": ",
 {
 "source": "_build_set",
@@ -51823,10 +52539,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeSetComp",
-"full": "ast.SetComp"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "SetComp",
+"full": "ast.SetComp"
+}
+],
 ": ",
 {
 "source": "_build_setcomp",
@@ -51835,10 +52558,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeSlice",
-"full": "ast.Slice"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Slice",
+"full": "ast.Slice"
+}
+],
 ": ",
 {
 "source": "_build_slice",
@@ -51847,10 +52577,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeStarred",
-"full": "ast.Starred"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Starred",
+"full": "ast.Starred"
+}
+],
 ": ",
 {
 "source": "_build_starred",
@@ -51859,10 +52596,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeSub",
-"full": "ast.Sub"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Sub",
+"full": "ast.Sub"
+}
+],
 ": ",
 {
 "source": "_build_sub",
@@ -51871,10 +52615,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeSubscript",
-"full": "ast.Subscript"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Subscript",
+"full": "ast.Subscript"
+}
+],
 ": ",
 {
 "source": "_build_subscript",
@@ -51883,10 +52634,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeTuple",
-"full": "ast.Tuple"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Tuple",
+"full": "ast.Tuple"
+}
+],
 ": ",
 {
 "source": "_build_tuple",
@@ -51895,10 +52653,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeUAdd",
-"full": "ast.UAdd"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "UAdd",
+"full": "ast.UAdd"
+}
+],
 ": ",
 {
 "source": "_build_uadd",
@@ -51907,10 +52672,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeUnaryOp",
-"full": "ast.UnaryOp"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "UnaryOp",
+"full": "ast.UnaryOp"
+}
+],
 ": ",
 {
 "source": "_build_unaryop",
@@ -51919,10 +52691,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeUSub",
-"full": "ast.USub"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "USub",
+"full": "ast.USub"
+}
+],
 ": ",
 {
 "source": "_build_usub",
@@ -51931,10 +52710,17 @@
 ],
 ", ",
 [
+[
 {
-"source": "NodeYield",
-"full": "ast.Yield"
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Yield",
+"full": "ast.Yield"
+}
+],
 ": ",
 {
 "source": "_build_yield",
@@ -52022,18 +52808,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 502,
-"endlineno": 503,
+"lineno": 434,
+"endlineno": 435,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeExtSlice",
-"full": "ast.ExtSlice"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "ExtSlice",
+"full": "ast.ExtSlice"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -52077,18 +52870,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 505,
-"endlineno": 506,
+"lineno": 437,
+"endlineno": 438,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
-"source": "NodeIndex",
-"full": "ast.Index"
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
 },
+".",
+{
+"source": "Index",
+"full": "ast.Index"
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -52150,18 +52950,25 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 512,
-"endlineno": 513,
+"lineno": 444,
+"endlineno": 445,
 "labels": [],
 "members": [],
 "decorators": [],
 "parameters": [
 {
 "name": "node",
-"annotation": {
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
+},
+".",
+{
 "source": "AST",
 "full": "ast.AST"
-},
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -52223,12 +53030,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 516,
-"endlineno": 541,
+"lineno": 448,
+"endlineno": 473,
 "docstring": {
 "value": "Build an expression from an AST.\n\nParameters:\n    node: The annotation node.\n    parent: The parent used to resolve the name.\n    parse_strings: Whether to try and parse strings as type annotations.\n\nReturns:\n    A string or resovable name or expression.",
-"lineno": 522,
-"endlineno": 531,
+"lineno": 454,
+"endlineno": 463,
 "parsed": [
 {
 "kind": "text",
@@ -52240,10 +53047,17 @@
 {
 "name": "node",
 "annotation": [
+[
+{
+"source": "ast",
+"full": "ast"
+},
+".",
 {
 "source": "AST",
 "full": "ast.AST"
-},
+}
+],
 " ",
 "|",
 " ",
@@ -52331,10 +53145,17 @@
 {
 "name": "node",
 "annotation": [
+[
+{
+"source": "ast",
+"full": "ast"
+},
+".",
 {
 "source": "AST",
 "full": "ast.AST"
-},
+}
+],
 " ",
 "|",
 " ",
@@ -52413,12 +53234,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 544,
-"endlineno": 578,
+"lineno": 476,
+"endlineno": 510,
 "docstring": {
 "value": "Safely (no exception) build a resolvable annotation.\n\nParameters:\n    node: The annotation node.\n    parent: The parent used to resolve the name.\n    parse_strings: Whether to try and parse strings as type annotations.\n    log_level: Log level to use to log a message. None to disable logging.\n    msg_format: A format string for the log message. Available placeholders:\n        path, lineno, node, error.\n\nReturns:\n    A string or resovable name or expression.",
-"lineno": 552,
-"endlineno": 564,
+"lineno": 484,
+"endlineno": 496,
 "parsed": [
 {
 "kind": "text",
@@ -52430,10 +53251,17 @@
 {
 "name": "node",
 "annotation": [
+[
+{
+"source": "ast",
+"full": "ast"
+},
+".",
 {
 "source": "AST",
 "full": "ast.AST"
-},
+}
+],
 " ",
 "|",
 " ",
@@ -52555,10 +53383,17 @@
 {
 "name": "node",
 "annotation": [
+[
+{
+"source": "ast",
+"full": "ast"
+},
+".",
 {
 "source": "AST",
 "full": "ast.AST"
-},
+}
+],
 " ",
 "|",
 " ",
@@ -52671,8 +53506,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 581,
-"endlineno": 581,
+"lineno": 513,
+"endlineno": 513,
 "labels": [
 "module-attribute"
 ],
@@ -52686,8 +53521,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 582,
-"endlineno": 582,
+"lineno": 514,
+"endlineno": 514,
 "labels": [
 "module-attribute"
 ],
@@ -52724,8 +53559,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 583,
-"endlineno": 587,
+"lineno": 515,
+"endlineno": 519,
 "labels": [
 "module-attribute"
 ],
@@ -52777,8 +53612,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 588,
-"endlineno": 588,
+"lineno": 520,
+"endlineno": 520,
 "labels": [
 "module-attribute"
 ],
@@ -52815,8 +53650,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 589,
-"endlineno": 593,
+"lineno": 521,
+"endlineno": 525,
 "labels": [
 "module-attribute"
 ],
@@ -52868,8 +53703,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 594,
-"endlineno": 594,
+"lineno": 526,
+"endlineno": 526,
 "labels": [
 "module-attribute"
 ],
@@ -52906,8 +53741,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 595,
-"endlineno": 599,
+"lineno": 527,
+"endlineno": 531,
 "labels": [
 "module-attribute"
 ],
@@ -52959,8 +53794,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_expressions.py",
 "relative_filepath": "src/griffe/agents/nodes/_expressions.py",
 "relative_package_filepath": "griffe/agents/nodes/_expressions.py",
-"lineno": 602,
-"endlineno": 611,
+"lineno": 534,
+"endlineno": 543,
 "labels": [
 "module-attribute"
 ],
@@ -53017,43 +53852,19 @@
 },
 {
 "kind": "alias",
-"name": "AST",
-"target_path": "ast.AST",
-"path": "griffe.agents.nodes._docstrings.AST",
+"name": "ast",
+"target_path": "ast",
+"path": "griffe.agents.nodes._docstrings.ast",
 "lineno": 5,
 "endlineno": 5
-},
-{
-"kind": "alias",
-"name": "NodeConstant",
-"target_path": "ast.Constant",
-"path": "griffe.agents.nodes._docstrings.NodeConstant",
-"lineno": 6,
-"endlineno": 6
-},
-{
-"kind": "alias",
-"name": "NodeExpr",
-"target_path": "ast.Expr",
-"path": "griffe.agents.nodes._docstrings.NodeExpr",
-"lineno": 7,
-"endlineno": 7
-},
-{
-"kind": "alias",
-"name": "NodeStr",
-"target_path": "ast.Str",
-"path": "griffe.agents.nodes._docstrings.NodeStr",
-"lineno": 8,
-"endlineno": 8
 },
 {
 "kind": "alias",
 "name": "get_logger",
 "target_path": "griffe.logger.get_logger",
 "path": "griffe.agents.nodes._docstrings.get_logger",
-"lineno": 10,
-"endlineno": 10
+"lineno": 7,
+"endlineno": 7
 },
 {
 "kind": "attribute",
@@ -53062,8 +53873,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_docstrings.py",
 "relative_filepath": "src/griffe/agents/nodes/_docstrings.py",
 "relative_package_filepath": "griffe/agents/nodes/_docstrings.py",
-"lineno": 12,
-"endlineno": 12,
+"lineno": 9,
+"endlineno": 9,
 "labels": [
 "module-attribute"
 ],
@@ -53090,12 +53901,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_docstrings.py",
 "relative_filepath": "src/griffe/agents/nodes/_docstrings.py",
 "relative_package_filepath": "griffe/agents/nodes/_docstrings.py",
-"lineno": 15,
-"endlineno": 41,
+"lineno": 12,
+"endlineno": 35,
 "docstring": {
 "value": "Extract a docstring.\n\nParameters:\n    node: The node to extract the docstring from.\n    strict: Whether to skip searching the body (functions).\n\nReturns:\n    A tuple with the value and line numbers of the docstring.",
-"lineno": 20,
-"endlineno": 28,
+"lineno": 17,
+"endlineno": 25,
 "parsed": [
 {
 "kind": "text",
@@ -53106,10 +53917,17 @@
 "value": [
 {
 "name": "node",
-"annotation": {
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
+},
+".",
+{
 "source": "AST",
 "full": "ast.AST"
-},
+}
+],
 "description": "The node to extract the docstring from."
 },
 {
@@ -53182,10 +54000,17 @@
 "parameters": [
 {
 "name": "node",
-"annotation": {
+"annotation": [
+{
+"source": "ast",
+"full": "ast"
+},
+".",
+{
 "source": "AST",
 "full": "ast.AST"
-},
+}
+],
 "kind": "positional or keyword",
 "default": null
 },
@@ -53249,8 +54074,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_docstrings.py",
 "relative_filepath": "src/griffe/agents/nodes/_docstrings.py",
 "relative_package_filepath": "griffe/agents/nodes/_docstrings.py",
-"lineno": 44,
-"endlineno": 44,
+"lineno": 38,
+"endlineno": 38,
 "labels": [
 "module-attribute"
 ],
