@@ -2856,7 +2856,7 @@
 "relative_filepath": "src/griffe/merger.py",
 "relative_package_filepath": "griffe/merger.py",
 "lineno": 56,
-"endlineno": 71,
+"endlineno": 73,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -2907,12 +2907,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/merger.py",
 "relative_filepath": "src/griffe/merger.py",
 "relative_package_filepath": "griffe/merger.py",
-"lineno": 74,
-"endlineno": 97,
+"lineno": 76,
+"endlineno": 99,
 "docstring": {
 "value": "Merge stubs into a module.\n\nParameters:\n    mod1: A regular module or stubs module.\n    mod2: A regular module or stubs module.\n\nRaises:\n    ValueError: When both modules are regular modules (no stubs is passed).\n\nReturns:\n    The regular module.",
-"lineno": 75,
-"endlineno": 86,
+"lineno": 77,
+"endlineno": 88,
 "parsed": [
 {
 "kind": "text",
@@ -3001,8 +3001,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/merger.py",
 "relative_filepath": "src/griffe/merger.py",
 "relative_package_filepath": "griffe/merger.py",
-"lineno": 100,
-"endlineno": 100,
+"lineno": 102,
+"endlineno": 102,
 "labels": [
 "module-attribute"
 ],
@@ -17277,7 +17277,7 @@
 "relative_filepath": "src/griffe/mixins.py",
 "relative_package_filepath": "griffe/mixins.py",
 "lineno": 135,
-"endlineno": 204,
+"endlineno": 203,
 "docstring": {
 "value": "Mixin class to share methods for setting members.",
 "lineno": 136,
@@ -17432,7 +17432,7 @@
 "relative_filepath": "src/griffe/mixins.py",
 "relative_package_filepath": "griffe/mixins.py",
 "lineno": 164,
-"endlineno": 204,
+"endlineno": 203,
 "docstring": {
 "value": "Set a member with its name or path.\n\nThis method is part of the producer API:\nyou can use it safely while building Griffe trees\n(for example in Griffe extensions).\n\nParameters:\n    key: The name or path of the member.\n    value: The member.\n\nExamples:\n    >>> griffe_object.set_member(\"foo\", foo)\n    >>> griffe_object.set_member(\"path.to.bar\", bar)\n    >>> griffe_object.set_member((\"path\", \"to\", \"qux\", qux)",
 "lineno": 165,
@@ -17573,12 +17573,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/mixins.py",
 "relative_filepath": "src/griffe/mixins.py",
 "relative_package_filepath": "griffe/mixins.py",
-"lineno": 207,
-"endlineno": 237,
+"lineno": 206,
+"endlineno": 236,
 "docstring": {
 "value": "A mixin for methods that appear both in objects and aliases, unchanged.",
-"lineno": 208,
-"endlineno": 208,
+"lineno": 207,
+"endlineno": 207,
 "parsed": [
 {
 "kind": "text",
@@ -17595,12 +17595,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/mixins.py",
 "relative_filepath": "src/griffe/mixins.py",
 "relative_package_filepath": "griffe/mixins.py",
-"lineno": 210,
-"endlineno": 219,
+"lineno": 209,
+"endlineno": 218,
 "docstring": {
 "value": "Tell if this object/alias is implicitely exported by its parent.\n\nParameters:\n    explicitely: Whether to only return True when `__all__` is defined.\n\nReturns:\n    True or False.",
-"lineno": 211,
-"endlineno": 218,
+"lineno": 210,
+"endlineno": 217,
 "parsed": [
 {
 "kind": "text",
@@ -17667,12 +17667,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/mixins.py",
 "relative_filepath": "src/griffe/mixins.py",
 "relative_package_filepath": "griffe/mixins.py",
-"lineno": 222,
-"endlineno": 228,
+"lineno": 221,
+"endlineno": 227,
 "docstring": {
 "value": "Tell if this object/alias is explicitely exported by its parent.\n\nReturns:\n    True or False.",
-"lineno": 223,
-"endlineno": 227,
+"lineno": 222,
+"endlineno": 226,
 "parsed": [
 {
 "kind": "text",
@@ -17709,12 +17709,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/mixins.py",
 "relative_filepath": "src/griffe/mixins.py",
 "relative_package_filepath": "griffe/mixins.py",
-"lineno": 231,
-"endlineno": 237,
+"lineno": 230,
+"endlineno": 236,
 "docstring": {
 "value": "Tell if this object/alias is implicitely exported by its parent.\n\nReturns:\n    True or False.",
-"lineno": 232,
-"endlineno": 236,
+"lineno": 231,
+"endlineno": 235,
 "parsed": [
 {
 "kind": "text",
@@ -17755,12 +17755,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/mixins.py",
 "relative_filepath": "src/griffe/mixins.py",
 "relative_package_filepath": "griffe/mixins.py",
-"lineno": 240,
-"endlineno": 278,
+"lineno": 239,
+"endlineno": 277,
 "docstring": {
 "value": "A mixin that adds de/serialization conveniences.",
-"lineno": 241,
-"endlineno": 241,
+"lineno": 240,
+"endlineno": 240,
 "parsed": [
 {
 "kind": "text",
@@ -17777,12 +17777,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/mixins.py",
 "relative_filepath": "src/griffe/mixins.py",
 "relative_package_filepath": "griffe/mixins.py",
-"lineno": 243,
-"endlineno": 255,
+"lineno": 242,
+"endlineno": 254,
 "docstring": {
 "value": "Return this object's data as a JSON string.\n\nParameters:\n    full: Whether to return full info, or just base info.\n    **kwargs: Additional serialization options passed to encoder.\n\nReturns:\n    A string.",
-"lineno": 244,
-"endlineno": 252,
+"lineno": 243,
+"endlineno": 251,
 "parsed": [
 {
 "kind": "text",
@@ -17867,12 +17867,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/mixins.py",
 "relative_filepath": "src/griffe/mixins.py",
 "relative_package_filepath": "griffe/mixins.py",
-"lineno": 257,
-"endlineno": 278,
+"lineno": 256,
+"endlineno": 277,
 "docstring": {
 "value": "Create an instance of this class from a JSON string.\n\nParameters:\n    json_string: JSON to decode into Object.\n    **kwargs: Additional options passed to decoder.\n\nReturns:\n    An Object instance.\n\nRaises:\n    TypeError: When the json_string does not represent and object\n        of the class from which this classmethod has been called.",
-"lineno": 259,
-"endlineno": 271,
+"lineno": 258,
+"endlineno": 270,
 "parsed": [
 {
 "kind": "text",
@@ -17937,8 +17937,8 @@
 "source": "classmethod",
 "full": "classmethod"
 },
-"lineno": 257,
-"endlineno": 257
+"lineno": 256,
+"endlineno": 256
 }
 ],
 "parameters": [
@@ -17994,8 +17994,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/mixins.py",
 "relative_filepath": "src/griffe/mixins.py",
 "relative_package_filepath": "griffe/mixins.py",
-"lineno": 281,
-"endlineno": 287,
+"lineno": 280,
+"endlineno": 286,
 "labels": [
 "module-attribute"
 ],
@@ -37354,7 +37354,7 @@
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
 "lineno": 100,
-"endlineno": 449,
+"endlineno": 453,
 "docstring": {
 "value": "This class is used to instantiate an inspector.\n\nInspectors iterate on objects members to extract data from them.",
 "lineno": 101,
@@ -37979,7 +37979,7 @@
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
 "lineno": 162,
-"endlineno": 179,
+"endlineno": 183,
 "docstring": {
 "value": "Build and return the object representing the module attached to this inspector.\n\nThis method triggers a complete inspection of the module members.\n\nParameters:\n    import_paths: Paths replacing `sys.path` to import the module.\n\nReturns:\n    A module instance.",
 "lineno": 163,
@@ -38096,12 +38096,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/inspector.py",
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
-"lineno": 181,
-"endlineno": 191,
+"lineno": 185,
+"endlineno": 195,
 "docstring": {
 "value": "Extend the base inspection with extensions.\n\nParameters:\n    node: The node to inspect.",
-"lineno": 182,
-"endlineno": 186,
+"lineno": 186,
+"endlineno": 190,
 "parsed": [
 {
 "kind": "text",
@@ -38151,12 +38151,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/inspector.py",
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
-"lineno": 193,
-"endlineno": 210,
+"lineno": 197,
+"endlineno": 214,
 "docstring": {
 "value": "Extend the base generic inspection with extensions.\n\nParameters:\n    node: The node to inspect.",
-"lineno": 194,
-"endlineno": 198,
+"lineno": 198,
+"endlineno": 202,
 "parsed": [
 {
 "kind": "text",
@@ -38206,12 +38206,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/inspector.py",
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
-"lineno": 212,
-"endlineno": 232,
+"lineno": 216,
+"endlineno": 236,
 "docstring": {
 "value": "Inspect a module.\n\nParameters:\n    node: The node to inspect.",
-"lineno": 213,
-"endlineno": 217,
+"lineno": 217,
+"endlineno": 221,
 "parsed": [
 {
 "kind": "text",
@@ -38261,12 +38261,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/inspector.py",
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
-"lineno": 234,
-"endlineno": 261,
+"lineno": 238,
+"endlineno": 265,
 "docstring": {
 "value": "Inspect a class.\n\nParameters:\n    node: The node to inspect.",
-"lineno": 235,
-"endlineno": 239,
+"lineno": 239,
+"endlineno": 243,
 "parsed": [
 {
 "kind": "text",
@@ -38316,12 +38316,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/inspector.py",
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
-"lineno": 263,
-"endlineno": 269,
+"lineno": 267,
+"endlineno": 273,
 "docstring": {
 "value": "Inspect a static method.\n\nParameters:\n    node: The node to inspect.",
-"lineno": 264,
-"endlineno": 268,
+"lineno": 268,
+"endlineno": 272,
 "parsed": [
 {
 "kind": "text",
@@ -38371,12 +38371,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/inspector.py",
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
-"lineno": 271,
-"endlineno": 277,
+"lineno": 275,
+"endlineno": 281,
 "docstring": {
 "value": "Inspect a class method.\n\nParameters:\n    node: The node to inspect.",
-"lineno": 272,
-"endlineno": 276,
+"lineno": 276,
+"endlineno": 280,
 "parsed": [
 {
 "kind": "text",
@@ -38426,12 +38426,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/inspector.py",
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
-"lineno": 279,
-"endlineno": 285,
+"lineno": 283,
+"endlineno": 289,
 "docstring": {
 "value": "Inspect a method descriptor.\n\nParameters:\n    node: The node to inspect.",
-"lineno": 280,
-"endlineno": 284,
+"lineno": 284,
+"endlineno": 288,
 "parsed": [
 {
 "kind": "text",
@@ -38481,12 +38481,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/inspector.py",
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
-"lineno": 287,
-"endlineno": 293,
+"lineno": 291,
+"endlineno": 297,
 "docstring": {
 "value": "Inspect a builtin method.\n\nParameters:\n    node: The node to inspect.",
-"lineno": 288,
-"endlineno": 292,
+"lineno": 292,
+"endlineno": 296,
 "parsed": [
 {
 "kind": "text",
@@ -38536,12 +38536,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/inspector.py",
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
-"lineno": 295,
-"endlineno": 301,
+"lineno": 299,
+"endlineno": 305,
 "docstring": {
 "value": "Inspect a method.\n\nParameters:\n    node: The node to inspect.",
-"lineno": 296,
-"endlineno": 300,
+"lineno": 300,
+"endlineno": 304,
 "parsed": [
 {
 "kind": "text",
@@ -38591,12 +38591,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/inspector.py",
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
-"lineno": 303,
-"endlineno": 309,
+"lineno": 307,
+"endlineno": 313,
 "docstring": {
 "value": "Inspect a coroutine.\n\nParameters:\n    node: The node to inspect.",
-"lineno": 304,
-"endlineno": 308,
+"lineno": 308,
+"endlineno": 312,
 "parsed": [
 {
 "kind": "text",
@@ -38646,12 +38646,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/inspector.py",
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
-"lineno": 311,
-"endlineno": 317,
+"lineno": 315,
+"endlineno": 321,
 "docstring": {
 "value": "Inspect a builtin function.\n\nParameters:\n    node: The node to inspect.",
-"lineno": 312,
-"endlineno": 316,
+"lineno": 316,
+"endlineno": 320,
 "parsed": [
 {
 "kind": "text",
@@ -38701,12 +38701,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/inspector.py",
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
-"lineno": 319,
-"endlineno": 325,
+"lineno": 323,
+"endlineno": 329,
 "docstring": {
 "value": "Inspect a function.\n\nParameters:\n    node: The node to inspect.",
-"lineno": 320,
-"endlineno": 324,
+"lineno": 324,
+"endlineno": 328,
 "parsed": [
 {
 "kind": "text",
@@ -38756,12 +38756,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/inspector.py",
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
-"lineno": 327,
-"endlineno": 334,
+"lineno": 331,
+"endlineno": 338,
 "docstring": {
 "value": "Inspect a cached property.\n\nParameters:\n    node: The node to inspect.",
-"lineno": 328,
-"endlineno": 332,
+"lineno": 332,
+"endlineno": 336,
 "parsed": [
 {
 "kind": "text",
@@ -38811,12 +38811,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/inspector.py",
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
-"lineno": 336,
-"endlineno": 342,
+"lineno": 340,
+"endlineno": 346,
 "docstring": {
 "value": "Inspect a property.\n\nParameters:\n    node: The node to inspect.",
-"lineno": 337,
-"endlineno": 341,
+"lineno": 341,
+"endlineno": 345,
 "parsed": [
 {
 "kind": "text",
@@ -38866,12 +38866,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/inspector.py",
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
-"lineno": 344,
-"endlineno": 394,
+"lineno": 348,
+"endlineno": 398,
 "docstring": {
 "value": "Handle a function.\n\nParameters:\n    node: The node to inspect.\n    labels: Labels to add to the data object.",
-"lineno": 345,
-"endlineno": 350,
+"lineno": 349,
+"endlineno": 354,
 "parsed": [
 {
 "kind": "text",
@@ -38951,12 +38951,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/inspector.py",
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
-"lineno": 396,
-"endlineno": 402,
+"lineno": 400,
+"endlineno": 406,
 "docstring": {
 "value": "Inspect an attribute.\n\nParameters:\n    node: The node to inspect.",
-"lineno": 397,
-"endlineno": 401,
+"lineno": 401,
+"endlineno": 405,
 "parsed": [
 {
 "kind": "text",
@@ -39006,12 +39006,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/inspector.py",
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
-"lineno": 404,
-"endlineno": 449,
+"lineno": 408,
+"endlineno": 453,
 "docstring": {
 "value": "Handle an attribute.\n\nParameters:\n    node: The node to inspect.\n    annotation: A potentiel annotation.",
-"lineno": 405,
-"endlineno": 410,
+"lineno": 409,
+"endlineno": 414,
 "parsed": [
 {
 "kind": "text",
@@ -39131,8 +39131,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/inspector.py",
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
-"lineno": 452,
-"endlineno": 458,
+"lineno": 456,
+"endlineno": 462,
 "labels": [
 "module-attribute"
 ],
@@ -39280,8 +39280,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/inspector.py",
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
-"lineno": 461,
-"endlineno": 474,
+"lineno": 465,
+"endlineno": 478,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -39326,8 +39326,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/inspector.py",
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
-"lineno": 477,
-"endlineno": 494,
+"lineno": 481,
+"endlineno": 498,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -39396,8 +39396,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/inspector.py",
 "relative_filepath": "src/griffe/agents/inspector.py",
 "relative_package_filepath": "griffe/agents/inspector.py",
-"lineno": 497,
-"endlineno": 497,
+"lineno": 501,
+"endlineno": 501,
 "labels": [
 "module-attribute"
 ],
@@ -40390,7 +40390,7 @@
 "relative_filepath": "src/griffe/agents/nodes/_runtime.py",
 "relative_package_filepath": "griffe/agents/nodes/_runtime.py",
 "lineno": 57,
-"endlineno": 361,
+"endlineno": 360,
 "docstring": {
 "value": "Helper class to represent an object tree.\n\nIt's not really a tree but more a backward-linked list:\neach node has a reference to its parent, but not to its child (for simplicity purposes and to avoid bugs).\n\nEach node stores an object, its name, and a reference to its parent node.\n\nAttributes:\n    obj: The actual Python object.\n    name: The Python object's name.\n    parent: The parent node.",
 "lineno": 58,
@@ -41465,7 +41465,7 @@
 "relative_filepath": "src/griffe/agents/nodes/_runtime.py",
 "relative_package_filepath": "griffe/agents/nodes/_runtime.py",
 "lineno": 309,
-"endlineno": 361,
+"endlineno": 360,
 "docstring": {
 "value": "Alias target path of this node, if the node should be an alias.",
 "lineno": 310,
@@ -41504,8 +41504,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/agents/nodes/_runtime.py",
 "relative_filepath": "src/griffe/agents/nodes/_runtime.py",
 "relative_package_filepath": "griffe/agents/nodes/_runtime.py",
-"lineno": 364,
-"endlineno": 364,
+"lineno": 363,
+"endlineno": 363,
 "labels": [
 "module-attribute"
 ],
