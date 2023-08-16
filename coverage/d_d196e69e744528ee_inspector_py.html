@@ -66,8 +66,8 @@
             <a id="indexLink" class="nav" href="covindex.html">&Hat; index</a> &nbsp; &nbsp;
             <a id="nextFileLink" class="nav" href="d_ac2f1acd38b0d2bf___init___py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
-            <a class="nav" href="https://coverage.readthedocs.io/en/7.2.7">coverage.py v7.2.7</a>,
-            created at 2023-07-17 14:38 +0200
+            <a class="nav" href="https://coverage.readthedocs.io/en/7.3.0">coverage.py v7.3.0</a>,
+            created at 2023-08-16 14:25 +0200
         </p>
         <aside class="hidden">
             <button type="button" class="button_next_chunk" data-shortcut="j"/>
@@ -132,7 +132,7 @@
     <p class="exc show_exc"><span class="n"><a id="t48" href="#t48">48</a></span><span class="t">    <span class="key">from</span> <span class="nam">pathlib</span> <span class="key">import</span> <span class="nam">Path</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t49" href="#t49">49</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="exc show_exc"><span class="n"><a id="t50" href="#t50">50</a></span><span class="t">    <span class="key">from</span> <span class="nam">griffe</span><span class="op">.</span><span class="nam">docstrings</span><span class="op">.</span><span class="nam">parsers</span> <span class="key">import</span> <span class="nam">Parser</span>&nbsp;</span><span class="r"></span></p>
-    <p class="exc show_exc"><span class="n"><a id="t51" href="#t51">51</a></span><span class="t">    <span class="key">from</span> <span class="nam">griffe</span><span class="op">.</span><span class="nam">expressions</span> <span class="key">import</span> <span class="nam">Expression</span><span class="op">,</span> <span class="nam">Name</span>&nbsp;</span><span class="r"></span></p>
+    <p class="exc show_exc"><span class="n"><a id="t51" href="#t51">51</a></span><span class="t">    <span class="key">from</span> <span class="nam">griffe</span><span class="op">.</span><span class="nam">expressions</span> <span class="key">import</span> <span class="nam">Expr</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t52" href="#t52">52</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t53" href="#t53">53</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t54" href="#t54">54</a></span><span class="t"><span class="nam">empty</span> <span class="op">=</span> <span class="nam">Signature</span><span class="op">.</span><span class="nam">empty</span>&nbsp;</span><span class="r"></span></p>
@@ -489,7 +489,7 @@
     <p class="pln"><span class="n"><a id="t405" href="#t405">405</a></span><span class="t"><span class="str">        """</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t406" href="#t406">406</a></span><span class="t">        <span class="nam">self</span><span class="op">.</span><span class="nam">handle_attribute</span><span class="op">(</span><span class="nam">node</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t407" href="#t407">407</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t408" href="#t408">408</a></span><span class="t">    <span class="key">def</span> <span class="nam">handle_attribute</span><span class="op">(</span><span class="nam">self</span><span class="op">,</span> <span class="nam">node</span><span class="op">:</span> <span class="nam">ObjectNode</span><span class="op">,</span> <span class="nam">annotation</span><span class="op">:</span> <span class="nam">str</span> <span class="op">|</span> <span class="nam">Name</span> <span class="op">|</span> <span class="nam">Expression</span> <span class="op">|</span> <span class="key">None</span> <span class="op">=</span> <span class="key">None</span><span class="op">)</span> <span class="op">-></span> <span class="key">None</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t408" href="#t408">408</a></span><span class="t">    <span class="key">def</span> <span class="nam">handle_attribute</span><span class="op">(</span><span class="nam">self</span><span class="op">,</span> <span class="nam">node</span><span class="op">:</span> <span class="nam">ObjectNode</span><span class="op">,</span> <span class="nam">annotation</span><span class="op">:</span> <span class="nam">str</span> <span class="op">|</span> <span class="nam">Expr</span> <span class="op">|</span> <span class="key">None</span> <span class="op">=</span> <span class="key">None</span><span class="op">)</span> <span class="op">-></span> <span class="key">None</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t409" href="#t409">409</a></span><span class="t">        <span class="str">"""Handle an attribute.</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t410" href="#t410">410</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t411" href="#t411">411</a></span><span class="t"><span class="str">        Parameters:</span>&nbsp;</span><span class="r"></span></p>
@@ -562,7 +562,7 @@
     <p class="run"><span class="n"><a id="t478" href="#t478">478</a></span><span class="t">    <span class="key">return</span> <span class="nam">Parameter</span><span class="op">(</span><span class="nam">name</span><span class="op">,</span> <span class="nam">annotation</span><span class="op">=</span><span class="nam">annotation</span><span class="op">,</span> <span class="nam">kind</span><span class="op">=</span><span class="nam">kind</span><span class="op">,</span> <span class="nam">default</span><span class="op">=</span><span class="nam">default</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t479" href="#t479">479</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t480" href="#t480">480</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t481" href="#t481">481</a></span><span class="t"><span class="key">def</span> <span class="nam">_convert_object_to_annotation</span><span class="op">(</span><span class="nam">obj</span><span class="op">:</span> <span class="nam">Any</span><span class="op">,</span> <span class="nam">parent</span><span class="op">:</span> <span class="nam">Module</span> <span class="op">|</span> <span class="nam">Class</span><span class="op">)</span> <span class="op">-></span> <span class="nam">str</span> <span class="op">|</span> <span class="nam">Name</span> <span class="op">|</span> <span class="nam">Expression</span> <span class="op">|</span> <span class="key">None</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t481" href="#t481">481</a></span><span class="t"><span class="key">def</span> <span class="nam">_convert_object_to_annotation</span><span class="op">(</span><span class="nam">obj</span><span class="op">:</span> <span class="nam">Any</span><span class="op">,</span> <span class="nam">parent</span><span class="op">:</span> <span class="nam">Module</span> <span class="op">|</span> <span class="nam">Class</span><span class="op">)</span> <span class="op">-></span> <span class="nam">str</span> <span class="op">|</span> <span class="nam">Expr</span> <span class="op">|</span> <span class="key">None</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t482" href="#t482">482</a></span><span class="t">    <span class="com"># even when *we* import future annotations,</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t483" href="#t483">483</a></span><span class="t">    <span class="com"># the object from which we get a signature</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t484" href="#t484">484</a></span><span class="t">    <span class="com"># can come from modules which did *not* import them,</span>&nbsp;</span><span class="r"></span></p>
@@ -591,8 +591,8 @@
             <a id="indexLink" class="nav" href="covindex.html">&Hat; index</a> &nbsp; &nbsp;
             <a id="nextFileLink" class="nav" href="d_ac2f1acd38b0d2bf___init___py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
-            <a class="nav" href="https://coverage.readthedocs.io/en/7.2.7">coverage.py v7.2.7</a>,
-            created at 2023-07-17 14:38 +0200
+            <a class="nav" href="https://coverage.readthedocs.io/en/7.3.0">coverage.py v7.3.0</a>,
+            created at 2023-08-16 14:25 +0200
         </p>
     </div>
 </footer>

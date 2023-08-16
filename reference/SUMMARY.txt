@@ -16,6 +16,7 @@
         * [<code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> sphinx](griffe/docstrings/sphinx.md)
         * [<code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> utils](griffe/docstrings/utils.md)
     * [<code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> encoders](griffe/encoders.md)
+    * [<code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> enumerations](griffe/enumerations.md)
     * [<code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> exceptions](griffe/exceptions.md)
     * [<code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> expressions](griffe/expressions.md)
     * [<code class="doc-symbol doc-symbol-nav doc-symbol-module"></code> extensions](griffe/extensions/index.md)
