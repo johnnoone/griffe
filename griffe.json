@@ -62708,43 +62708,51 @@
 },
 {
 "kind": "alias",
+"name": "LogLevel",
+"target_path": "griffe.logger.LogLevel",
+"path": "griffe.docstrings.google.LogLevel",
+"lineno": 40,
+"endlineno": 40
+},
+{
+"kind": "alias",
 "name": "Any",
 "target_path": "typing.Any",
 "path": "griffe.docstrings.google.Any",
-"lineno": 42,
-"endlineno": 42
+"lineno": 43,
+"endlineno": 43
 },
 {
 "kind": "alias",
 "name": "Literal",
 "target_path": "typing.Literal",
 "path": "griffe.docstrings.google.Literal",
-"lineno": 42,
-"endlineno": 42
+"lineno": 43,
+"endlineno": 43
 },
 {
 "kind": "alias",
 "name": "Pattern",
 "target_path": "typing.Pattern",
 "path": "griffe.docstrings.google.Pattern",
-"lineno": 42,
-"endlineno": 42
+"lineno": 43,
+"endlineno": 43
 },
 {
 "kind": "alias",
 "name": "Docstring",
 "target_path": "griffe.dataclasses.Docstring",
 "path": "griffe.docstrings.google.Docstring",
-"lineno": 44,
-"endlineno": 44
+"lineno": 45,
+"endlineno": 45
 },
 {
 "kind": "alias",
 "name": "Expr",
 "target_path": "griffe.expressions.Expr",
 "path": "griffe.docstrings.google.Expr",
-"lineno": 45,
-"endlineno": 45
+"lineno": 46,
+"endlineno": 46
 },
 {
 "kind": "attribute",
@@ -62753,8 +62761,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 47,
-"endlineno": 47,
+"lineno": 48,
+"endlineno": 48,
 "labels": [
 "module-attribute"
 ],
@@ -62780,8 +62788,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 49,
-"endlineno": 73,
+"lineno": 50,
+"endlineno": 74,
 "labels": [
 "module-attribute"
 ],
@@ -63123,8 +63131,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 75,
-"endlineno": 75,
+"lineno": 76,
+"endlineno": 76,
 "labels": [
 "module-attribute"
 ],
@@ -63165,8 +63173,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 76,
-"endlineno": 76,
+"lineno": 77,
+"endlineno": 77,
 "labels": [
 "module-attribute"
 ],
@@ -63190,8 +63198,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 77,
-"endlineno": 77,
+"lineno": 78,
+"endlineno": 78,
 "labels": [
 "module-attribute"
 ],
@@ -63225,8 +63233,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 79,
-"endlineno": 79,
+"lineno": 80,
+"endlineno": 80,
 "labels": [
 "module-attribute"
 ],
@@ -63275,8 +63283,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 80,
-"endlineno": 80,
+"lineno": 81,
+"endlineno": 81,
 "labels": [
 "module-attribute"
 ],
@@ -63312,8 +63320,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 81,
-"endlineno": 81,
+"lineno": 82,
+"endlineno": 82,
 "labels": [
 "module-attribute"
 ],
@@ -63349,8 +63357,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 82,
-"endlineno": 82,
+"lineno": 83,
+"endlineno": 83,
 "labels": [
 "module-attribute"
 ],
@@ -63386,8 +63394,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 85,
-"endlineno": 145,
+"lineno": 86,
+"endlineno": 146,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -63432,8 +63440,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 148,
-"endlineno": 176,
+"lineno": 149,
+"endlineno": 177,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -63495,8 +63503,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 179,
-"endlineno": 238,
+"lineno": 180,
+"endlineno": 239,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -63574,8 +63582,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 241,
-"endlineno": 253,
+"lineno": 242,
+"endlineno": 249,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -63642,8 +63650,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 256,
-"endlineno": 269,
+"lineno": 252,
+"endlineno": 260,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -63719,8 +63727,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 272,
-"endlineno": 309,
+"lineno": 263,
+"endlineno": 296,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -63787,8 +63795,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 312,
-"endlineno": 344,
+"lineno": 299,
+"endlineno": 327,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -63855,8 +63863,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 347,
-"endlineno": 379,
+"lineno": 330,
+"endlineno": 358,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -63923,8 +63931,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 382,
-"endlineno": 404,
+"lineno": 361,
+"endlineno": 379,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -63991,8 +63999,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 407,
-"endlineno": 432,
+"lineno": 382,
+"endlineno": 403,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -64059,8 +64067,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 435,
-"endlineno": 457,
+"lineno": 406,
+"endlineno": 424,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -64127,8 +64135,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 460,
-"endlineno": 523,
+"lineno": 427,
+"endlineno": 486,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -64204,8 +64212,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 526,
-"endlineno": 574,
+"lineno": 489,
+"endlineno": 533,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -64272,8 +64280,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 577,
-"endlineno": 621,
+"lineno": 536,
+"endlineno": 576,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -64340,8 +64348,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 624,
-"endlineno": 684,
+"lineno": 579,
+"endlineno": 635,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -64417,8 +64425,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 687,
-"endlineno": 713,
+"lineno": 638,
+"endlineno": 659,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -64485,8 +64493,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 716,
-"endlineno": 717,
+"lineno": 662,
+"endlineno": 663,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -64513,8 +64521,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 720,
-"endlineno": 734,
+"lineno": 666,
+"endlineno": 680,
 "labels": [
 "module-attribute"
 ],
@@ -64749,18 +64757,40 @@
 }
 },
 {
+"kind": "attribute",
+"name": "_sentinel",
+"path": "griffe.docstrings.google._sentinel",
+"filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
+"relative_filepath": "src/griffe/docstrings/google.py",
+"relative_package_filepath": "griffe/docstrings/google.py",
+"lineno": 682,
+"endlineno": 682,
+"labels": [
+"module-attribute"
+],
+"members": [],
+"value": {
+"arguments": [],
+"function": {
+"name": "object",
+"cls": "ExprName"
+},
+"cls": "ExprCall"
+}
+},
+{
 "kind": "function",
 "name": "parse",
 "path": "griffe.docstrings.google.parse",
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 737,
-"endlineno": 836,
+"lineno": 685,
+"endlineno": 818,
 "docstring": {
 "value": "Parse a docstring.\n\nThis function iterates on lines of a docstring to build sections.\nIt then returns this list of sections.\n\nParameters:\n    docstring: The docstring to parse.\n    ignore_init_summary: Whether to ignore the summary in `__init__` methods' docstrings.\n    trim_doctest_flags: Whether to remove doctest flags from Python example blocks.\n    returns_multiple_items: Whether the `Returns` section has multiple items.\n    warn_unknown_params: Warn about documented parameters not appearing in the signature.\n    **options: Additional parsing options.\n\nReturns:\n    A list of docstring sections.",
-"lineno": 746,
-"endlineno": 761,
+"lineno": 694,
+"endlineno": 709,
 "parsed": [
 {
 "kind": "text",
@@ -64924,8 +64954,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 839,
-"endlineno": 839,
+"lineno": 821,
+"endlineno": 821,
 "labels": [
 "module-attribute"
 ],
@@ -69630,9 +69660,9 @@
 },
 {
 "kind": "alias",
-"name": "Callable",
-"target_path": "typing.Callable",
-"path": "griffe.docstrings.utils.Callable",
+"name": "Protocol",
+"target_path": "typing.Protocol",
+"path": "griffe.docstrings.utils.Protocol",
 "lineno": 7,
 "endlineno": 7
 },
@@ -69677,18 +69707,96 @@
 "endlineno": 14
 },
 {
+"kind": "class",
+"name": "WarningCallable",
+"path": "griffe.docstrings.utils.WarningCallable",
+"filepath": "/media/data/dev/griffe/src/griffe/docstrings/utils.py",
+"relative_filepath": "src/griffe/docstrings/utils.py",
+"relative_package_filepath": "griffe/docstrings/utils.py",
+"lineno": 17,
+"endlineno": 19,
+"labels": [],
+"members": [
+{
+"kind": "function",
+"name": "__call__",
+"path": "griffe.docstrings.utils.WarningCallable.__call__",
+"filepath": "/media/data/dev/griffe/src/griffe/docstrings/utils.py",
+"relative_filepath": "src/griffe/docstrings/utils.py",
+"relative_package_filepath": "griffe/docstrings/utils.py",
+"lineno": 18,
+"endlineno": 19,
+"labels": [],
+"members": [],
+"decorators": [],
+"parameters": [
+{
+"name": "self",
+"annotation": null,
+"kind": "positional or keyword",
+"default": null
+},
+{
+"name": "docstring",
+"annotation": {
+"name": "Docstring",
+"cls": "ExprName"
+},
+"kind": "positional or keyword",
+"default": null
+},
+{
+"name": "offset",
+"annotation": {
+"name": "int",
+"cls": "ExprName"
+},
+"kind": "positional or keyword",
+"default": null
+},
+{
+"name": "message",
+"annotation": {
+"name": "str",
+"cls": "ExprName"
+},
+"kind": "positional or keyword",
+"default": null
+},
+{
+"name": "log_level",
+"annotation": {
+"name": "LogLevel",
+"cls": "ExprName"
+},
+"kind": "positional or keyword",
+"default": "..."
+}
+],
+"returns": "None"
+}
+],
+"bases": [
+{
+"name": "Protocol",
+"cls": "ExprName"
+}
+],
+"decorators": []
+},
+{
 "kind": "function",
 "name": "warning",
 "path": "griffe.docstrings.utils.warning",
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/utils.py",
 "relative_filepath": "src/griffe/docstrings/utils.py",
 "relative_package_filepath": "griffe/docstrings/utils.py",
-"lineno": 17,
-"endlineno": 42,
+"lineno": 22,
+"endlineno": 48,
 "docstring": {
 "value": "Create and return a warn function.\n\nParameters:\n    name: The logger name.\n\nReturns:\n    A function used to log parsing warnings.\n\nThis function logs a warning message by prefixing it with the filepath and line number.\n\nOther parameters: Parameters of the returned function:\n    docstring (Docstring): The docstring object.\n    offset (int): The offset in the docstring lines.\n    message (str): The message to log.",
-"lineno": 18,
-"endlineno": 32,
+"lineno": 23,
+"endlineno": 37,
 "parsed": [
 {
 "kind": "text",
@@ -69713,35 +69821,8 @@
 {
 "name": "",
 "annotation": {
-"left": {
-"name": "Callable",
+"name": "WarningCallable",
 "cls": "ExprName"
-},
-"slice": {
-"elements": [
-{
-"elements": [
-{
-"name": "Docstring",
-"cls": "ExprName"
-},
-{
-"name": "int",
-"cls": "ExprName"
-},
-{
-"name": "str",
-"cls": "ExprName"
-}
-],
-"cls": "ExprList"
-},
-"None"
-],
-"implicit": true,
-"cls": "ExprTuple"
-},
-"cls": "ExprSubscript"
 },
 "description": "A function used to log parsing warnings."
 }
@@ -69798,35 +69879,8 @@
 }
 ],
 "returns": {
-"left": {
-"name": "Callable",
+"name": "WarningCallable",
 "cls": "ExprName"
-},
-"slice": {
-"elements": [
-{
-"elements": [
-{
-"name": "Docstring",
-"cls": "ExprName"
-},
-{
-"name": "int",
-"cls": "ExprName"
-},
-{
-"name": "str",
-"cls": "ExprName"
-}
-],
-"cls": "ExprList"
-},
-"None"
-],
-"implicit": true,
-"cls": "ExprTuple"
-},
-"cls": "ExprSubscript"
 }
 },
 {
@@ -69836,12 +69890,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/utils.py",
 "relative_filepath": "src/griffe/docstrings/utils.py",
 "relative_package_filepath": "griffe/docstrings/utils.py",
-"lineno": 45,
-"endlineno": 73,
+"lineno": 51,
+"endlineno": 79,
 "docstring": {
 "value": "Parse a string into a true name or expression that can be resolved later.\n\nParameters:\n    annotation: The annotation to parse.\n    docstring: The docstring in which the annotation appears.\n        The docstring's parent is accessed to bind a resolver to the resulting name/expression.\n    log_level: Log level to use to log a message.\n\nReturns:\n    The string unchanged, or a new name or expression.",
-"lineno": 50,
-"endlineno": 60,
+"lineno": 56,
+"endlineno": 66,
 "parsed": [
 {
 "kind": "text",
@@ -69976,8 +70030,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/utils.py",
 "relative_filepath": "src/griffe/docstrings/utils.py",
 "relative_package_filepath": "griffe/docstrings/utils.py",
-"lineno": 76,
-"endlineno": 76,
+"lineno": 82,
+"endlineno": 82,
 "labels": [
 "module-attribute"
 ],

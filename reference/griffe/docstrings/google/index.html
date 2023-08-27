@@ -7,7 +7,59 @@
     <span class=n>warn_unknown_params</span><span class=p>:</span> <span class=n><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a></span> <span class=o>=</span> <span class=kc>True</span><span class=p>,</span>
     <span class=o>**</span><span class=n>options</span><span class=p>:</span> <span class=n><a class="autorefs autorefs-external" title="typing.Any" href="https://docs.python.org/3/library/typing.html#typing.Any">Any</a></span>
 <span class=p>)</span> <span class=o>-&gt;</span> <span class=n><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#list">list</a></span><span class=p>[</span><span class=n><a class="autorefs autorefs-internal" title="griffe.docstrings.dataclasses.DocstringSection" href="../dataclasses/#griffe.docstrings.dataclasses.DocstringSection">DocstringSection</a></span><span class=p>]</span>
-</code></pre></div> <div class="doc doc-contents "> <p>Parse a docstring.</p> <p>This function iterates on lines of a docstring to build sections. It then returns this list of sections.</p> <p>Parameters:</p> <ul> <li class=field-body> <b>docstring</b> (<code><a class="autorefs autorefs-internal" title="griffe.dataclasses.Docstring" href="../../dataclasses/#griffe.dataclasses.Docstring">Docstring</a></code>) – <div class=doc-md-description> <p>The docstring to parse.</p> </div> </li> <li class=field-body> <b>ignore_init_summary</b> (<code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a></code>, default: <code>False</code> ) – <div class=doc-md-description> <p>Whether to ignore the summary in <code>__init__</code> methods' docstrings.</p> </div> </li> <li class=field-body> <b>trim_doctest_flags</b> (<code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a></code>, default: <code>True</code> ) – <div class=doc-md-description> <p>Whether to remove doctest flags from Python example blocks.</p> </div> </li> <li class=field-body> <b>returns_multiple_items</b> (<code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a></code>, default: <code>True</code> ) – <div class=doc-md-description> <p>Whether the <code>Returns</code> section has multiple items.</p> </div> </li> <li class=field-body> <b>warn_unknown_params</b> (<code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a></code>, default: <code>True</code> ) – <div class=doc-md-description> <p>Warn about documented parameters not appearing in the signature.</p> </div> </li> <li class=field-body> <b>**options</b> (<code><a class="autorefs autorefs-external" title="typing.Any" href="https://docs.python.org/3/library/typing.html#typing.Any">Any</a></code>, default: <code>{}</code> ) – <div class=doc-md-description> <p>Additional parsing options.</p> </div> </li> </ul> <p>Returns:</p> <ul> <li class=field-body> <code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#list">list</a>[<a class="autorefs autorefs-internal" title="griffe.docstrings.dataclasses.DocstringSection" href="../dataclasses/#griffe.docstrings.dataclasses.DocstringSection">DocstringSection</a>]</code> – <div class=doc-md-description> <p>A list of docstring sections.</p> </div> </li> </ul> <details class=quote> <summary>Source code in <code>src/griffe/docstrings/google.py</code></summary> <div class=highlight><table class=highlighttable><tr><td class=linenos><div class=linenodiv><pre><span></span><span class=normal>737</span>
+</code></pre></div> <div class="doc doc-contents "> <p>Parse a docstring.</p> <p>This function iterates on lines of a docstring to build sections. It then returns this list of sections.</p> <p>Parameters:</p> <ul> <li class=field-body> <b>docstring</b> (<code><a class="autorefs autorefs-internal" title="griffe.dataclasses.Docstring" href="../../dataclasses/#griffe.dataclasses.Docstring">Docstring</a></code>) – <div class=doc-md-description> <p>The docstring to parse.</p> </div> </li> <li class=field-body> <b>ignore_init_summary</b> (<code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a></code>, default: <code>False</code> ) – <div class=doc-md-description> <p>Whether to ignore the summary in <code>__init__</code> methods' docstrings.</p> </div> </li> <li class=field-body> <b>trim_doctest_flags</b> (<code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a></code>, default: <code>True</code> ) – <div class=doc-md-description> <p>Whether to remove doctest flags from Python example blocks.</p> </div> </li> <li class=field-body> <b>returns_multiple_items</b> (<code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a></code>, default: <code>True</code> ) – <div class=doc-md-description> <p>Whether the <code>Returns</code> section has multiple items.</p> </div> </li> <li class=field-body> <b>warn_unknown_params</b> (<code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a></code>, default: <code>True</code> ) – <div class=doc-md-description> <p>Warn about documented parameters not appearing in the signature.</p> </div> </li> <li class=field-body> <b>**options</b> (<code><a class="autorefs autorefs-external" title="typing.Any" href="https://docs.python.org/3/library/typing.html#typing.Any">Any</a></code>, default: <code>{}</code> ) – <div class=doc-md-description> <p>Additional parsing options.</p> </div> </li> </ul> <p>Returns:</p> <ul> <li class=field-body> <code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#list">list</a>[<a class="autorefs autorefs-internal" title="griffe.docstrings.dataclasses.DocstringSection" href="../dataclasses/#griffe.docstrings.dataclasses.DocstringSection">DocstringSection</a>]</code> – <div class=doc-md-description> <p>A list of docstring sections.</p> </div> </li> </ul> <details class=quote> <summary>Source code in <code>src/griffe/docstrings/google.py</code></summary> <div class=highlight><table class=highlighttable><tr><td class=linenos><div class=linenodiv><pre><span></span><span class=normal>685</span>
+<span class=normal>686</span>
+<span class=normal>687</span>
+<span class=normal>688</span>
+<span class=normal>689</span>
+<span class=normal>690</span>
+<span class=normal>691</span>
+<span class=normal>692</span>
+<span class=normal>693</span>
+<span class=normal>694</span>
+<span class=normal>695</span>
+<span class=normal>696</span>
+<span class=normal>697</span>
+<span class=normal>698</span>
+<span class=normal>699</span>
+<span class=normal>700</span>
+<span class=normal>701</span>
+<span class=normal>702</span>
+<span class=normal>703</span>
+<span class=normal>704</span>
+<span class=normal>705</span>
+<span class=normal>706</span>
+<span class=normal>707</span>
+<span class=normal>708</span>
+<span class=normal>709</span>
+<span class=normal>710</span>
+<span class=normal>711</span>
+<span class=normal>712</span>
+<span class=normal>713</span>
+<span class=normal>714</span>
+<span class=normal>715</span>
+<span class=normal>716</span>
+<span class=normal>717</span>
+<span class=normal>718</span>
+<span class=normal>719</span>
+<span class=normal>720</span>
+<span class=normal>721</span>
+<span class=normal>722</span>
+<span class=normal>723</span>
+<span class=normal>724</span>
+<span class=normal>725</span>
+<span class=normal>726</span>
+<span class=normal>727</span>
+<span class=normal>728</span>
+<span class=normal>729</span>
+<span class=normal>730</span>
+<span class=normal>731</span>
+<span class=normal>732</span>
+<span class=normal>733</span>
+<span class=normal>734</span>
+<span class=normal>735</span>
+<span class=normal>736</span>
+<span class=normal>737</span>
 <span class=normal>738</span>
 <span class=normal>739</span>
 <span class=normal>740</span>
@@ -88,25 +140,7 @@
 <span class=normal>815</span>
 <span class=normal>816</span>
 <span class=normal>817</span>
-<span class=normal>818</span>
-<span class=normal>819</span>
-<span class=normal>820</span>
-<span class=normal>821</span>
-<span class=normal>822</span>
-<span class=normal>823</span>
-<span class=normal>824</span>
-<span class=normal>825</span>
-<span class=normal>826</span>
-<span class=normal>827</span>
-<span class=normal>828</span>
-<span class=normal>829</span>
-<span class=normal>830</span>
-<span class=normal>831</span>
-<span class=normal>832</span>
-<span class=normal>833</span>
-<span class=normal>834</span>
-<span class=normal>835</span>
-<span class=normal>836</span></pre></div></td><td class=code><div><pre><span></span><code><span class=k>def</span> <span class=nf>parse</span><span class=p>(</span>
+<span class=normal>818</span></pre></div></td><td class=code><div><pre><span></span><code><span class=k>def</span> <span class=nf>parse</span><span class=p>(</span>
     <span class=n>docstring</span><span class=p>:</span> <span class=n>Docstring</span><span class=p>,</span>
     <span class=o>*</span><span class=p>,</span>
     <span class=n>ignore_init_summary</span><span class=p>:</span> <span class=nb>bool</span> <span class=o>=</span> <span class=kc>False</span><span class=p>,</span>
@@ -172,7 +206,41 @@
             <span class=n>groups</span> <span class=o>=</span> <span class=n>match</span><span class=o>.</span><span class=n>groupdict</span><span class=p>()</span>
             <span class=n>title</span> <span class=o>=</span> <span class=n>groups</span><span class=p>[</span><span class=s2>&quot;title&quot;</span><span class=p>]</span>
             <span class=n>admonition_type</span> <span class=o>=</span> <span class=n>groups</span><span class=p>[</span><span class=s2>&quot;type&quot;</span><span class=p>]</span>
-            <span class=k>if</span> <span class=n>admonition_type</span><span class=o>.</span><span class=n>lower</span><span class=p>()</span> <span class=ow>in</span> <span class=n>_section_kind</span><span class=p>:</span>
+            <span class=n>is_section</span> <span class=o>=</span> <span class=n>admonition_type</span><span class=o>.</span><span class=n>lower</span><span class=p>()</span> <span class=ow>in</span> <span class=n>_section_kind</span>
+
+            <span class=n>has_previous_line</span> <span class=o>=</span> <span class=n>offset</span> <span class=o>&gt;</span> <span class=mi>0</span>
+            <span class=n>blank_line_above</span> <span class=o>=</span> <span class=ow>not</span> <span class=n>has_previous_line</span> <span class=ow>or</span> <span class=n>_is_empty_line</span><span class=p>(</span><span class=n>lines</span><span class=p>[</span><span class=n>offset</span> <span class=o>-</span> <span class=mi>1</span><span class=p>])</span>
+            <span class=n>has_next_line</span> <span class=o>=</span> <span class=n>offset</span> <span class=o>&lt;</span> <span class=nb>len</span><span class=p>(</span><span class=n>lines</span><span class=p>)</span> <span class=o>-</span> <span class=mi>1</span>
+            <span class=n>has_next_lines</span> <span class=o>=</span> <span class=n>offset</span> <span class=o>&lt;</span> <span class=nb>len</span><span class=p>(</span><span class=n>lines</span><span class=p>)</span> <span class=o>-</span> <span class=mi>2</span>
+            <span class=n>blank_line_below</span> <span class=o>=</span> <span class=n>has_next_line</span> <span class=ow>and</span> <span class=n>_is_empty_line</span><span class=p>(</span><span class=n>lines</span><span class=p>[</span><span class=n>offset</span> <span class=o>+</span> <span class=mi>1</span><span class=p>])</span>
+            <span class=n>blank_lines_below</span> <span class=o>=</span> <span class=n>has_next_lines</span> <span class=ow>and</span> <span class=n>_is_empty_line</span><span class=p>(</span><span class=n>lines</span><span class=p>[</span><span class=n>offset</span> <span class=o>+</span> <span class=mi>2</span><span class=p>])</span>
+            <span class=n>indented_line_below</span> <span class=o>=</span> <span class=n>has_next_line</span> <span class=ow>and</span> <span class=ow>not</span> <span class=n>blank_line_below</span> <span class=ow>and</span> <span class=n>lines</span><span class=p>[</span><span class=n>offset</span> <span class=o>+</span> <span class=mi>1</span><span class=p>]</span><span class=o>.</span><span class=n>startswith</span><span class=p>(</span><span class=s2>&quot; &quot;</span><span class=p>)</span>
+            <span class=n>indented_lines_below</span> <span class=o>=</span> <span class=n>has_next_lines</span> <span class=ow>and</span> <span class=ow>not</span> <span class=n>blank_lines_below</span> <span class=ow>and</span> <span class=n>lines</span><span class=p>[</span><span class=n>offset</span> <span class=o>+</span> <span class=mi>2</span><span class=p>]</span><span class=o>.</span><span class=n>startswith</span><span class=p>(</span><span class=s2>&quot; &quot;</span><span class=p>)</span>
+            <span class=k>if</span> <span class=ow>not</span> <span class=p>(</span><span class=n>indented_line_below</span> <span class=ow>or</span> <span class=n>indented_lines_below</span><span class=p>):</span>
+                <span class=c1># Do not warn when there are no contents,</span>
+                <span class=c1># this is most probably not a section or admonition.</span>
+                <span class=n>current_section</span><span class=o>.</span><span class=n>append</span><span class=p>(</span><span class=n>lines</span><span class=p>[</span><span class=n>offset</span><span class=p>])</span>
+                <span class=n>offset</span> <span class=o>+=</span> <span class=mi>1</span>
+                <span class=k>continue</span>
+            <span class=n>reasons</span> <span class=o>=</span> <span class=p>[]</span>
+            <span class=n>kind</span> <span class=o>=</span> <span class=s2>&quot;section&quot;</span> <span class=k>if</span> <span class=n>is_section</span> <span class=k>else</span> <span class=s2>&quot;admonition&quot;</span>
+            <span class=k>if</span> <span class=p>(</span><span class=n>indented_line_below</span> <span class=ow>or</span> <span class=n>indented_lines_below</span><span class=p>)</span> <span class=ow>and</span> <span class=ow>not</span> <span class=n>blank_line_above</span><span class=p>:</span>
+                <span class=n>reasons</span><span class=o>.</span><span class=n>append</span><span class=p>(</span><span class=sa>f</span><span class=s2>&quot;Missing blank line above </span><span class=si>{</span><span class=n>kind</span><span class=si>}</span><span class=s2>&quot;</span><span class=p>)</span>
+            <span class=k>if</span> <span class=n>indented_lines_below</span> <span class=ow>and</span> <span class=n>blank_line_below</span><span class=p>:</span>
+                <span class=n>reasons</span><span class=o>.</span><span class=n>append</span><span class=p>(</span><span class=sa>f</span><span class=s2>&quot;Extraneous blank line below </span><span class=si>{</span><span class=n>kind</span><span class=si>}</span><span class=s2> title&quot;</span><span class=p>)</span>
+            <span class=k>if</span> <span class=n>reasons</span><span class=p>:</span>
+                <span class=n>reasons_string</span> <span class=o>=</span> <span class=s2>&quot;; &quot;</span><span class=o>.</span><span class=n>join</span><span class=p>(</span><span class=n>reasons</span><span class=p>)</span>
+                <span class=n>_warn</span><span class=p>(</span>
+                    <span class=n>docstring</span><span class=p>,</span>
+                    <span class=n>offset</span><span class=p>,</span>
+                    <span class=sa>f</span><span class=s2>&quot;Possible </span><span class=si>{</span><span class=n>kind</span><span class=si>}</span><span class=s2> skipped, reasons: </span><span class=si>{</span><span class=n>reasons_string</span><span class=si>}</span><span class=s2>&quot;</span><span class=p>,</span>
+                    <span class=n>LogLevel</span><span class=o>.</span><span class=n>debug</span><span class=p>,</span>
+                <span class=p>)</span>
+                <span class=n>current_section</span><span class=o>.</span><span class=n>append</span><span class=p>(</span><span class=n>lines</span><span class=p>[</span><span class=n>offset</span><span class=p>])</span>
+                <span class=n>offset</span> <span class=o>+=</span> <span class=mi>1</span>
+                <span class=k>continue</span>
+
+            <span class=k>if</span> <span class=n>is_section</span><span class=p>:</span>
                 <span class=k>if</span> <span class=n>current_section</span><span class=p>:</span>
                     <span class=k>if</span> <span class=nb>any</span><span class=p>(</span><span class=n>current_section</span><span class=p>):</span>
                         <span class=n>sections</span><span class=o>.</span><span class=n>append</span><span class=p>(</span><span class=n>DocstringSectionText</span><span class=p>(</span><span class=s2>&quot;</span><span class=se>\n</span><span class=s2>&quot;</span><span class=o>.</span><span class=n>join</span><span class=p>(</span><span class=n>current_section</span><span class=p>)</span><span class=o>.</span><span class=n>rstrip</span><span class=p>(</span><span class=s2>&quot;</span><span class=se>\n</span><span class=s2>&quot;</span><span class=p>)))</span>
