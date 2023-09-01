@@ -11962,7 +11962,7 @@
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
 "lineno": 1307,
-"endlineno": 1398,
+"endlineno": 1402,
 "docstring": {
 "value": "The class representing a Python class.",
 "lineno": 1308,
@@ -12333,15 +12333,15 @@
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
 "lineno": 1333,
-"endlineno": 1349,
+"endlineno": 1353,
 "docstring": {
-"value": "Return the parameters of this class' `__init__` method, if any.\n\nReturns:\n    The parameters containter.",
+"value": "Return the parameters of this class' `__init__` method, if any.\n\nThis property fetches inherited members,\nand therefore is part of the consumer API:\ndo not use when producing Griffe trees!\n\nReturns:\n    The parameters container.",
 "lineno": 1334,
-"endlineno": 1338,
+"endlineno": 1342,
 "parsed": [
 {
 "kind": "text",
-"value": "Return the parameters of this class' `__init__` method, if any."
+"value": "Return the parameters of this class' `__init__` method, if any.\n\nThis property fetches inherited members,\nand therefore is part of the consumer API:\ndo not use when producing Griffe trees!"
 },
 {
 "kind": "returns",
@@ -12352,7 +12352,7 @@
 "name": "Parameters",
 "cls": "ExprName"
 },
-"description": "The parameters containter."
+"description": "The parameters container."
 }
 ]
 }
@@ -12374,12 +12374,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1352,
-"endlineno": 1369,
+"lineno": 1356,
+"endlineno": 1373,
 "docstring": {
 "value": "Resolved class bases.\n\nThis method is part of the consumer API:\ndo not use when producing Griffe trees!",
-"lineno": 1353,
-"endlineno": 1357,
+"lineno": 1357,
+"endlineno": 1361,
 "parsed": [
 {
 "kind": "text",
@@ -12411,8 +12411,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1371,
-"endlineno": 1380,
+"lineno": 1375,
+"endlineno": 1384,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -12470,12 +12470,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1382,
-"endlineno": 1384,
+"lineno": 1386,
+"endlineno": 1388,
 "docstring": {
 "value": "Return a list of classes in order corresponding to Python's MRO.",
-"lineno": 1383,
-"endlineno": 1383,
+"lineno": 1387,
+"endlineno": 1387,
 "parsed": [
 {
 "kind": "text",
@@ -12513,12 +12513,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1386,
-"endlineno": 1398,
+"lineno": 1390,
+"endlineno": 1402,
 "docstring": {
 "value": "Return this class' data as a dictionary.\n\nParameters:\n    **kwargs: Additional serialization options.\n\nReturns:\n    A dictionary.",
-"lineno": 1387,
-"endlineno": 1394,
+"lineno": 1391,
+"endlineno": 1398,
 "parsed": [
 {
 "kind": "text",
@@ -12628,12 +12628,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1401,
-"endlineno": 1453,
+"lineno": 1405,
+"endlineno": 1457,
 "docstring": {
 "value": "The class representing a Python function.",
-"lineno": 1402,
-"endlineno": 1402,
+"lineno": 1406,
+"endlineno": 1406,
 "parsed": [
 {
 "kind": "text",
@@ -12650,8 +12650,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1404,
-"endlineno": 1404,
+"lineno": 1408,
+"endlineno": 1408,
 "labels": [
 "class-attribute",
 "instance-attribute"
@@ -12678,12 +12678,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1406,
-"endlineno": 1429,
+"lineno": 1410,
+"endlineno": 1433,
 "docstring": {
 "value": "Initialize the function.\n\nParameters:\n    *args: See [`griffe.dataclasses.Object`][].\n    parameters: The function parameters.\n    returns: The function return annotation.\n    decorators: The function decorators, if any.\n    **kwargs: See [`griffe.dataclasses.Object`][].",
-"lineno": 1414,
-"endlineno": 1422,
+"lineno": 1418,
+"endlineno": 1426,
 "parsed": [
 {
 "kind": "parameters",
@@ -12862,8 +12862,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1424,
-"endlineno": 1424,
+"lineno": 1428,
+"endlineno": 1428,
 "labels": [
 "instance-attribute"
 ],
@@ -12898,8 +12898,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1425,
-"endlineno": 1425,
+"lineno": 1429,
+"endlineno": 1429,
 "labels": [
 "instance-attribute"
 ],
@@ -12933,8 +12933,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1426,
-"endlineno": 1426,
+"lineno": 1430,
+"endlineno": 1430,
 "labels": [
 "instance-attribute"
 ],
@@ -12972,8 +12972,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1427,
-"endlineno": 1427,
+"lineno": 1431,
+"endlineno": 1431,
 "labels": [
 "instance-attribute"
 ],
@@ -12996,8 +12996,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1428,
-"endlineno": 1428,
+"lineno": 1432,
+"endlineno": 1432,
 "labels": [
 "instance-attribute"
 ],
@@ -13020,8 +13020,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1429,
-"endlineno": 1429,
+"lineno": 1433,
+"endlineno": 1433,
 "labels": [
 "instance-attribute"
 ],
@@ -13051,12 +13051,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1432,
-"endlineno": 1438,
+"lineno": 1436,
+"endlineno": 1442,
 "docstring": {
 "value": "Return the return annotation.\n\nReturns:\n    The function return annotation.",
-"lineno": 1433,
-"endlineno": 1437,
+"lineno": 1437,
+"endlineno": 1441,
 "parsed": [
 {
 "kind": "text",
@@ -13119,12 +13119,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1440,
-"endlineno": 1453,
+"lineno": 1444,
+"endlineno": 1457,
 "docstring": {
 "value": "Return this function's data as a dictionary.\n\nParameters:\n    **kwargs: Additional serialization options.\n\nReturns:\n    A dictionary.",
-"lineno": 1441,
-"endlineno": 1448,
+"lineno": 1445,
+"endlineno": 1452,
 "parsed": [
 {
 "kind": "text",
@@ -13234,12 +13234,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1456,
-"endlineno": 1494,
+"lineno": 1460,
+"endlineno": 1498,
 "docstring": {
 "value": "The class representing a Python module/class/instance attribute.",
-"lineno": 1457,
-"endlineno": 1457,
+"lineno": 1461,
+"endlineno": 1461,
 "parsed": [
 {
 "kind": "text",
@@ -13256,8 +13256,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1459,
-"endlineno": 1459,
+"lineno": 1463,
+"endlineno": 1463,
 "labels": [
 "class-attribute",
 "instance-attribute"
@@ -13284,12 +13284,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1461,
-"endlineno": 1478,
+"lineno": 1465,
+"endlineno": 1482,
 "docstring": {
 "value": "Initialize the function.\n\nParameters:\n    *args: See [`griffe.dataclasses.Object`][].\n    value: The attribute value, if any.\n    annotation: The attribute annotation, if any.\n    **kwargs: See [`griffe.dataclasses.Object`][].",
-"lineno": 1468,
-"endlineno": 1475,
+"lineno": 1472,
+"endlineno": 1479,
 "parsed": [
 {
 "kind": "parameters",
@@ -13442,8 +13442,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1477,
-"endlineno": 1477,
+"lineno": 1481,
+"endlineno": 1481,
 "labels": [
 "instance-attribute"
 ],
@@ -13477,8 +13477,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1478,
-"endlineno": 1478,
+"lineno": 1482,
+"endlineno": 1482,
 "labels": [
 "instance-attribute"
 ],
@@ -13512,12 +13512,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1480,
-"endlineno": 1494,
+"lineno": 1484,
+"endlineno": 1498,
 "docstring": {
 "value": "Return this function's data as a dictionary.\n\nParameters:\n    **kwargs: Additional serialization options.\n\nReturns:\n    A dictionary.",
-"lineno": 1481,
-"endlineno": 1488,
+"lineno": 1485,
+"endlineno": 1492,
 "parsed": [
 {
 "kind": "text",
@@ -13627,8 +13627,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1497,
-"endlineno": 1511,
+"lineno": 1501,
+"endlineno": 1515,
 "labels": [
 "module-attribute"
 ],
@@ -21617,7 +21617,7 @@
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
 "lineno": 26,
-"endlineno": 33,
+"endlineno": 35,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -21668,6 +21668,15 @@
 },
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -21677,20 +21686,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -21705,8 +21706,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 36,
-"endlineno": 47,
+"lineno": 38,
+"endlineno": 51,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -21781,6 +21782,15 @@
 },
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -21790,20 +21800,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -21818,8 +21820,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 50,
-"endlineno": 58,
+"lineno": 54,
+"endlineno": 62,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -21928,8 +21930,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 61,
-"endlineno": 68,
+"lineno": 65,
+"endlineno": 72,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -21982,8 +21984,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 72,
-"endlineno": 72,
+"lineno": 76,
+"endlineno": 76,
 "labels": [
 "module-attribute"
 ],
@@ -22022,12 +22024,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 77,
-"endlineno": 139,
+"lineno": 81,
+"endlineno": 160,
 "docstring": {
 "value": "Base class for expressions.",
-"lineno": 79,
-"endlineno": 79,
+"lineno": 83,
+"endlineno": 83,
 "parsed": [
 {
 "kind": "text",
@@ -22046,8 +22048,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 81,
-"endlineno": 84,
+"lineno": 85,
+"endlineno": 86,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -22071,8 +22073,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 86,
-"endlineno": 87,
+"lineno": 88,
+"endlineno": 89,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -22091,20 +22093,107 @@
 },
 "slice": {
 "left": {
+"name": "str",
+"cls": "ExprName"
+},
+"operator": "|",
+"right": {
+"name": "Expr",
+"cls": "ExprName"
+},
+"cls": "ExprBinOp"
+},
+"cls": "ExprSubscript"
+}
+},
+{
+"kind": "function",
+"name": "iterate",
+"path": "griffe.expressions.Expr.iterate",
+"filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
+"relative_filepath": "src/griffe/expressions.py",
+"relative_package_filepath": "griffe/expressions.py",
+"lineno": 91,
+"endlineno": 108,
+"docstring": {
+"value": "Iterate on the expression elements.\n\nParameters:\n    flat: Expressions are trees.\n\n        When flat is false, this method iterates only on the first layer of the tree.\n        To iterate on all the subparts of the expression, you have to do so recursively.\n        It allows to handle each subpart specifically (for example subscripts, attribute, etc.),\n        without them getting rendered as strings.\n\n        On the contrary, when flat is true, the whole tree is flattened as a sequence\n        of strings and instances of [Names][griffe.expressions.ExprName].\n\nYields:\n    Strings and names when flat, strings and expressions otherwise.",
+"lineno": 92,
+"endlineno": 107,
+"parsed": [
+{
+"kind": "text",
+"value": "Iterate on the expression elements."
+},
+{
+"kind": "parameters",
+"value": [
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"description": "Expressions are trees.\n\nWhen flat is false, this method iterates only on the first layer of the tree.\nTo iterate on all the subparts of the expression, you have to do so recursively.\nIt allows to handle each subpart specifically (for example subscripts, attribute, etc.),\nwithout them getting rendered as strings.\n\nOn the contrary, when flat is true, the whole tree is flattened as a sequence\nof strings and instances of [Names][griffe.expressions.ExprName].",
+"value": "True"
+}
+]
+},
+{
+"kind": "yields",
+"value": [
+{
+"name": "",
+"annotation": {
 "left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
 },
+"description": "Strings and names when flat, strings and expressions otherwise."
+}
+]
+}
+]
+},
+"labels": [],
+"members": [],
+"decorators": [],
+"parameters": [
+{
+"name": "self",
+"annotation": null,
+"kind": "positional or keyword",
+"default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
+}
+],
+"returns": {
+"left": {
+"name": "Iterator",
+"cls": "ExprName"
+},
+"slice": {
+"left": {
+"name": "str",
+"cls": "ExprName"
+},
 "operator": "|",
 "right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -22119,12 +22208,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 89,
-"endlineno": 99,
+"lineno": 110,
+"endlineno": 120,
 "docstring": {
 "value": "Return the expression as a dictionary.\n\nParameters:\n    **kwargs: Configuration options (none available yet).\n\n\nReturns:\n    A dictionary.",
-"lineno": 90,
-"endlineno": 98,
+"lineno": 111,
+"endlineno": 119,
 "parsed": [
 {
 "kind": "text",
@@ -22225,12 +22314,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 102,
-"endlineno": 104,
+"lineno": 123,
+"endlineno": 125,
 "docstring": {
 "value": "The expression class name.",
-"lineno": 103,
-"endlineno": 103,
+"lineno": 124,
+"endlineno": 124,
 "parsed": [
 {
 "kind": "text",
@@ -22254,12 +22343,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 107,
-"endlineno": 109,
+"lineno": 128,
+"endlineno": 130,
 "docstring": {
 "value": "Path of the expressed name/attribute.",
-"lineno": 108,
-"endlineno": 108,
+"lineno": 129,
+"endlineno": 129,
 "parsed": [
 {
 "kind": "text",
@@ -22283,12 +22372,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 112,
-"endlineno": 114,
+"lineno": 133,
+"endlineno": 135,
 "docstring": {
 "value": "Path of the expressed name/attribute.",
-"lineno": 113,
-"endlineno": 113,
+"lineno": 134,
+"endlineno": 134,
 "parsed": [
 {
 "kind": "text",
@@ -22312,12 +22401,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 117,
-"endlineno": 119,
+"lineno": 138,
+"endlineno": 140,
 "docstring": {
 "value": "Name of the expressed name/attribute.",
-"lineno": 118,
-"endlineno": 118,
+"lineno": 139,
+"endlineno": 139,
 "parsed": [
 {
 "kind": "text",
@@ -22341,12 +22430,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 122,
-"endlineno": 124,
+"lineno": 143,
+"endlineno": 145,
 "docstring": {
 "value": "Whether this attribute is annotated with `ClassVar`.",
-"lineno": 123,
-"endlineno": 123,
+"lineno": 144,
+"endlineno": 144,
 "parsed": [
 {
 "kind": "text",
@@ -22370,12 +22459,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 127,
-"endlineno": 129,
+"lineno": 148,
+"endlineno": 150,
 "docstring": {
 "value": "Whether this expression is a tuple.",
-"lineno": 128,
-"endlineno": 128,
+"lineno": 149,
+"endlineno": 149,
 "parsed": [
 {
 "kind": "text",
@@ -22399,12 +22488,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 132,
-"endlineno": 134,
+"lineno": 153,
+"endlineno": 155,
 "docstring": {
 "value": "Whether this expression is an iterator.",
-"lineno": 133,
-"endlineno": 133,
+"lineno": 154,
+"endlineno": 154,
 "parsed": [
 {
 "kind": "text",
@@ -22428,12 +22517,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 137,
-"endlineno": 139,
+"lineno": 158,
+"endlineno": 160,
 "docstring": {
 "value": "Whether this expression is a generator.",
-"lineno": 138,
-"endlineno": 138,
+"lineno": 159,
+"endlineno": 159,
 "parsed": [
 {
 "kind": "text",
@@ -22458,8 +22547,8 @@
 "name": "dataclass",
 "cls": "ExprName"
 },
-"lineno": 77,
-"endlineno": 77
+"lineno": 81,
+"endlineno": 81
 }
 ]
 },
@@ -22470,12 +22559,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 142,
-"endlineno": 181,
+"lineno": 163,
+"endlineno": 202,
 "docstring": {
 "value": "Attributes like `a.b`.",
-"lineno": 144,
-"endlineno": 144,
+"lineno": 165,
+"endlineno": 165,
 "parsed": [
 {
 "kind": "text",
@@ -22494,8 +22583,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 146,
-"endlineno": 146,
+"lineno": 167,
+"endlineno": 167,
 "labels": [
 "instance-attribute"
 ],
@@ -22522,13 +22611,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprAttribute.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprAttribute.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 148,
-"endlineno": 149,
+"lineno": 169,
+"endlineno": 170,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -22538,6 +22627,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -22547,20 +22645,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -22575,12 +22665,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 151,
-"endlineno": 159,
+"lineno": 172,
+"endlineno": 180,
 "docstring": {
 "value": "Append a name to this attribute.\n\nParameters:\n    value: The expression name to append.",
-"lineno": 152,
-"endlineno": 156,
+"lineno": 173,
+"endlineno": 177,
 "parsed": [
 {
 "kind": "text",
@@ -22630,12 +22720,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 162,
-"endlineno": 166,
+"lineno": 183,
+"endlineno": 187,
 "docstring": {
 "value": "The last part of this attribute (on the right).",
-"lineno": 163,
-"endlineno": 163,
+"lineno": 184,
+"endlineno": 184,
 "parsed": [
 {
 "kind": "text",
@@ -22659,12 +22749,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 169,
-"endlineno": 171,
+"lineno": 190,
+"endlineno": 192,
 "docstring": {
 "value": "The first part of this attribute (on the left).",
-"lineno": 170,
-"endlineno": 170,
+"lineno": 191,
+"endlineno": 191,
 "parsed": [
 {
 "kind": "text",
@@ -22696,12 +22786,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 174,
-"endlineno": 176,
+"lineno": 195,
+"endlineno": 197,
 "docstring": {
 "value": "The path of this attribute.",
-"lineno": 175,
-"endlineno": 175,
+"lineno": 196,
+"endlineno": 196,
 "parsed": [
 {
 "kind": "text",
@@ -22725,12 +22815,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 179,
-"endlineno": 181,
+"lineno": 200,
+"endlineno": 202,
 "docstring": {
 "value": "The canonical path of this attribute.",
-"lineno": 180,
-"endlineno": 180,
+"lineno": 201,
+"endlineno": 201,
 "parsed": [
 {
 "kind": "text",
@@ -22777,8 +22867,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 142,
-"endlineno": 142
+"lineno": 163,
+"endlineno": 163
 }
 ]
 },
@@ -22789,12 +22879,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 184,
-"endlineno": 195,
+"lineno": 205,
+"endlineno": 216,
 "docstring": {
 "value": "Binary operations like `a + b`.",
-"lineno": 186,
-"endlineno": 186,
+"lineno": 207,
+"endlineno": 207,
 "parsed": [
 {
 "kind": "text",
@@ -22813,8 +22903,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 188,
-"endlineno": 188,
+"lineno": 209,
+"endlineno": 209,
 "labels": [
 "instance-attribute"
 ],
@@ -22839,8 +22929,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 189,
-"endlineno": 189,
+"lineno": 210,
+"endlineno": 210,
 "labels": [
 "instance-attribute"
 ],
@@ -22857,8 +22947,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 190,
-"endlineno": 190,
+"lineno": 211,
+"endlineno": 211,
 "labels": [
 "instance-attribute"
 ],
@@ -22878,13 +22968,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprBinOp.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprBinOp.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 192,
-"endlineno": 195,
+"lineno": 213,
+"endlineno": 216,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -22894,6 +22984,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -22903,20 +23002,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -22954,8 +23045,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 184,
-"endlineno": 184
+"lineno": 205,
+"endlineno": 205
 }
 ]
 },
@@ -22966,12 +23057,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 198,
-"endlineno": 206,
+"lineno": 219,
+"endlineno": 227,
 "docstring": {
 "value": "Boolean operations like `a or b`.",
-"lineno": 200,
-"endlineno": 200,
+"lineno": 221,
+"endlineno": 221,
 "parsed": [
 {
 "kind": "text",
@@ -22990,8 +23081,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 202,
-"endlineno": 202,
+"lineno": 223,
+"endlineno": 223,
 "labels": [
 "instance-attribute"
 ],
@@ -23008,8 +23099,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 203,
-"endlineno": 203,
+"lineno": 224,
+"endlineno": 224,
 "labels": [
 "instance-attribute"
 ],
@@ -23036,13 +23127,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprBoolOp.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprBoolOp.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 205,
-"endlineno": 206,
+"lineno": 226,
+"endlineno": 227,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -23052,6 +23143,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -23061,20 +23161,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -23112,8 +23204,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 198,
-"endlineno": 198
+"lineno": 219,
+"endlineno": 219
 }
 ]
 },
@@ -23124,12 +23216,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 209,
-"endlineno": 220,
+"lineno": 230,
+"endlineno": 241,
 "docstring": {
 "value": "Calls like `f()`.",
-"lineno": 211,
-"endlineno": 211,
+"lineno": 232,
+"endlineno": 232,
 "parsed": [
 {
 "kind": "text",
@@ -23148,8 +23240,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 213,
-"endlineno": 213,
+"lineno": 234,
+"endlineno": 234,
 "labels": [
 "instance-attribute"
 ],
@@ -23166,8 +23258,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 214,
-"endlineno": 214,
+"lineno": 235,
+"endlineno": 235,
 "labels": [
 "instance-attribute"
 ],
@@ -23194,13 +23286,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprCall.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprCall.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 216,
-"endlineno": 220,
+"lineno": 237,
+"endlineno": 241,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -23210,6 +23302,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -23219,20 +23320,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -23270,8 +23363,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 209,
-"endlineno": 209
+"lineno": 230,
+"endlineno": 230
 }
 ]
 },
@@ -23282,12 +23375,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 223,
-"endlineno": 234,
+"lineno": 244,
+"endlineno": 255,
 "docstring": {
 "value": "Comparisons like `a > b`.",
-"lineno": 225,
-"endlineno": 225,
+"lineno": 246,
+"endlineno": 246,
 "parsed": [
 {
 "kind": "text",
@@ -23306,8 +23399,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 227,
-"endlineno": 227,
+"lineno": 248,
+"endlineno": 248,
 "labels": [
 "instance-attribute"
 ],
@@ -23332,8 +23425,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 228,
-"endlineno": 228,
+"lineno": 249,
+"endlineno": 249,
 "labels": [
 "instance-attribute"
 ],
@@ -23357,8 +23450,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 229,
-"endlineno": 229,
+"lineno": 250,
+"endlineno": 250,
 "labels": [
 "instance-attribute"
 ],
@@ -23385,13 +23478,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprCompare.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprCompare.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 231,
-"endlineno": 234,
+"lineno": 252,
+"endlineno": 255,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -23401,6 +23494,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -23410,20 +23512,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -23461,8 +23555,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 223,
-"endlineno": 223
+"lineno": 244,
+"endlineno": 244
 }
 ]
 },
@@ -23473,12 +23567,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 237,
-"endlineno": 255,
+"lineno": 258,
+"endlineno": 276,
 "docstring": {
 "value": "Comprehensions like `a for b in c if d`.",
-"lineno": 239,
-"endlineno": 239,
+"lineno": 260,
+"endlineno": 260,
 "parsed": [
 {
 "kind": "text",
@@ -23497,8 +23591,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 241,
-"endlineno": 241,
+"lineno": 262,
+"endlineno": 262,
 "labels": [
 "instance-attribute"
 ],
@@ -23523,8 +23617,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 242,
-"endlineno": 242,
+"lineno": 263,
+"endlineno": 263,
 "labels": [
 "instance-attribute"
 ],
@@ -23549,8 +23643,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 243,
-"endlineno": 243,
+"lineno": 264,
+"endlineno": 264,
 "labels": [
 "instance-attribute"
 ],
@@ -23582,8 +23676,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 244,
-"endlineno": 244,
+"lineno": 265,
+"endlineno": 265,
 "labels": [
 "class-attribute",
 "instance-attribute"
@@ -23597,13 +23691,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprComprehension.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprComprehension.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 246,
-"endlineno": 255,
+"lineno": 267,
+"endlineno": 276,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -23613,131 +23707,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
-}
-],
-"returns": {
-"left": {
-"name": "Iterator",
-"cls": "ExprName"
-},
-"slice": {
-"left": {
-"left": {
-"name": "str",
-"cls": "ExprName"
-},
-"operator": "|",
-"right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"cls": "ExprSubscript"
-}
-}
-],
-"bases": [
-{
-"name": "Expr",
-"cls": "ExprName"
-}
-],
-"decorators": [
-{
-"value": {
-"arguments": [
-{
-"name": "eq",
-"value": "True",
-"cls": "ExprKeyword"
 },
 {
-"value": {
-"name": "dataclass_opts",
-"cls": "ExprName"
-},
-"cls": "ExprVarKeyword"
-}
-],
-"function": {
-"name": "dataclass",
-"cls": "ExprName"
-},
-"cls": "ExprCall"
-},
-"lineno": 237,
-"endlineno": 237
-}
-]
-},
-{
-"kind": "class",
-"name": "ExprConstant",
-"path": "griffe.expressions.ExprConstant",
-"filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
-"relative_filepath": "src/griffe/expressions.py",
-"relative_package_filepath": "griffe/expressions.py",
-"lineno": 258,
-"endlineno": 265,
-"docstring": {
-"value": "Constants like `\"a\"` or `1`.",
-"lineno": 260,
-"endlineno": 260,
-"parsed": [
-{
-"kind": "text",
-"value": "Constants like `\"a\"` or `1`."
-}
-]
-},
-"labels": [
-"dataclass"
-],
-"members": [
-{
-"kind": "attribute",
-"name": "value",
-"path": "griffe.expressions.ExprConstant.value",
-"filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
-"relative_filepath": "src/griffe/expressions.py",
-"relative_package_filepath": "griffe/expressions.py",
-"lineno": 262,
-"endlineno": 262,
-"labels": [
-"instance-attribute"
-],
-"members": [],
+"name": "flat",
 "annotation": {
-"name": "str",
+"name": "bool",
 "cls": "ExprName"
-}
 },
-{
-"kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprConstant.__iter__",
-"filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
-"relative_filepath": "src/griffe/expressions.py",
-"relative_package_filepath": "griffe/expressions.py",
-"lineno": 264,
-"endlineno": 265,
-"labels": [],
-"members": [],
-"decorators": [],
-"parameters": [
-{
-"name": "self",
-"annotation": null,
-"kind": "positional or keyword",
-"default": null
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -23747,20 +23725,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -23805,17 +23775,143 @@
 },
 {
 "kind": "class",
+"name": "ExprConstant",
+"path": "griffe.expressions.ExprConstant",
+"filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
+"relative_filepath": "src/griffe/expressions.py",
+"relative_package_filepath": "griffe/expressions.py",
+"lineno": 279,
+"endlineno": 286,
+"docstring": {
+"value": "Constants like `\"a\"` or `1`.",
+"lineno": 281,
+"endlineno": 281,
+"parsed": [
+{
+"kind": "text",
+"value": "Constants like `\"a\"` or `1`."
+}
+]
+},
+"labels": [
+"dataclass"
+],
+"members": [
+{
+"kind": "attribute",
+"name": "value",
+"path": "griffe.expressions.ExprConstant.value",
+"filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
+"relative_filepath": "src/griffe/expressions.py",
+"relative_package_filepath": "griffe/expressions.py",
+"lineno": 283,
+"endlineno": 283,
+"labels": [
+"instance-attribute"
+],
+"members": [],
+"annotation": {
+"name": "str",
+"cls": "ExprName"
+}
+},
+{
+"kind": "function",
+"name": "iterate",
+"path": "griffe.expressions.ExprConstant.iterate",
+"filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
+"relative_filepath": "src/griffe/expressions.py",
+"relative_package_filepath": "griffe/expressions.py",
+"lineno": 285,
+"endlineno": 286,
+"labels": [],
+"members": [],
+"decorators": [],
+"parameters": [
+{
+"name": "self",
+"annotation": null,
+"kind": "positional or keyword",
+"default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
+}
+],
+"returns": {
+"left": {
+"name": "Iterator",
+"cls": "ExprName"
+},
+"slice": {
+"left": {
+"name": "str",
+"cls": "ExprName"
+},
+"operator": "|",
+"right": {
+"name": "Expr",
+"cls": "ExprName"
+},
+"cls": "ExprBinOp"
+},
+"cls": "ExprSubscript"
+}
+}
+],
+"bases": [
+{
+"name": "Expr",
+"cls": "ExprName"
+}
+],
+"decorators": [
+{
+"value": {
+"arguments": [
+{
+"name": "eq",
+"value": "True",
+"cls": "ExprKeyword"
+},
+{
+"value": {
+"name": "dataclass_opts",
+"cls": "ExprName"
+},
+"cls": "ExprVarKeyword"
+}
+],
+"function": {
+"name": "dataclass",
+"cls": "ExprName"
+},
+"cls": "ExprCall"
+},
+"lineno": 279,
+"endlineno": 279
+}
+]
+},
+{
+"kind": "class",
 "name": "ExprDict",
 "path": "griffe.expressions.ExprDict",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 268,
-"endlineno": 281,
+"lineno": 289,
+"endlineno": 302,
 "docstring": {
 "value": "Dictionaries like `{\"a\": 0}`.",
-"lineno": 270,
-"endlineno": 270,
+"lineno": 291,
+"endlineno": 291,
 "parsed": [
 {
 "kind": "text",
@@ -23834,8 +23930,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 272,
-"endlineno": 272,
+"lineno": 293,
+"endlineno": 293,
 "labels": [
 "instance-attribute"
 ],
@@ -23872,8 +23968,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 273,
-"endlineno": 273,
+"lineno": 294,
+"endlineno": 294,
 "labels": [
 "instance-attribute"
 ],
@@ -23900,13 +23996,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprDict.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprDict.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 275,
-"endlineno": 281,
+"lineno": 296,
+"endlineno": 302,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -23916,6 +24012,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -23925,20 +24030,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -23976,8 +24073,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 268,
-"endlineno": 268
+"lineno": 289,
+"endlineno": 289
 }
 ]
 },
@@ -23988,12 +24085,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 284,
-"endlineno": 298,
+"lineno": 305,
+"endlineno": 319,
 "docstring": {
 "value": "Dict comprehensions like `{k: v for k, v in a}`.",
-"lineno": 286,
-"endlineno": 286,
+"lineno": 307,
+"endlineno": 307,
 "parsed": [
 {
 "kind": "text",
@@ -24012,8 +24109,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 288,
-"endlineno": 288,
+"lineno": 309,
+"endlineno": 309,
 "labels": [
 "instance-attribute"
 ],
@@ -24038,8 +24135,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 289,
-"endlineno": 289,
+"lineno": 310,
+"endlineno": 310,
 "labels": [
 "instance-attribute"
 ],
@@ -24064,8 +24161,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 290,
-"endlineno": 290,
+"lineno": 311,
+"endlineno": 311,
 "labels": [
 "instance-attribute"
 ],
@@ -24084,13 +24181,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprDictComp.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprDictComp.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 292,
-"endlineno": 298,
+"lineno": 313,
+"endlineno": 319,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -24100,6 +24197,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -24109,20 +24215,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -24160,8 +24258,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 284,
-"endlineno": 284
+"lineno": 305,
+"endlineno": 305
 }
 ]
 },
@@ -24172,12 +24270,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 301,
-"endlineno": 308,
+"lineno": 322,
+"endlineno": 329,
 "docstring": {
 "value": "Extended slice like `a[x:y, z]`.",
-"lineno": 303,
-"endlineno": 303,
+"lineno": 324,
+"endlineno": 324,
 "parsed": [
 {
 "kind": "text",
@@ -24196,8 +24294,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 305,
-"endlineno": 305,
+"lineno": 326,
+"endlineno": 326,
 "labels": [
 "instance-attribute"
 ],
@@ -24224,13 +24322,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprExtSlice.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprExtSlice.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 307,
-"endlineno": 308,
+"lineno": 328,
+"endlineno": 329,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -24240,6 +24338,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -24249,20 +24356,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -24300,8 +24399,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 301,
-"endlineno": 301
+"lineno": 322,
+"endlineno": 322
 }
 ]
 },
@@ -24312,12 +24411,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 311,
-"endlineno": 320,
+"lineno": 332,
+"endlineno": 341,
 "docstring": {
 "value": "Formatted string like `{1 + 1}`.",
-"lineno": 313,
-"endlineno": 313,
+"lineno": 334,
+"endlineno": 334,
 "parsed": [
 {
 "kind": "text",
@@ -24336,8 +24435,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 315,
-"endlineno": 315,
+"lineno": 336,
+"endlineno": 336,
 "labels": [
 "instance-attribute"
 ],
@@ -24357,13 +24456,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprFormatted.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprFormatted.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 317,
-"endlineno": 320,
+"lineno": 338,
+"endlineno": 341,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -24373,6 +24472,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -24382,20 +24490,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -24433,8 +24533,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 311,
-"endlineno": 311
+"lineno": 332,
+"endlineno": 332
 }
 ]
 },
@@ -24445,12 +24545,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 323,
-"endlineno": 333,
+"lineno": 344,
+"endlineno": 354,
 "docstring": {
 "value": "Generator expressions like `a for b in c for d in e`.",
-"lineno": 325,
-"endlineno": 325,
+"lineno": 346,
+"endlineno": 346,
 "parsed": [
 {
 "kind": "text",
@@ -24469,8 +24569,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 327,
-"endlineno": 327,
+"lineno": 348,
+"endlineno": 348,
 "labels": [
 "instance-attribute"
 ],
@@ -24495,8 +24595,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 328,
-"endlineno": 328,
+"lineno": 349,
+"endlineno": 349,
 "labels": [
 "instance-attribute"
 ],
@@ -24515,13 +24615,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprGeneratorExp.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprGeneratorExp.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 330,
-"endlineno": 333,
+"lineno": 351,
+"endlineno": 354,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -24531,6 +24631,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -24540,20 +24649,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -24591,8 +24692,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 323,
-"endlineno": 323
+"lineno": 344,
+"endlineno": 344
 }
 ]
 },
@@ -24603,12 +24704,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 336,
-"endlineno": 349,
+"lineno": 357,
+"endlineno": 370,
 "docstring": {
 "value": "Conditions like `a if b else c`.",
-"lineno": 338,
-"endlineno": 338,
+"lineno": 359,
+"endlineno": 359,
 "parsed": [
 {
 "kind": "text",
@@ -24627,8 +24728,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 340,
-"endlineno": 340,
+"lineno": 361,
+"endlineno": 361,
 "labels": [
 "instance-attribute"
 ],
@@ -24653,8 +24754,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 341,
-"endlineno": 341,
+"lineno": 362,
+"endlineno": 362,
 "labels": [
 "instance-attribute"
 ],
@@ -24679,8 +24780,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 342,
-"endlineno": 342,
+"lineno": 363,
+"endlineno": 363,
 "labels": [
 "instance-attribute"
 ],
@@ -24700,13 +24801,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprIfExp.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprIfExp.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 344,
-"endlineno": 349,
+"lineno": 365,
+"endlineno": 370,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -24716,6 +24817,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -24725,20 +24835,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -24776,8 +24878,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 336,
-"endlineno": 336
+"lineno": 357,
+"endlineno": 357
 }
 ]
 },
@@ -24788,12 +24890,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 352,
-"endlineno": 361,
+"lineno": 373,
+"endlineno": 382,
 "docstring": {
 "value": "Joined strings like `f\"a {b} c\"`.",
-"lineno": 354,
-"endlineno": 354,
+"lineno": 375,
+"endlineno": 375,
 "parsed": [
 {
 "kind": "text",
@@ -24812,8 +24914,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 356,
-"endlineno": 356,
+"lineno": 377,
+"endlineno": 377,
 "labels": [
 "instance-attribute"
 ],
@@ -24840,13 +24942,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprJoinedStr.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprJoinedStr.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 358,
-"endlineno": 361,
+"lineno": 379,
+"endlineno": 382,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -24856,6 +24958,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -24865,20 +24976,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -24916,8 +25019,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 352,
-"endlineno": 352
+"lineno": 373,
+"endlineno": 373
 }
 ]
 },
@@ -24928,12 +25031,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 364,
-"endlineno": 374,
+"lineno": 385,
+"endlineno": 395,
 "docstring": {
 "value": "Keyword arguments like `a=b`.",
-"lineno": 366,
-"endlineno": 366,
+"lineno": 387,
+"endlineno": 387,
 "parsed": [
 {
 "kind": "text",
@@ -24952,8 +25055,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 368,
-"endlineno": 368,
+"lineno": 389,
+"endlineno": 389,
 "labels": [
 "instance-attribute"
 ],
@@ -24970,8 +25073,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 369,
-"endlineno": 369,
+"lineno": 390,
+"endlineno": 390,
 "labels": [
 "instance-attribute"
 ],
@@ -24991,13 +25094,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprKeyword.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprKeyword.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 371,
-"endlineno": 374,
+"lineno": 392,
+"endlineno": 395,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -25007,6 +25110,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -25016,20 +25128,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -25067,8 +25171,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 364,
-"endlineno": 364
+"lineno": 385,
+"endlineno": 385
 }
 ]
 },
@@ -25079,12 +25183,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 377,
-"endlineno": 385,
+"lineno": 398,
+"endlineno": 406,
 "docstring": {
 "value": "Variadic positional parameters like `*args`.",
-"lineno": 379,
-"endlineno": 379,
+"lineno": 400,
+"endlineno": 400,
 "parsed": [
 {
 "kind": "text",
@@ -25103,8 +25207,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 381,
-"endlineno": 381,
+"lineno": 402,
+"endlineno": 402,
 "labels": [
 "instance-attribute"
 ],
@@ -25116,13 +25220,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprVarPositional.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprVarPositional.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 383,
-"endlineno": 385,
+"lineno": 404,
+"endlineno": 406,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -25132,6 +25236,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -25141,20 +25254,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -25192,8 +25297,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 377,
-"endlineno": 377
+"lineno": 398,
+"endlineno": 398
 }
 ]
 },
@@ -25204,12 +25309,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 388,
-"endlineno": 396,
+"lineno": 409,
+"endlineno": 417,
 "docstring": {
 "value": "Variadic keyword parameters like `**kwargs`.",
-"lineno": 390,
-"endlineno": 390,
+"lineno": 411,
+"endlineno": 411,
 "parsed": [
 {
 "kind": "text",
@@ -25228,8 +25333,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 392,
-"endlineno": 392,
+"lineno": 413,
+"endlineno": 413,
 "labels": [
 "instance-attribute"
 ],
@@ -25241,13 +25346,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprVarKeyword.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprVarKeyword.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 394,
-"endlineno": 396,
+"lineno": 415,
+"endlineno": 417,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -25257,6 +25362,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -25266,20 +25380,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -25317,8 +25423,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 388,
-"endlineno": 388
+"lineno": 409,
+"endlineno": 409
 }
 ]
 },
@@ -25329,12 +25435,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 399,
-"endlineno": 410,
+"lineno": 420,
+"endlineno": 431,
 "docstring": {
 "value": "Lambda expressions like `lambda a: a.b`.",
-"lineno": 401,
-"endlineno": 401,
+"lineno": 422,
+"endlineno": 422,
 "parsed": [
 {
 "kind": "text",
@@ -25353,8 +25459,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 403,
-"endlineno": 403,
+"lineno": 424,
+"endlineno": 424,
 "labels": [
 "instance-attribute"
 ],
@@ -25378,8 +25484,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 404,
-"endlineno": 404,
+"lineno": 425,
+"endlineno": 425,
 "labels": [
 "instance-attribute"
 ],
@@ -25399,13 +25505,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprLambda.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprLambda.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 406,
-"endlineno": 410,
+"lineno": 427,
+"endlineno": 431,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -25415,6 +25521,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -25424,20 +25539,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -25475,8 +25582,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 399,
-"endlineno": 399
+"lineno": 420,
+"endlineno": 420
 }
 ]
 },
@@ -25487,12 +25594,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 413,
-"endlineno": 422,
+"lineno": 434,
+"endlineno": 443,
 "docstring": {
 "value": "Lists like `[0, 1, 2]`.",
-"lineno": 415,
-"endlineno": 415,
+"lineno": 436,
+"endlineno": 436,
 "parsed": [
 {
 "kind": "text",
@@ -25511,8 +25618,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 417,
-"endlineno": 417,
+"lineno": 438,
+"endlineno": 438,
 "labels": [
 "instance-attribute"
 ],
@@ -25531,13 +25638,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprList.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprList.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 419,
-"endlineno": 422,
+"lineno": 440,
+"endlineno": 443,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -25547,6 +25654,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -25556,20 +25672,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -25607,8 +25715,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 413,
-"endlineno": 413
+"lineno": 434,
+"endlineno": 434
 }
 ]
 },
@@ -25619,12 +25727,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 425,
-"endlineno": 437,
+"lineno": 446,
+"endlineno": 458,
 "docstring": {
 "value": "List comprehensions like `[a for b in c]`.",
-"lineno": 427,
-"endlineno": 427,
+"lineno": 448,
+"endlineno": 448,
 "parsed": [
 {
 "kind": "text",
@@ -25643,8 +25751,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 429,
-"endlineno": 429,
+"lineno": 450,
+"endlineno": 450,
 "labels": [
 "instance-attribute"
 ],
@@ -25669,8 +25777,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 430,
-"endlineno": 430,
+"lineno": 451,
+"endlineno": 451,
 "labels": [
 "instance-attribute"
 ],
@@ -25689,13 +25797,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprListComp.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprListComp.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 432,
-"endlineno": 437,
+"lineno": 453,
+"endlineno": 458,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -25705,6 +25813,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -25714,20 +25831,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -25765,8 +25874,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 425,
-"endlineno": 425
+"lineno": 446,
+"endlineno": 446
 }
 ]
 },
@@ -25777,12 +25886,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 440,
-"endlineno": 490,
+"lineno": 461,
+"endlineno": 511,
 "docstring": {
 "value": "This class represents a Python object identified by a name in a given scope.\n\nAttributes:\n    source: The name as written in the source code.",
-"lineno": 442,
-"endlineno": 446,
+"lineno": 463,
+"endlineno": 467,
 "parsed": [
 {
 "kind": "text",
@@ -25811,8 +25920,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 448,
-"endlineno": 448,
+"lineno": 469,
+"endlineno": 469,
 "labels": [
 "instance-attribute"
 ],
@@ -25829,8 +25938,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 449,
-"endlineno": 449,
+"lineno": 470,
+"endlineno": 470,
 "labels": [
 "class-attribute",
 "instance-attribute"
@@ -25878,8 +25987,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 451,
-"endlineno": 454,
+"lineno": 472,
+"endlineno": 475,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -25907,13 +26016,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprName.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprName.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 456,
-"endlineno": 457,
+"lineno": 477,
+"endlineno": 478,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -25923,6 +26032,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -25944,12 +26062,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 460,
-"endlineno": 472,
+"lineno": 481,
+"endlineno": 493,
 "docstring": {
 "value": "Return the full, resolved name.\n\nIf it was given when creating the name, return that.\nIf a callable was given, call it and return its result.\nIt the name cannot be resolved, return the source.\n\nReturns:\n    The resolved name or the source.",
-"lineno": 461,
-"endlineno": 469,
+"lineno": 482,
+"endlineno": 490,
 "parsed": [
 {
 "kind": "text",
@@ -25986,12 +26104,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 475,
-"endlineno": 490,
+"lineno": 496,
+"endlineno": 511,
 "docstring": {
 "value": "Return the canonical name (resolved one, not alias name).\n\nReturns:\n    The canonical name.",
-"lineno": 476,
-"endlineno": 480,
+"lineno": 497,
+"endlineno": 501,
 "parsed": [
 {
 "kind": "text",
@@ -26051,8 +26169,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 440,
-"endlineno": 440
+"lineno": 461,
+"endlineno": 461
 }
 ]
 },
@@ -26063,12 +26181,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 493,
-"endlineno": 505,
+"lineno": 514,
+"endlineno": 526,
 "docstring": {
 "value": "Named/assignment expressions like `a := b`.",
-"lineno": 495,
-"endlineno": 495,
+"lineno": 516,
+"endlineno": 516,
 "parsed": [
 {
 "kind": "text",
@@ -26087,8 +26205,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 497,
-"endlineno": 497,
+"lineno": 518,
+"endlineno": 518,
 "labels": [
 "instance-attribute"
 ],
@@ -26105,8 +26223,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 498,
-"endlineno": 498,
+"lineno": 519,
+"endlineno": 519,
 "labels": [
 "instance-attribute"
 ],
@@ -26126,13 +26244,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprNamedExpr.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprNamedExpr.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 500,
-"endlineno": 505,
+"lineno": 521,
+"endlineno": 526,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -26142,6 +26260,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -26151,20 +26278,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -26202,8 +26321,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 493,
-"endlineno": 493
+"lineno": 514,
+"endlineno": 514
 }
 ]
 },
@@ -26214,12 +26333,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 508,
-"endlineno": 515,
+"lineno": 529,
+"endlineno": 536,
 "docstring": {
 "value": "Parameters in function signatures like `a: int = 0`.",
-"lineno": 510,
-"endlineno": 510,
+"lineno": 531,
+"endlineno": 531,
 "parsed": [
 {
 "kind": "text",
@@ -26238,8 +26357,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 512,
-"endlineno": 512,
+"lineno": 533,
+"endlineno": 533,
 "labels": [
 "instance-attribute"
 ],
@@ -26256,8 +26375,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 513,
-"endlineno": 513,
+"lineno": 534,
+"endlineno": 534,
 "labels": [
 "class-attribute",
 "instance-attribute"
@@ -26281,8 +26400,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 514,
-"endlineno": 514,
+"lineno": 535,
+"endlineno": 535,
 "labels": [
 "class-attribute",
 "instance-attribute"
@@ -26306,8 +26425,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 515,
-"endlineno": 515,
+"lineno": 536,
+"endlineno": 536,
 "labels": [
 "class-attribute",
 "instance-attribute"
@@ -26354,8 +26473,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 508,
-"endlineno": 508
+"lineno": 529,
+"endlineno": 529
 }
 ]
 },
@@ -26366,12 +26485,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 518,
-"endlineno": 527,
+"lineno": 539,
+"endlineno": 548,
 "docstring": {
 "value": "Sets like `{0, 1, 2}`.",
-"lineno": 520,
-"endlineno": 520,
+"lineno": 541,
+"endlineno": 541,
 "parsed": [
 {
 "kind": "text",
@@ -26390,8 +26509,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 522,
-"endlineno": 522,
+"lineno": 543,
+"endlineno": 543,
 "labels": [
 "instance-attribute"
 ],
@@ -26418,13 +26537,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprSet.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprSet.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 524,
-"endlineno": 527,
+"lineno": 545,
+"endlineno": 548,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -26434,6 +26553,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -26443,20 +26571,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -26494,8 +26614,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 518,
-"endlineno": 518
+"lineno": 539,
+"endlineno": 539
 }
 ]
 },
@@ -26506,12 +26626,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 530,
-"endlineno": 542,
+"lineno": 551,
+"endlineno": 563,
 "docstring": {
 "value": "Set comprehensions like `{a for b in c}`.",
-"lineno": 532,
-"endlineno": 532,
+"lineno": 553,
+"endlineno": 553,
 "parsed": [
 {
 "kind": "text",
@@ -26530,8 +26650,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 534,
-"endlineno": 534,
+"lineno": 555,
+"endlineno": 555,
 "labels": [
 "instance-attribute"
 ],
@@ -26556,8 +26676,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 535,
-"endlineno": 535,
+"lineno": 556,
+"endlineno": 556,
 "labels": [
 "instance-attribute"
 ],
@@ -26576,13 +26696,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprSetComp.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprSetComp.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 537,
-"endlineno": 542,
+"lineno": 558,
+"endlineno": 563,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -26592,6 +26712,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -26601,20 +26730,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -26652,8 +26773,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 530,
-"endlineno": 530
+"lineno": 551,
+"endlineno": 551
 }
 ]
 },
@@ -26664,12 +26785,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 545,
-"endlineno": 561,
+"lineno": 566,
+"endlineno": 582,
 "docstring": {
 "value": "Slices like `[a:b:c]`.",
-"lineno": 547,
-"endlineno": 547,
+"lineno": 568,
+"endlineno": 568,
 "parsed": [
 {
 "kind": "text",
@@ -26688,8 +26809,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 549,
-"endlineno": 549,
+"lineno": 570,
+"endlineno": 570,
 "labels": [
 "class-attribute",
 "instance-attribute"
@@ -26721,8 +26842,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 550,
-"endlineno": 550,
+"lineno": 571,
+"endlineno": 571,
 "labels": [
 "class-attribute",
 "instance-attribute"
@@ -26754,8 +26875,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 551,
-"endlineno": 551,
+"lineno": 572,
+"endlineno": 572,
 "labels": [
 "class-attribute",
 "instance-attribute"
@@ -26782,13 +26903,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprSlice.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprSlice.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 553,
-"endlineno": 561,
+"lineno": 574,
+"endlineno": 582,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -26798,6 +26919,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -26807,20 +26937,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -26858,8 +26980,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 545,
-"endlineno": 545
+"lineno": 566,
+"endlineno": 566
 }
 ]
 },
@@ -26870,12 +26992,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 564,
-"endlineno": 585,
+"lineno": 585,
+"endlineno": 606,
 "docstring": {
 "value": "Subscripts like `a[b]`.",
-"lineno": 566,
-"endlineno": 566,
+"lineno": 587,
+"endlineno": 587,
 "parsed": [
 {
 "kind": "text",
@@ -26894,8 +27016,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 568,
-"endlineno": 568,
+"lineno": 589,
+"endlineno": 589,
 "labels": [
 "instance-attribute"
 ],
@@ -26912,8 +27034,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 569,
-"endlineno": 569,
+"lineno": 590,
+"endlineno": 590,
 "labels": [
 "instance-attribute"
 ],
@@ -26925,13 +27047,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprSubscript.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprSubscript.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 571,
-"endlineno": 575,
+"lineno": 592,
+"endlineno": 596,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -26941,6 +27063,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -26950,20 +27081,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -26978,12 +27101,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 578,
-"endlineno": 580,
+"lineno": 599,
+"endlineno": 601,
 "docstring": {
 "value": "The path of this subscript's left part.",
-"lineno": 579,
-"endlineno": 579,
+"lineno": 600,
+"endlineno": 600,
 "parsed": [
 {
 "kind": "text",
@@ -27007,12 +27130,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 583,
-"endlineno": 585,
+"lineno": 604,
+"endlineno": 606,
 "docstring": {
 "value": "The canonical path of this subscript's left part.",
-"lineno": 584,
-"endlineno": 584,
+"lineno": 605,
+"endlineno": 605,
 "parsed": [
 {
 "kind": "text",
@@ -27059,8 +27182,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 564,
-"endlineno": 564
+"lineno": 585,
+"endlineno": 585
 }
 ]
 },
@@ -27071,12 +27194,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 588,
-"endlineno": 600,
+"lineno": 609,
+"endlineno": 621,
 "docstring": {
 "value": "Tuples like `(0, 1, 2)`.",
-"lineno": 590,
-"endlineno": 590,
+"lineno": 611,
+"endlineno": 611,
 "parsed": [
 {
 "kind": "text",
@@ -27095,8 +27218,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 592,
-"endlineno": 592,
+"lineno": 613,
+"endlineno": 613,
 "labels": [
 "instance-attribute"
 ],
@@ -27128,8 +27251,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 593,
-"endlineno": 593,
+"lineno": 614,
+"endlineno": 614,
 "labels": [
 "class-attribute",
 "instance-attribute"
@@ -27143,13 +27266,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprTuple.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprTuple.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 595,
-"endlineno": 600,
+"lineno": 616,
+"endlineno": 621,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -27159,6 +27282,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -27168,20 +27300,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -27219,8 +27343,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 588,
-"endlineno": 588
+"lineno": 609,
+"endlineno": 609
 }
 ]
 },
@@ -27231,12 +27355,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 603,
-"endlineno": 612,
+"lineno": 624,
+"endlineno": 633,
 "docstring": {
 "value": "Unary operations like `-1`.",
-"lineno": 605,
-"endlineno": 605,
+"lineno": 626,
+"endlineno": 626,
 "parsed": [
 {
 "kind": "text",
@@ -27255,8 +27379,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 607,
-"endlineno": 607,
+"lineno": 628,
+"endlineno": 628,
 "labels": [
 "instance-attribute"
 ],
@@ -27273,8 +27397,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 608,
-"endlineno": 608,
+"lineno": 629,
+"endlineno": 629,
 "labels": [
 "instance-attribute"
 ],
@@ -27294,13 +27418,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprUnaryOp.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprUnaryOp.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 610,
-"endlineno": 612,
+"lineno": 631,
+"endlineno": 633,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -27310,6 +27434,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -27319,20 +27452,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -27370,8 +27495,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 603,
-"endlineno": 603
+"lineno": 624,
+"endlineno": 624
 }
 ]
 },
@@ -27382,12 +27507,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 615,
-"endlineno": 625,
+"lineno": 636,
+"endlineno": 646,
 "docstring": {
 "value": "Yield statements like `yield a`.",
-"lineno": 617,
-"endlineno": 617,
+"lineno": 638,
+"endlineno": 638,
 "parsed": [
 {
 "kind": "text",
@@ -27406,8 +27531,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 619,
-"endlineno": 619,
+"lineno": 640,
+"endlineno": 640,
 "labels": [
 "class-attribute",
 "instance-attribute"
@@ -27434,13 +27559,13 @@
 },
 {
 "kind": "function",
-"name": "__iter__",
-"path": "griffe.expressions.ExprYield.__iter__",
+"name": "iterate",
+"path": "griffe.expressions.ExprYield.iterate",
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 621,
-"endlineno": 625,
+"lineno": 642,
+"endlineno": 646,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -27450,6 +27575,15 @@
 "annotation": null,
 "kind": "positional or keyword",
 "default": null
+},
+{
+"name": "flat",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 }
 ],
 "returns": {
@@ -27459,20 +27593,12 @@
 },
 "slice": {
 "left": {
-"left": {
 "name": "str",
 "cls": "ExprName"
 },
 "operator": "|",
 "right": {
-"name": "ExprName",
-"cls": "ExprName"
-},
-"cls": "ExprBinOp"
-},
-"operator": "|",
-"right": {
-"name": "ExprAttribute",
+"name": "Expr",
 "cls": "ExprName"
 },
 "cls": "ExprBinOp"
@@ -27510,8 +27636,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 615,
-"endlineno": 615
+"lineno": 636,
+"endlineno": 636
 }
 ]
 },
@@ -27522,8 +27648,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 628,
-"endlineno": 633,
+"lineno": 649,
+"endlineno": 654,
 "labels": [
 "module-attribute"
 ],
@@ -27599,8 +27725,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 635,
-"endlineno": 649,
+"lineno": 656,
+"endlineno": 670,
 "labels": [
 "module-attribute"
 ],
@@ -27802,8 +27928,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 651,
-"endlineno": 654,
+"lineno": 672,
+"endlineno": 675,
 "labels": [
 "module-attribute"
 ],
@@ -27851,8 +27977,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 656,
-"endlineno": 667,
+"lineno": 677,
+"endlineno": 688,
 "labels": [
 "module-attribute"
 ],
@@ -28012,8 +28138,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 670,
-"endlineno": 679,
+"lineno": 691,
+"endlineno": 700,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -28075,8 +28201,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 682,
-"endlineno": 687,
+"lineno": 703,
+"endlineno": 708,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -28138,8 +28264,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 690,
-"endlineno": 694,
+"lineno": 711,
+"endlineno": 715,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -28201,8 +28327,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 697,
-"endlineno": 700,
+"lineno": 718,
+"endlineno": 721,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -28264,8 +28390,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 703,
-"endlineno": 708,
+"lineno": 724,
+"endlineno": 729,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -28327,8 +28453,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 711,
-"endlineno": 717,
+"lineno": 732,
+"endlineno": 738,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -28390,8 +28516,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 720,
-"endlineno": 755,
+"lineno": 741,
+"endlineno": 776,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -28497,8 +28623,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 758,
-"endlineno": 762,
+"lineno": 779,
+"endlineno": 783,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -28560,8 +28686,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 765,
-"endlineno": 770,
+"lineno": 786,
+"endlineno": 791,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -28623,8 +28749,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 773,
-"endlineno": 774,
+"lineno": 794,
+"endlineno": 795,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -28686,8 +28812,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 777,
-"endlineno": 781,
+"lineno": 798,
+"endlineno": 802,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -28749,8 +28875,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 784,
-"endlineno": 789,
+"lineno": 805,
+"endlineno": 810,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -28812,8 +28938,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 792,
-"endlineno": 799,
+"lineno": 813,
+"endlineno": 820,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -28884,8 +29010,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 802,
-"endlineno": 805,
+"lineno": 823,
+"endlineno": 826,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -28947,8 +29073,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 808,
-"endlineno": 813,
+"lineno": 829,
+"endlineno": 834,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29010,8 +29136,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 816,
-"endlineno": 817,
+"lineno": 837,
+"endlineno": 838,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29073,8 +29199,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 820,
-"endlineno": 821,
+"lineno": 841,
+"endlineno": 842,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29136,8 +29262,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 824,
-"endlineno": 825,
+"lineno": 845,
+"endlineno": 846,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29199,8 +29325,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 828,
-"endlineno": 829,
+"lineno": 849,
+"endlineno": 850,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29262,8 +29388,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 832,
-"endlineno": 833,
+"lineno": 853,
+"endlineno": 854,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29325,8 +29451,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 836,
-"endlineno": 837,
+"lineno": 857,
+"endlineno": 858,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29388,8 +29514,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 840,
-"endlineno": 845,
+"lineno": 861,
+"endlineno": 866,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29451,8 +29577,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 848,
-"endlineno": 849,
+"lineno": 869,
+"endlineno": 870,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29514,8 +29640,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 852,
-"endlineno": 878,
+"lineno": 873,
+"endlineno": 899,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29604,8 +29730,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 881,
-"endlineno": 888,
+"lineno": 902,
+"endlineno": 909,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29676,8 +29802,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 891,
-"endlineno": 892,
+"lineno": 912,
+"endlineno": 913,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29739,8 +29865,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 895,
-"endlineno": 896,
+"lineno": 916,
+"endlineno": 917,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29802,8 +29928,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 899,
-"endlineno": 927,
+"lineno": 920,
+"endlineno": 948,
 "labels": [
 "module-attribute"
 ],
@@ -30337,8 +30463,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 932,
-"endlineno": 933,
+"lineno": 953,
+"endlineno": 954,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -30400,8 +30526,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 935,
-"endlineno": 936,
+"lineno": 956,
+"endlineno": 957,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -30463,8 +30589,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 942,
-"endlineno": 943,
+"lineno": 963,
+"endlineno": 964,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -30526,12 +30652,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 946,
-"endlineno": 971,
+"lineno": 967,
+"endlineno": 992,
 "docstring": {
 "value": "Build an expression from an AST.\n\nParameters:\n    node: The annotation node.\n    parent: The parent used to resolve the name.\n    parse_strings: Whether to try and parse strings as type annotations.\n\nReturns:\n    A string or resovable name or expression.",
-"lineno": 952,
-"endlineno": 961,
+"lineno": 973,
+"endlineno": 982,
 "parsed": [
 {
 "kind": "text",
@@ -30690,12 +30816,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 974,
-"endlineno": 1009,
+"lineno": 995,
+"endlineno": 1030,
 "docstring": {
 "value": "Safely (no exception) build a resolvable annotation.\n\nParameters:\n    node: The annotation node.\n    parent: The parent used to resolve the name.\n    parse_strings: Whether to try and parse strings as type annotations.\n    log_level: Log level to use to log a message. None to disable logging.\n    msg_format: A format string for the log message. Available placeholders:\n        path, lineno, node, error.\n\nReturns:\n    A string or resovable name or expression.",
-"lineno": 982,
-"endlineno": 994,
+"lineno": 1003,
+"endlineno": 1015,
 "parsed": [
 {
 "kind": "text",
@@ -30924,8 +31050,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 1012,
-"endlineno": 1012,
+"lineno": 1033,
+"endlineno": 1033,
 "labels": [
 "module-attribute"
 ],
@@ -30939,8 +31065,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 1013,
-"endlineno": 1013,
+"lineno": 1034,
+"endlineno": 1034,
 "labels": [
 "module-attribute"
 ],
@@ -30971,8 +31097,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 1014,
-"endlineno": 1018,
+"lineno": 1035,
+"endlineno": 1039,
 "labels": [
 "module-attribute"
 ],
@@ -31016,8 +31142,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 1019,
-"endlineno": 1019,
+"lineno": 1040,
+"endlineno": 1040,
 "labels": [
 "module-attribute"
 ],
@@ -31048,8 +31174,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 1020,
-"endlineno": 1024,
+"lineno": 1041,
+"endlineno": 1045,
 "labels": [
 "module-attribute"
 ],
@@ -31093,8 +31219,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 1025,
-"endlineno": 1025,
+"lineno": 1046,
+"endlineno": 1046,
 "labels": [
 "module-attribute"
 ],
@@ -31125,8 +31251,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 1026,
-"endlineno": 1030,
+"lineno": 1047,
+"endlineno": 1051,
 "labels": [
 "module-attribute"
 ],
@@ -31170,8 +31296,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 1033,
-"endlineno": 1073,
+"lineno": 1054,
+"endlineno": 1094,
 "labels": [
 "module-attribute"
 ],
@@ -34461,128 +34587,128 @@
 "name": "annotations",
 "target_path": "__future__.annotations",
 "path": "griffe.finder.annotations",
-"lineno": 3,
-"endlineno": 3
+"lineno": 14,
+"endlineno": 14
 },
 {
 "kind": "alias",
 "name": "ast",
 "target_path": "ast",
 "path": "griffe.finder.ast",
-"lineno": 5,
-"endlineno": 5
+"lineno": 16,
+"endlineno": 16
 },
 {
 "kind": "alias",
 "name": "os",
 "target_path": "os",
 "path": "griffe.finder.os",
-"lineno": 6,
-"endlineno": 6
+"lineno": 17,
+"endlineno": 17
 },
 {
 "kind": "alias",
 "name": "re",
 "target_path": "re",
 "path": "griffe.finder.re",
-"lineno": 7,
-"endlineno": 7
+"lineno": 18,
+"endlineno": 18
 },
 {
 "kind": "alias",
 "name": "sys",
 "target_path": "sys",
 "path": "griffe.finder.sys",
-"lineno": 8,
-"endlineno": 8
+"lineno": 19,
+"endlineno": 19
 },
 {
 "kind": "alias",
 "name": "suppress",
 "target_path": "contextlib.suppress",
 "path": "griffe.finder.suppress",
-"lineno": 9,
-"endlineno": 9
+"lineno": 20,
+"endlineno": 20
 },
 {
 "kind": "alias",
 "name": "Path",
 "target_path": "pathlib.Path",
 "path": "griffe.finder.Path",
-"lineno": 10,
-"endlineno": 10
+"lineno": 21,
+"endlineno": 21
 },
 {
 "kind": "alias",
 "name": "TYPE_CHECKING",
 "target_path": "typing.TYPE_CHECKING",
 "path": "griffe.finder.TYPE_CHECKING",
-"lineno": 11,
-"endlineno": 11
+"lineno": 22,
+"endlineno": 22
 },
 {
 "kind": "alias",
 "name": "ClassVar",
 "target_path": "typing.ClassVar",
 "path": "griffe.finder.ClassVar",
-"lineno": 11,
-"endlineno": 11
+"lineno": 22,
+"endlineno": 22
 },
 {
 "kind": "alias",
 "name": "Iterator",
 "target_path": "typing.Iterator",
 "path": "griffe.finder.Iterator",
-"lineno": 11,
-"endlineno": 11
+"lineno": 22,
+"endlineno": 22
 },
 {
 "kind": "alias",
 "name": "Sequence",
 "target_path": "typing.Sequence",
 "path": "griffe.finder.Sequence",
-"lineno": 11,
-"endlineno": 11
+"lineno": 22,
+"endlineno": 22
 },
 {
 "kind": "alias",
 "name": "Tuple",
 "target_path": "typing.Tuple",
 "path": "griffe.finder.Tuple",
-"lineno": 11,
-"endlineno": 11
+"lineno": 22,
+"endlineno": 22
 },
 {
 "kind": "alias",
 "name": "UnhandledEditableModuleError",
 "target_path": "griffe.exceptions.UnhandledEditableModuleError",
 "path": "griffe.finder.UnhandledEditableModuleError",
-"lineno": 13,
-"endlineno": 13
+"lineno": 24,
+"endlineno": 24
 },
 {
 "kind": "alias",
 "name": "get_logger",
 "target_path": "griffe.logger.get_logger",
 "path": "griffe.finder.get_logger",
-"lineno": 14,
-"endlineno": 14
+"lineno": 25,
+"endlineno": 25
 },
 {
 "kind": "alias",
 "name": "Pattern",
 "target_path": "typing.Pattern",
 "path": "griffe.finder.Pattern",
-"lineno": 17,
-"endlineno": 17
+"lineno": 28,
+"endlineno": 28
 },
 {
 "kind": "alias",
 "name": "Module",
 "target_path": "griffe.dataclasses.Module",
 "path": "griffe.finder.Module",
-"lineno": 19,
-"endlineno": 19
+"lineno": 30,
+"endlineno": 30
 },
 {
 "kind": "attribute",
@@ -34591,8 +34717,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 22,
-"endlineno": 22,
+"lineno": 33,
+"endlineno": 33,
 "labels": [
 "module-attribute"
 ],
@@ -34623,8 +34749,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 23,
-"endlineno": 23,
+"lineno": 34,
+"endlineno": 34,
 "labels": [
 "module-attribute"
 ],
@@ -34658,8 +34784,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 24,
-"endlineno": 24,
+"lineno": 35,
+"endlineno": 35,
 "labels": [
 "module-attribute"
 ],
@@ -34685,8 +34811,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 25,
-"endlineno": 25,
+"lineno": 36,
+"endlineno": 36,
 "labels": [
 "module-attribute"
 ],
@@ -34743,8 +34869,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 26,
-"endlineno": 26,
+"lineno": 37,
+"endlineno": 37,
 "labels": [
 "module-attribute"
 ],
@@ -34800,8 +34926,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 27,
-"endlineno": 27,
+"lineno": 38,
+"endlineno": 38,
 "labels": [
 "module-attribute"
 ],
@@ -34857,8 +34983,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 30,
-"endlineno": 31,
+"lineno": 41,
+"endlineno": 42,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -34901,12 +35027,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 34,
-"endlineno": 47,
+"lineno": 45,
+"endlineno": 58,
 "docstring": {
 "value": "This class is a simple placeholder used during the process of finding packages.",
-"lineno": 35,
-"endlineno": 35,
+"lineno": 46,
+"endlineno": 46,
 "parsed": [
 {
 "kind": "text",
@@ -34923,12 +35049,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 37,
-"endlineno": 47,
+"lineno": 48,
+"endlineno": 58,
 "docstring": {
 "value": "Initialize the package.\n\nParameters:\n    name: The package name.\n    path: The package path(s).\n    stubs: An optional path to the related stubs file (.pyi).",
-"lineno": 38,
-"endlineno": 44,
+"lineno": 49,
+"endlineno": 55,
 "parsed": [
 {
 "kind": "parameters",
@@ -35019,8 +35145,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 45,
-"endlineno": 45,
+"lineno": 56,
+"endlineno": 56,
 "labels": [
 "instance-attribute"
 ],
@@ -35041,8 +35167,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 46,
-"endlineno": 46,
+"lineno": 57,
+"endlineno": 57,
 "labels": [
 "instance-attribute"
 ],
@@ -35063,8 +35189,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 47,
-"endlineno": 47,
+"lineno": 58,
+"endlineno": 58,
 "labels": [
 "instance-attribute"
 ],
@@ -35094,12 +35220,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 50,
-"endlineno": 61,
+"lineno": 61,
+"endlineno": 72,
 "docstring": {
 "value": "This class is a simple placeholder used during the process of finding packages.",
-"lineno": 51,
-"endlineno": 51,
+"lineno": 62,
+"endlineno": 62,
 "parsed": [
 {
 "kind": "text",
@@ -35116,12 +35242,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 53,
-"endlineno": 61,
+"lineno": 64,
+"endlineno": 72,
 "docstring": {
 "value": "Initialize the namespace package.\n\nParameters:\n    name: The package name.\n    path: The package paths.",
-"lineno": 54,
-"endlineno": 59,
+"lineno": 65,
+"endlineno": 70,
 "parsed": [
 {
 "kind": "parameters",
@@ -35198,8 +35324,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 60,
-"endlineno": 60,
+"lineno": 71,
+"endlineno": 71,
 "labels": [
 "instance-attribute"
 ],
@@ -35220,8 +35346,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 61,
-"endlineno": 61,
+"lineno": 72,
+"endlineno": 72,
 "labels": [
 "instance-attribute"
 ],
@@ -35253,12 +35379,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 64,
-"endlineno": 299,
+"lineno": 75,
+"endlineno": 310,
 "docstring": {
 "value": "The Griffe finder, allowing to find modules on the file system.",
-"lineno": 65,
-"endlineno": 65,
+"lineno": 76,
+"endlineno": 76,
 "parsed": [
 {
 "kind": "text",
@@ -35275,8 +35401,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 67,
-"endlineno": 67,
+"lineno": 78,
+"endlineno": 78,
 "labels": [
 "class-attribute"
 ],
@@ -35311,8 +35437,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 68,
-"endlineno": 68,
+"lineno": 79,
+"endlineno": 79,
 "labels": [
 "class-attribute"
 ],
@@ -35349,12 +35475,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 70,
-"endlineno": 79,
+"lineno": 81,
+"endlineno": 90,
 "docstring": {
 "value": "Initialize the finder.\n\nParameters:\n    search_paths: Optional paths to search into.",
-"lineno": 71,
-"endlineno": 75,
+"lineno": 82,
+"endlineno": 86,
 "parsed": [
 {
 "kind": "parameters",
@@ -35441,8 +35567,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 76,
-"endlineno": 76,
+"lineno": 87,
+"endlineno": 87,
 "labels": [
 "instance-attribute"
 ],
@@ -35488,8 +35614,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 78,
-"endlineno": 78,
+"lineno": 89,
+"endlineno": 89,
 "labels": [
 "instance-attribute"
 ],
@@ -35576,12 +35702,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 81,
-"endlineno": 130,
+"lineno": 92,
+"endlineno": 141,
 "docstring": {
 "value": "Find the top module of a module.\n\nIf a Path is passed, only try to find the module as a file path.\nIf a string is passed, first try to find the module as a file path,\nthen look into the search paths.\n\nParameters:\n    module: The module name or path.\n    try_relative_path: Whether to try finding the module as a relative path,\n        when the given module is not already a path.\n\nRaises:\n    FileNotFoundError: When a Path was passed and the module could not be found:\n\n        - the directory has no `__init__.py` file in it\n        - the path does not exist\n\n    ModuleNotFoundError: When a string was passed and the module could not be found:\n\n        - no `module/__init__.py`\n        - no `module.py`\n        - no `module.pth`\n        - no `module` directory (namespace packages)\n        - or unsupported .pth file\n\nReturns:\n    The name of the module, and an instance representing its (namespace) package.",
-"lineno": 87,
-"endlineno": 114,
+"lineno": 98,
+"endlineno": 125,
 "parsed": [
 {
 "kind": "text",
@@ -35750,12 +35876,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 132,
-"endlineno": 169,
+"lineno": 143,
+"endlineno": 180,
 "docstring": {
 "value": "Find a package or namespace package.\n\nParameters:\n    module_name: The module name.\n\nRaises:\n    ModuleNotFoundError: When the module cannot be found.\n\nReturns:\n    A package or namespace package wrapper.",
-"lineno": 133,
-"endlineno": 143,
+"lineno": 144,
+"endlineno": 154,
 "parsed": [
 {
 "kind": "text",
@@ -35849,12 +35975,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 171,
-"endlineno": 230,
+"lineno": 182,
+"endlineno": 241,
 "docstring": {
 "value": "Iterate on a module's submodules, if any.\n\nParameters:\n    path: The module path.\n    seen: If not none, this set is used to skip some files.\n        The goal is to replicate the behavior of Python by\n        only using the first packages (with `__init__` modules)\n        of the same name found in different namespace packages.\n        As soon as we find an `__init__` module, we add its parent\n        path to the `seen` set, which will be reused when scanning\n        the next namespace packages.\n\nYields:\n    name_parts (tuple[str, ...]): The parts of a submodule name.\n    filepath (Path): A submodule filepath.",
-"lineno": 176,
-"endlineno": 191,
+"lineno": 187,
+"endlineno": 202,
 "parsed": [
 {
 "kind": "text",
@@ -36007,12 +36133,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 232,
-"endlineno": 241,
+"lineno": 243,
+"endlineno": 252,
 "docstring": {
 "value": "Return the list of a module's submodules.\n\nParameters:\n    module: The parent module.\n\nReturns:\n    A list of tuples containing the parts of the submodule name and its path.",
-"lineno": 233,
-"endlineno": 240,
+"lineno": 244,
+"endlineno": 251,
 "parsed": [
 {
 "kind": "text",
@@ -36092,8 +36218,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 243,
-"endlineno": 256,
+"lineno": 254,
+"endlineno": 267,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -36143,8 +36269,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 258,
-"endlineno": 264,
+"lineno": 269,
+"endlineno": 275,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -36184,8 +36310,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 266,
-"endlineno": 268,
+"lineno": 277,
+"endlineno": 279,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -36215,8 +36341,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 270,
-"endlineno": 275,
+"lineno": 281,
+"endlineno": 286,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -36237,8 +36363,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 277,
-"endlineno": 283,
+"lineno": 288,
+"endlineno": 294,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -36278,8 +36404,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 285,
-"endlineno": 299,
+"lineno": 296,
+"endlineno": 310,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -36316,8 +36442,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 302,
-"endlineno": 302,
+"lineno": 313,
+"endlineno": 313,
 "labels": [
 "module-attribute"
 ],
@@ -36349,8 +36475,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 303,
-"endlineno": 303,
+"lineno": 314,
+"endlineno": 314,
 "labels": [
 "module-attribute"
 ],
@@ -36382,8 +36508,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 304,
-"endlineno": 304,
+"lineno": 315,
+"endlineno": 315,
 "labels": [
 "module-attribute"
 ],
@@ -36415,8 +36541,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 309,
-"endlineno": 311,
+"lineno": 320,
+"endlineno": 322,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -36443,8 +36569,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 314,
-"endlineno": 315,
+"lineno": 325,
+"endlineno": 326,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -36471,8 +36597,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 318,
-"endlineno": 338,
+"lineno": 329,
+"endlineno": 349,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -36506,8 +36632,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 341,
-"endlineno": 366,
+"lineno": 352,
+"endlineno": 377,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -36541,8 +36667,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/finder.py",
 "relative_filepath": "src/griffe/finder.py",
 "relative_package_filepath": "griffe/finder.py",
-"lineno": 369,
-"endlineno": 369,
+"lineno": 380,
+"endlineno": 380,
 "labels": [
 "module-attribute"
 ],
@@ -38811,7 +38937,7 @@
 "relative_filepath": "src/griffe/loader.py",
 "relative_package_filepath": "griffe/loader.py",
 "lineno": 41,
-"endlineno": 538,
+"endlineno": 539,
 "docstring": {
 "value": "The Griffe loader, allowing to load data from modules.",
 "lineno": 42,
@@ -40501,7 +40627,7 @@
 "relative_filepath": "src/griffe/loader.py",
 "relative_package_filepath": "griffe/loader.py",
 "lineno": 427,
-"endlineno": 450,
+"endlineno": 451,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -40563,8 +40689,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/loader.py",
 "relative_filepath": "src/griffe/loader.py",
 "relative_package_filepath": "griffe/loader.py",
-"lineno": 452,
-"endlineno": 458,
+"lineno": 453,
+"endlineno": 459,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -40621,8 +40747,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/loader.py",
 "relative_filepath": "src/griffe/loader.py",
 "relative_package_filepath": "griffe/loader.py",
-"lineno": 460,
-"endlineno": 477,
+"lineno": 461,
+"endlineno": 478,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -40687,8 +40813,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/loader.py",
 "relative_filepath": "src/griffe/loader.py",
 "relative_package_filepath": "griffe/loader.py",
-"lineno": 479,
-"endlineno": 499,
+"lineno": 480,
+"endlineno": 500,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -40749,8 +40875,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/loader.py",
 "relative_filepath": "src/griffe/loader.py",
 "relative_package_filepath": "griffe/loader.py",
-"lineno": 501,
-"endlineno": 529,
+"lineno": 502,
+"endlineno": 530,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -40815,8 +40941,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/loader.py",
 "relative_filepath": "src/griffe/loader.py",
 "relative_package_filepath": "griffe/loader.py",
-"lineno": 531,
-"endlineno": 538,
+"lineno": 532,
+"endlineno": 539,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -40899,12 +41025,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/loader.py",
 "relative_filepath": "src/griffe/loader.py",
 "relative_package_filepath": "griffe/loader.py",
-"lineno": 541,
-"endlineno": 601,
+"lineno": 542,
+"endlineno": 602,
 "docstring": {
 "value": "Load and return a module.\n\nExample:\n```python\nimport griffe\n\nmodule = griffe.load(...)\n```\n\nThis is a shortcut for:\n\n```python\nfrom griffe.loader import GriffeLoader\n\nloader = GriffeLoader(...)\nmodule = loader.load_module(...)\n```\n\nSee the documentation for the loader: [`GriffeLoader`][griffe.loader.GriffeLoader].\n\nParameters:\n    module: The module name or path.\n    submodules: Whether to recurse on the submodules.\n    try_relative_path: Whether to try finding the module as a relative path.\n    extensions: The extensions to use.\n    search_paths: The paths to search into.\n    docstring_parser: The docstring parser to use. By default, no parsing is done.\n    docstring_options: Additional docstring parsing options.\n    lines_collection: A collection of source code lines.\n    modules_collection: A collection of modules.\n    allow_inspection: Whether to allow inspecting modules when visiting them is not possible.\n\nReturns:\n    A loaded module.",
-"lineno": 554,
-"endlineno": 588,
+"lineno": 555,
+"endlineno": 589,
 "parsed": [
 {
 "kind": "text",
@@ -41266,8 +41392,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/loader.py",
 "relative_filepath": "src/griffe/loader.py",
 "relative_package_filepath": "griffe/loader.py",
-"lineno": 604,
-"endlineno": 604,
+"lineno": 605,
+"endlineno": 605,
 "labels": [
 "module-attribute"
 ],
@@ -64136,7 +64262,7 @@
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
 "lineno": 427,
-"endlineno": 486,
+"endlineno": 495,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -64166,7 +64292,16 @@
 "cls": "ExprName"
 },
 "kind": "keyword-only",
-"default": null
+"default": "True"
+},
+{
+"name": "returns_named_value",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
 },
 {
 "name": "options",
@@ -64212,8 +64347,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 489,
-"endlineno": 533,
+"lineno": 498,
+"endlineno": 542,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -64280,8 +64415,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 536,
-"endlineno": 576,
+"lineno": 545,
+"endlineno": 585,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -64348,8 +64483,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 579,
-"endlineno": 635,
+"lineno": 588,
+"endlineno": 644,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -64425,8 +64560,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 638,
-"endlineno": 659,
+"lineno": 647,
+"endlineno": 668,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -64493,8 +64628,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 662,
-"endlineno": 663,
+"lineno": 671,
+"endlineno": 672,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -64521,8 +64656,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 666,
-"endlineno": 680,
+"lineno": 675,
+"endlineno": 689,
 "labels": [
 "module-attribute"
 ],
@@ -64763,8 +64898,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 682,
-"endlineno": 682,
+"lineno": 691,
+"endlineno": 691,
 "labels": [
 "module-attribute"
 ],
@@ -64785,12 +64920,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 685,
-"endlineno": 818,
-"docstring": {
-"value": "Parse a docstring.\n\nThis function iterates on lines of a docstring to build sections.\nIt then returns this list of sections.\n\nParameters:\n    docstring: The docstring to parse.\n    ignore_init_summary: Whether to ignore the summary in `__init__` methods' docstrings.\n    trim_doctest_flags: Whether to remove doctest flags from Python example blocks.\n    returns_multiple_items: Whether the `Returns` section has multiple items.\n    warn_unknown_params: Warn about documented parameters not appearing in the signature.\n    **options: Additional parsing options.\n\nReturns:\n    A list of docstring sections.",
 "lineno": 694,
-"endlineno": 709,
+"endlineno": 854,
+"docstring": {
+"value": "Parse a docstring.\n\nThis function iterates on lines of a docstring to build sections.\nIt then returns this list of sections.\n\nParameters:\n    docstring: The docstring to parse.\n    ignore_init_summary: Whether to ignore the summary in `__init__` methods' docstrings.\n    trim_doctest_flags: Whether to remove doctest flags from Python example blocks.\n    returns_multiple_items: Whether the `Returns` section has multiple items.\n    warn_unknown_params: Warn about documented parameters not appearing in the signature.\n    returns_named_value: Whether to parse `thing: Description` in returns sections as a name and description,\n        rather than a type and description. When true, type must be wrapped in parentheses: `(int): Description.`.\n        When false, parentheses are optional but the items cannot be named: `int: Description`.\n    returns_type_in_property_summary: Whether to parse the return type of properties\n        at the beginning of their summary: `str: Summary of the property`.\n    **options: Additional parsing options.\n\nReturns:\n    A list of docstring sections.",
+"lineno": 705,
+"endlineno": 725,
 "parsed": [
 {
 "kind": "text",
@@ -64842,6 +64977,24 @@
 },
 "description": "Warn about documented parameters not appearing in the signature.",
 "value": "True"
+},
+{
+"name": "returns_named_value",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"description": "Whether to parse `thing: Description` in returns sections as a name and description,\nrather than a type and description. When true, type must be wrapped in parentheses: `(int): Description.`.\nWhen false, parentheses are optional but the items cannot be named: `int: Description`.",
+"value": "True"
+},
+{
+"name": "returns_type_in_property_summary",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"description": "Whether to parse the return type of properties\nat the beginning of their summary: `str: Summary of the property`.",
+"value": "False"
 },
 {
 "name": "**options",
@@ -64926,6 +65079,24 @@
 "default": "True"
 },
 {
+"name": "returns_named_value",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "True"
+},
+{
+"name": "returns_type_in_property_summary",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "False"
+},
+{
 "name": "options",
 "annotation": {
 "name": "Any",
@@ -64954,8 +65125,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/docstrings/google.py",
 "relative_filepath": "src/griffe/docstrings/google.py",
 "relative_package_filepath": "griffe/docstrings/google.py",
-"lineno": 821,
-"endlineno": 821,
+"lineno": 857,
+"endlineno": 857,
 "labels": [
 "module-attribute"
 ],

@@ -461,32 +461,32 @@
     <span class=o>*</span><span class=p>,</span>
     <span class=n>parse_strings</span><span class=p>:</span> <span class=n><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a></span> <span class=o>|</span> <span class=kc>None</span> <span class=o>=</span> <span class=kc>None</span>
 <span class=p>)</span> <span class=o>-&gt;</span> <span class=n><a class="autorefs autorefs-internal" title="griffe.expressions.Expr" href="../../expressions/#griffe.expressions.Expr">Expr</a></span> <span class=o>|</span> <span class=kc>None</span>
-</code></pre></div> <div class="doc doc-contents "> <p>Build an expression from an AST.</p> <p>Parameters:</p> <ul> <li class=field-body> <b>node</b> (<code><a class="autorefs autorefs-external" title="ast.AST" href="https://docs.python.org/3/library/ast.html#ast.AST">AST</a> | None</code>) – <div class=doc-md-description> <p>The annotation node.</p> </div> </li> <li class=field-body> <b>parent</b> (<code><a class="autorefs autorefs-internal" title="griffe.dataclasses.Module" href="../../dataclasses/#griffe.dataclasses.Module">Module</a> | <a class="autorefs autorefs-internal" title="griffe.dataclasses.Class" href="../../dataclasses/#griffe.dataclasses.Class">Class</a></code>) – <div class=doc-md-description> <p>The parent used to resolve the name.</p> </div> </li> <li class=field-body> <b>parse_strings</b> (<code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a> | None</code>, default: <code>None</code> ) – <div class=doc-md-description> <p>Whether to try and parse strings as type annotations.</p> </div> </li> </ul> <p>Returns:</p> <ul> <li class=field-body> <code><a class="autorefs autorefs-internal" title="griffe.expressions.Expr" href="../../expressions/#griffe.expressions.Expr">Expr</a> | None</code> – <div class=doc-md-description> <p>A string or resovable name or expression.</p> </div> </li> </ul> <details class=quote> <summary>Source code in <code>src/griffe/expressions.py</code></summary> <div class=highlight><table class=highlighttable><tr><td class=linenos><div class=linenodiv><pre><span></span><span class=normal>946</span>
-<span class=normal>947</span>
-<span class=normal>948</span>
-<span class=normal>949</span>
-<span class=normal>950</span>
-<span class=normal>951</span>
-<span class=normal>952</span>
-<span class=normal>953</span>
-<span class=normal>954</span>
-<span class=normal>955</span>
-<span class=normal>956</span>
-<span class=normal>957</span>
-<span class=normal>958</span>
-<span class=normal>959</span>
-<span class=normal>960</span>
-<span class=normal>961</span>
-<span class=normal>962</span>
-<span class=normal>963</span>
-<span class=normal>964</span>
-<span class=normal>965</span>
-<span class=normal>966</span>
-<span class=normal>967</span>
+</code></pre></div> <div class="doc doc-contents "> <p>Build an expression from an AST.</p> <p>Parameters:</p> <ul> <li class=field-body> <b>node</b> (<code><a class="autorefs autorefs-external" title="ast.AST" href="https://docs.python.org/3/library/ast.html#ast.AST">AST</a> | None</code>) – <div class=doc-md-description> <p>The annotation node.</p> </div> </li> <li class=field-body> <b>parent</b> (<code><a class="autorefs autorefs-internal" title="griffe.dataclasses.Module" href="../../dataclasses/#griffe.dataclasses.Module">Module</a> | <a class="autorefs autorefs-internal" title="griffe.dataclasses.Class" href="../../dataclasses/#griffe.dataclasses.Class">Class</a></code>) – <div class=doc-md-description> <p>The parent used to resolve the name.</p> </div> </li> <li class=field-body> <b>parse_strings</b> (<code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a> | None</code>, default: <code>None</code> ) – <div class=doc-md-description> <p>Whether to try and parse strings as type annotations.</p> </div> </li> </ul> <p>Returns:</p> <ul> <li class=field-body> <code><a class="autorefs autorefs-internal" title="griffe.expressions.Expr" href="../../expressions/#griffe.expressions.Expr">Expr</a> | None</code> – <div class=doc-md-description> <p>A string or resovable name or expression.</p> </div> </li> </ul> <details class=quote> <summary>Source code in <code>src/griffe/expressions.py</code></summary> <div class=highlight><table class=highlighttable><tr><td class=linenos><div class=linenodiv><pre><span></span><span class=normal>967</span>
 <span class=normal>968</span>
 <span class=normal>969</span>
 <span class=normal>970</span>
-<span class=normal>971</span></pre></div></td><td class=code><div><pre><span></span><code><span class=k>def</span> <span class=nf>get_expression</span><span class=p>(</span>
+<span class=normal>971</span>
+<span class=normal>972</span>
+<span class=normal>973</span>
+<span class=normal>974</span>
+<span class=normal>975</span>
+<span class=normal>976</span>
+<span class=normal>977</span>
+<span class=normal>978</span>
+<span class=normal>979</span>
+<span class=normal>980</span>
+<span class=normal>981</span>
+<span class=normal>982</span>
+<span class=normal>983</span>
+<span class=normal>984</span>
+<span class=normal>985</span>
+<span class=normal>986</span>
+<span class=normal>987</span>
+<span class=normal>988</span>
+<span class=normal>989</span>
+<span class=normal>990</span>
+<span class=normal>991</span>
+<span class=normal>992</span></pre></div></td><td class=code><div><pre><span></span><code><span class=k>def</span> <span class=nf>get_expression</span><span class=p>(</span>
     <span class=n>node</span><span class=p>:</span> <span class=n>ast</span><span class=o>.</span><span class=n>AST</span> <span class=o>|</span> <span class=kc>None</span><span class=p>,</span>
     <span class=n>parent</span><span class=p>:</span> <span class=n>Module</span> <span class=o>|</span> <span class=n>Class</span><span class=p>,</span>
     <span class=o>*</span><span class=p>,</span>
@@ -704,28 +704,7 @@
     <span class=n>log_level</span><span class=p>:</span> <span class=n><a class="autorefs autorefs-internal" title="griffe.logger.LogLevel" href="../../logger/#griffe.logger.LogLevel">LogLevel</a></span> <span class=o>|</span> <span class=kc>None</span> <span class=o>=</span> <span class=n>LogLevel</span><span class=o>.</span><span class=n>error</span><span class=p>,</span>
     <span class=n>msg_format</span><span class=p>:</span> <span class=n><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span> <span class=o>=</span> <span class=s2>&quot;</span><span class=si>{path}</span><span class=s2>:</span><span class=si>{lineno}</span><span class=s2>: Failed to get expression from </span><span class=si>{node_class}</span><span class=s2>: </span><span class=si>{error}</span><span class=s2>&quot;</span>
 <span class=p>)</span> <span class=o>-&gt;</span> <span class=n><a class="autorefs autorefs-internal" title="griffe.expressions.Expr" href="../../expressions/#griffe.expressions.Expr">Expr</a></span> <span class=o>|</span> <span class=kc>None</span>
-</code></pre></div> <div class="doc doc-contents "> <p>Safely (no exception) build a resolvable annotation.</p> <p>Parameters:</p> <ul> <li class=field-body> <b>node</b> (<code><a class="autorefs autorefs-external" title="ast.AST" href="https://docs.python.org/3/library/ast.html#ast.AST">AST</a> | None</code>) – <div class=doc-md-description> <p>The annotation node.</p> </div> </li> <li class=field-body> <b>parent</b> (<code><a class="autorefs autorefs-internal" title="griffe.dataclasses.Module" href="../../dataclasses/#griffe.dataclasses.Module">Module</a> | <a class="autorefs autorefs-internal" title="griffe.dataclasses.Class" href="../../dataclasses/#griffe.dataclasses.Class">Class</a></code>) – <div class=doc-md-description> <p>The parent used to resolve the name.</p> </div> </li> <li class=field-body> <b>parse_strings</b> (<code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a> | None</code>, default: <code>None</code> ) – <div class=doc-md-description> <p>Whether to try and parse strings as type annotations.</p> </div> </li> <li class=field-body> <b>log_level</b> (<code><a class="autorefs autorefs-internal" title="griffe.logger.LogLevel" href="../../logger/#griffe.logger.LogLevel">LogLevel</a> | None</code>, default: <code><span title="griffe.logger.LogLevel.error">error</span></code> ) – <div class=doc-md-description> <p>Log level to use to log a message. None to disable logging.</p> </div> </li> <li class=field-body> <b>msg_format</b> (<code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></code>, default: <code>&#39;{path}:{lineno}: Failed to get expression from {node_class}: {error}&#39;</code> ) – <div class=doc-md-description> <p>A format string for the log message. Available placeholders: path, lineno, node, error.</p> </div> </li> </ul> <p>Returns:</p> <ul> <li class=field-body> <code><a class="autorefs autorefs-internal" title="griffe.expressions.Expr" href="../../expressions/#griffe.expressions.Expr">Expr</a> | None</code> – <div class=doc-md-description> <p>A string or resovable name or expression.</p> </div> </li> </ul> <details class=quote> <summary>Source code in <code>src/griffe/expressions.py</code></summary> <div class=highlight><table class=highlighttable><tr><td class=linenos><div class=linenodiv><pre><span></span><span class=normal> 974</span>
-<span class=normal> 975</span>
-<span class=normal> 976</span>
-<span class=normal> 977</span>
-<span class=normal> 978</span>
-<span class=normal> 979</span>
-<span class=normal> 980</span>
-<span class=normal> 981</span>
-<span class=normal> 982</span>
-<span class=normal> 983</span>
-<span class=normal> 984</span>
-<span class=normal> 985</span>
-<span class=normal> 986</span>
-<span class=normal> 987</span>
-<span class=normal> 988</span>
-<span class=normal> 989</span>
-<span class=normal> 990</span>
-<span class=normal> 991</span>
-<span class=normal> 992</span>
-<span class=normal> 993</span>
-<span class=normal> 994</span>
-<span class=normal> 995</span>
+</code></pre></div> <div class="doc doc-contents "> <p>Safely (no exception) build a resolvable annotation.</p> <p>Parameters:</p> <ul> <li class=field-body> <b>node</b> (<code><a class="autorefs autorefs-external" title="ast.AST" href="https://docs.python.org/3/library/ast.html#ast.AST">AST</a> | None</code>) – <div class=doc-md-description> <p>The annotation node.</p> </div> </li> <li class=field-body> <b>parent</b> (<code><a class="autorefs autorefs-internal" title="griffe.dataclasses.Module" href="../../dataclasses/#griffe.dataclasses.Module">Module</a> | <a class="autorefs autorefs-internal" title="griffe.dataclasses.Class" href="../../dataclasses/#griffe.dataclasses.Class">Class</a></code>) – <div class=doc-md-description> <p>The parent used to resolve the name.</p> </div> </li> <li class=field-body> <b>parse_strings</b> (<code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a> | None</code>, default: <code>None</code> ) – <div class=doc-md-description> <p>Whether to try and parse strings as type annotations.</p> </div> </li> <li class=field-body> <b>log_level</b> (<code><a class="autorefs autorefs-internal" title="griffe.logger.LogLevel" href="../../logger/#griffe.logger.LogLevel">LogLevel</a> | None</code>, default: <code><span title="griffe.logger.LogLevel.error">error</span></code> ) – <div class=doc-md-description> <p>Log level to use to log a message. None to disable logging.</p> </div> </li> <li class=field-body> <b>msg_format</b> (<code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></code>, default: <code>&#39;{path}:{lineno}: Failed to get expression from {node_class}: {error}&#39;</code> ) – <div class=doc-md-description> <p>A format string for the log message. Available placeholders: path, lineno, node, error.</p> </div> </li> </ul> <p>Returns:</p> <ul> <li class=field-body> <code><a class="autorefs autorefs-internal" title="griffe.expressions.Expr" href="../../expressions/#griffe.expressions.Expr">Expr</a> | None</code> – <div class=doc-md-description> <p>A string or resovable name or expression.</p> </div> </li> </ul> <details class=quote> <summary>Source code in <code>src/griffe/expressions.py</code></summary> <div class=highlight><table class=highlighttable><tr><td class=linenos><div class=linenodiv><pre><span></span><span class=normal> 995</span>
 <span class=normal> 996</span>
 <span class=normal> 997</span>
 <span class=normal> 998</span>
@@ -739,7 +718,28 @@
 <span class=normal>1006</span>
 <span class=normal>1007</span>
 <span class=normal>1008</span>
-<span class=normal>1009</span></pre></div></td><td class=code><div><pre><span></span><code><span class=k>def</span> <span class=nf>safe_get_expression</span><span class=p>(</span>
+<span class=normal>1009</span>
+<span class=normal>1010</span>
+<span class=normal>1011</span>
+<span class=normal>1012</span>
+<span class=normal>1013</span>
+<span class=normal>1014</span>
+<span class=normal>1015</span>
+<span class=normal>1016</span>
+<span class=normal>1017</span>
+<span class=normal>1018</span>
+<span class=normal>1019</span>
+<span class=normal>1020</span>
+<span class=normal>1021</span>
+<span class=normal>1022</span>
+<span class=normal>1023</span>
+<span class=normal>1024</span>
+<span class=normal>1025</span>
+<span class=normal>1026</span>
+<span class=normal>1027</span>
+<span class=normal>1028</span>
+<span class=normal>1029</span>
+<span class=normal>1030</span></pre></div></td><td class=code><div><pre><span></span><code><span class=k>def</span> <span class=nf>safe_get_expression</span><span class=p>(</span>
     <span class=n>node</span><span class=p>:</span> <span class=n>ast</span><span class=o>.</span><span class=n>AST</span> <span class=o>|</span> <span class=kc>None</span><span class=p>,</span>
     <span class=n>parent</span><span class=p>:</span> <span class=n>Module</span> <span class=o>|</span> <span class=n>Class</span><span class=p>,</span>
     <span class=o>*</span><span class=p>,</span>
