@@ -55,8 +55,8 @@
             </div>
         </aside>
         <h2>
-            <span class="text">352 statements &nbsp;</span>
-            <button type="button" class="run button_toggle_run" value="run" data-shortcut="r" title="Toggle lines run">352<span class="text"> run</span></button>
+            <span class="text">357 statements &nbsp;</span>
+            <button type="button" class="run button_toggle_run" value="run" data-shortcut="r" title="Toggle lines run">357<span class="text"> run</span></button>
             <button type="button" class="mis show_mis button_toggle_mis" value="mis" data-shortcut="m" title="Toggle lines missing">0<span class="text"> missing</span></button>
             <button type="button" class="exc show_exc button_toggle_exc" value="exc" data-shortcut="x" title="Toggle lines excluded">2<span class="text"> excluded</span></button>
             <button type="button" class="par run show_par button_toggle_par" value="par" data-shortcut="p" title="Toggle lines partially run">0<span class="text"> partial</span></button>
@@ -66,8 +66,8 @@
             <a id="indexLink" class="nav" href="covindex.html">&Hat; index</a> &nbsp; &nbsp;
             <a id="nextFileLink" class="nav" href="d_eb24e90c7b74ae12_test_sphinx_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
-            <a class="nav" href="https://coverage.readthedocs.io/en/7.3.0">coverage.py v7.3.0</a>,
-            created at 2023-08-26 19:16 +0200
+            <a class="nav" href="https://coverage.readthedocs.io/en/7.3.1">coverage.py v7.3.1</a>,
+            created at 2023-09-28 16:45 +0200
         </p>
         <aside class="hidden">
             <button type="button" class="button_next_chunk" data-shortcut="j"/>
@@ -1174,7 +1174,7 @@
     <p class="pln"><span class="n"><a id="t1090" href="#t1090">1090</a></span><span class="t">    <span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t1091" href="#t1091">1091</a></span><span class="t"><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t1092" href="#t1092">1092</a></span><span class="t"><span class="key">def</span> <span class="nam">test_trim_doctest_flags_basic_example</span><span class="op">(</span><span class="nam">parse_numpy</span><span class="op">:</span> <span class="nam">ParserType</span><span class="op">,</span> <span class="nam">docstring</span><span class="op">:</span> <span class="nam">str</span><span class="op">)</span> <span class="op">-></span> <span class="key">None</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="pln"><span class="n"><a id="t1093" href="#t1093">1093</a></span><span class="t">    <span class="str">"""Correctly parse_numpy simple example docstrings when `trim_doctest_flags` option is turned on.</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t1093" href="#t1093">1093</a></span><span class="t">    <span class="str">"""Correctly parse simple example docstrings when `trim_doctest_flags` option is turned on.</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t1094" href="#t1094">1094</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t1095" href="#t1095">1095</a></span><span class="t"><span class="str">    Parameters:</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t1096" href="#t1096">1096</a></span><span class="t"><span class="str">        parse_numpy: Fixture parser.</span>&nbsp;</span><span class="r"></span></p>
@@ -1192,7 +1192,7 @@
     <p class="pln"><span class="n"><a id="t1108" href="#t1108">1108</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t1109" href="#t1109">1109</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t1110" href="#t1110">1110</a></span><span class="t"><span class="key">def</span> <span class="nam">test_trim_doctest_flags_multi_example</span><span class="op">(</span><span class="nam">parse_numpy</span><span class="op">:</span> <span class="nam">ParserType</span><span class="op">)</span> <span class="op">-></span> <span class="key">None</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="pln"><span class="n"><a id="t1111" href="#t1111">1111</a></span><span class="t">    <span class="str">"""Correctly parse_numpy multiline example docstrings when `trim_doctest_flags` option is turned on.</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t1111" href="#t1111">1111</a></span><span class="t">    <span class="str">"""Correctly parse multiline example docstrings when `trim_doctest_flags` option is turned on.</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t1112" href="#t1112">1112</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t1113" href="#t1113">1113</a></span><span class="t"><span class="str">    Parameters:</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t1114" href="#t1114">1114</a></span><span class="t"><span class="str">        parse_numpy: Fixture parser.</span>&nbsp;</span><span class="r"></span></p>
@@ -1226,6 +1226,23 @@
     <p class="run"><span class="n"><a id="t1142" href="#t1142">1142</a></span><span class="t">    <span class="nam">example_str</span> <span class="op">=</span> <span class="nam">sections</span><span class="op">[</span><span class="num">0</span><span class="op">]</span><span class="op">.</span><span class="nam">value</span><span class="op">[</span><span class="num">3</span><span class="op">]</span><span class="op">[</span><span class="num">1</span><span class="op">]</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t1143" href="#t1143">1143</a></span><span class="t">    <span class="key">assert</span> <span class="str">"&lt;BLANKLINE>"</span> <span class="key">not</span> <span class="key">in</span> <span class="nam">example_str</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t1144" href="#t1144">1144</a></span><span class="t">    <span class="key">assert</span> <span class="str">"\n>>> print(list(range(1, 100)))\n"</span> <span class="key">in</span> <span class="nam">example_str</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t1145" href="#t1145">1145</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t1146" href="#t1146">1146</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t1147" href="#t1147">1147</a></span><span class="t"><span class="key">def</span> <span class="nam">test_parsing_choices</span><span class="op">(</span><span class="nam">parse_numpy</span><span class="op">:</span> <span class="nam">ParserType</span><span class="op">)</span> <span class="op">-></span> <span class="key">None</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t1148" href="#t1148">1148</a></span><span class="t">    <span class="str">"""Correctly parse choices.</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t1149" href="#t1149">1149</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t1150" href="#t1150">1150</a></span><span class="t"><span class="str">    Parameters:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t1151" href="#t1151">1151</a></span><span class="t"><span class="str">        parse_numpy: Fixture parser.</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t1152" href="#t1152">1152</a></span><span class="t"><span class="str">    """</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t1153" href="#t1153">1153</a></span><span class="t">    <span class="nam">docstring</span> <span class="op">=</span> <span class="str">r"""</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t1154" href="#t1154">1154</a></span><span class="t"><span class="str">    Parameters</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t1155" href="#t1155">1155</a></span><span class="t"><span class="str">    --------</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t1156" href="#t1156">1156</a></span><span class="t"><span class="str">    order : {'C', 'F', 'A'}</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t1157" href="#t1157">1157</a></span><span class="t"><span class="str">        Description of `order`.</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t1158" href="#t1158">1158</a></span><span class="t"><span class="str">    """</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t1159" href="#t1159">1159</a></span><span class="t">    <span class="nam">sections</span><span class="op">,</span> <span class="nam">warnings</span> <span class="op">=</span> <span class="nam">parse_numpy</span><span class="op">(</span><span class="nam">docstring</span><span class="op">,</span> <span class="nam">trim_doctest_flags</span><span class="op">=</span><span class="key">True</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t1160" href="#t1160">1160</a></span><span class="t">    <span class="key">assert</span> <span class="nam">sections</span><span class="op">[</span><span class="num">0</span><span class="op">]</span><span class="op">.</span><span class="nam">value</span><span class="op">[</span><span class="num">0</span><span class="op">]</span><span class="op">.</span><span class="nam">annotation</span> <span class="op">==</span> <span class="str">"'C', 'F', 'A'"</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t1161" href="#t1161">1161</a></span><span class="t">    <span class="key">assert</span> <span class="key">not</span> <span class="nam">warnings</span>&nbsp;</span><span class="r"></span></p>
 </main>
 <footer>
     <div class="content">
@@ -1234,8 +1251,8 @@
             <a id="indexLink" class="nav" href="covindex.html">&Hat; index</a> &nbsp; &nbsp;
             <a id="nextFileLink" class="nav" href="d_eb24e90c7b74ae12_test_sphinx_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
-            <a class="nav" href="https://coverage.readthedocs.io/en/7.3.0">coverage.py v7.3.0</a>,
-            created at 2023-08-26 19:16 +0200
+            <a class="nav" href="https://coverage.readthedocs.io/en/7.3.1">coverage.py v7.3.1</a>,
+            created at 2023-09-28 16:45 +0200
         </p>
     </div>
 </footer>

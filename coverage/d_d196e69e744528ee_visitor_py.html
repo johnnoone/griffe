@@ -66,8 +66,8 @@
             <a id="indexLink" class="nav" href="covindex.html">&Hat; index</a> &nbsp; &nbsp;
             <a id="nextFileLink" class="nav" href="d_f2af9067e8be8028_c3linear_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
-            <a class="nav" href="https://coverage.readthedocs.io/en/7.3.0">coverage.py v7.3.0</a>,
-            created at 2023-08-26 19:16 +0200
+            <a class="nav" href="https://coverage.readthedocs.io/en/7.3.1">coverage.py v7.3.1</a>,
+            created at 2023-09-28 16:45 +0200
         </p>
         <aside class="hidden">
             <button type="button" class="button_next_chunk" data-shortcut="j"/>
@@ -606,8 +606,8 @@
     <p class="pln"><span class="n"><a id="t522" href="#t522">522</a></span><span class="t"><span class="str">            node: The node to visit.</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t523" href="#t523">523</a></span><span class="t"><span class="str">        """</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t524" href="#t524">524</a></span><span class="t">        <span class="key">for</span> <span class="nam">name</span> <span class="key">in</span> <span class="nam">node</span><span class="op">.</span><span class="nam">names</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t525" href="#t525">525</a></span><span class="t">            <span class="key">if</span> <span class="key">not</span> <span class="nam">node</span><span class="op">.</span><span class="nam">module</span> <span class="key">and</span> <span class="nam">node</span><span class="op">.</span><span class="nam">level</span> <span class="op">==</span> <span class="num">1</span> <span class="key">and</span> <span class="key">not</span> <span class="nam">name</span><span class="op">.</span><span class="nam">asname</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="pln"><span class="n"><a id="t526" href="#t526">526</a></span><span class="t">                <span class="com"># special case: when being in `a` and doing `from . import b`,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t525" href="#t525">525</a></span><span class="t">            <span class="key">if</span> <span class="key">not</span> <span class="nam">node</span><span class="op">.</span><span class="nam">module</span> <span class="key">and</span> <span class="nam">node</span><span class="op">.</span><span class="nam">level</span> <span class="op">==</span> <span class="num">1</span> <span class="key">and</span> <span class="key">not</span> <span class="nam">name</span><span class="op">.</span><span class="nam">asname</span> <span class="key">and</span> <span class="nam">self</span><span class="op">.</span><span class="nam">current</span><span class="op">.</span><span class="nam">module</span><span class="op">.</span><span class="nam">is_init_module</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t526" href="#t526">526</a></span><span class="t">                <span class="com"># special case: when being in `a/__init__.py` and doing `from . import b`,</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t527" href="#t527">527</a></span><span class="t">                <span class="com"># we are effectively creating a member `b` in `a` that is pointing to `a.b`</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t528" href="#t528">528</a></span><span class="t">                <span class="com"># -> cyclic alias! in that case, we just skip it, as both the member and module</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t529" href="#t529">529</a></span><span class="t">                <span class="com"># have the same name and can be accessed the same way</span>&nbsp;</span><span class="r"></span></p>
@@ -786,8 +786,8 @@
             <a id="indexLink" class="nav" href="covindex.html">&Hat; index</a> &nbsp; &nbsp;
             <a id="nextFileLink" class="nav" href="d_f2af9067e8be8028_c3linear_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
-            <a class="nav" href="https://coverage.readthedocs.io/en/7.3.0">coverage.py v7.3.0</a>,
-            created at 2023-08-26 19:16 +0200
+            <a class="nav" href="https://coverage.readthedocs.io/en/7.3.1">coverage.py v7.3.1</a>,
+            created at 2023-09-28 16:45 +0200
         </p>
     </div>
 </footer>
