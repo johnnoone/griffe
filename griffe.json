@@ -27451,7 +27451,7 @@
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
 "lineno": 627,
-"endlineno": 650,
+"endlineno": 654,
 "docstring": {
 "value": "Subscripts like `a[b]`.",
 "lineno": 629,
@@ -27492,8 +27492,16 @@
 ],
 "members": [],
 "annotation": {
+"left": {
+"name": "str",
+"cls": "ExprName"
+},
+"operator": "|",
+"right": {
 "name": "Expr",
 "cls": "ExprName"
+},
+"cls": "ExprBinOp"
 }
 },
 {
@@ -27582,7 +27590,7 @@
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
 "lineno": 643,
-"endlineno": 645,
+"endlineno": 647,
 "docstring": {
 "value": "The path of this subscript's left part.",
 "lineno": 644,
@@ -27610,12 +27618,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 648,
-"endlineno": 650,
+"lineno": 650,
+"endlineno": 654,
 "docstring": {
 "value": "The canonical path of this subscript's left part.",
-"lineno": 649,
-"endlineno": 649,
+"lineno": 651,
+"endlineno": 651,
 "parsed": [
 {
 "kind": "text",
@@ -27674,12 +27682,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 653,
-"endlineno": 667,
+"lineno": 657,
+"endlineno": 671,
 "docstring": {
 "value": "Tuples like `(0, 1, 2)`.",
-"lineno": 655,
-"endlineno": 655,
+"lineno": 659,
+"endlineno": 659,
 "parsed": [
 {
 "kind": "text",
@@ -27698,12 +27706,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 657,
-"endlineno": 657,
+"lineno": 661,
+"endlineno": 661,
 "docstring": {
 "value": "Tuple elements.",
-"lineno": 658,
-"endlineno": 658,
+"lineno": 662,
+"endlineno": 662,
 "parsed": [
 {
 "kind": "text",
@@ -27742,12 +27750,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 659,
-"endlineno": 659,
+"lineno": 663,
+"endlineno": 663,
 "docstring": {
 "value": "Whether the tuple is implicit (e.g. without parentheses in a subscript's slice).",
-"lineno": 660,
-"endlineno": 660,
+"lineno": 664,
+"endlineno": 664,
 "parsed": [
 {
 "kind": "text",
@@ -27773,8 +27781,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 662,
-"endlineno": 667,
+"lineno": 666,
+"endlineno": 671,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -27845,8 +27853,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 653,
-"endlineno": 653
+"lineno": 657,
+"endlineno": 657
 }
 ]
 },
@@ -27857,12 +27865,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 670,
-"endlineno": 681,
+"lineno": 674,
+"endlineno": 685,
 "docstring": {
 "value": "Unary operations like `-1`.",
-"lineno": 672,
-"endlineno": 672,
+"lineno": 676,
+"endlineno": 676,
 "parsed": [
 {
 "kind": "text",
@@ -27881,12 +27889,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 674,
-"endlineno": 674,
+"lineno": 678,
+"endlineno": 678,
 "docstring": {
 "value": "Unary operator.",
-"lineno": 675,
-"endlineno": 675,
+"lineno": 679,
+"endlineno": 679,
 "parsed": [
 {
 "kind": "text",
@@ -27910,12 +27918,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 676,
-"endlineno": 676,
+"lineno": 680,
+"endlineno": 680,
 "docstring": {
 "value": "Value.",
-"lineno": 677,
-"endlineno": 677,
+"lineno": 681,
+"endlineno": 681,
 "parsed": [
 {
 "kind": "text",
@@ -27947,8 +27955,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 679,
-"endlineno": 681,
+"lineno": 683,
+"endlineno": 685,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -28019,8 +28027,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 670,
-"endlineno": 670
+"lineno": 674,
+"endlineno": 674
 }
 ]
 },
@@ -28031,12 +28039,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 684,
-"endlineno": 695,
+"lineno": 688,
+"endlineno": 699,
 "docstring": {
 "value": "Yield statements like `yield a`.",
-"lineno": 686,
-"endlineno": 686,
+"lineno": 690,
+"endlineno": 690,
 "parsed": [
 {
 "kind": "text",
@@ -28055,12 +28063,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 688,
-"endlineno": 688,
+"lineno": 692,
+"endlineno": 692,
 "docstring": {
 "value": "Yielded value.",
-"lineno": 689,
-"endlineno": 689,
+"lineno": 693,
+"endlineno": 693,
 "parsed": [
 {
 "kind": "text",
@@ -28099,8 +28107,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 691,
-"endlineno": 695,
+"lineno": 695,
+"endlineno": 699,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -28171,8 +28179,8 @@
 },
 "cls": "ExprCall"
 },
-"lineno": 684,
-"endlineno": 684
+"lineno": 688,
+"endlineno": 688
 }
 ]
 },
@@ -28183,8 +28191,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 698,
-"endlineno": 703,
+"lineno": 702,
+"endlineno": 707,
 "labels": [
 "module-attribute"
 ],
@@ -28260,8 +28268,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 705,
-"endlineno": 719,
+"lineno": 709,
+"endlineno": 723,
 "labels": [
 "module-attribute"
 ],
@@ -28463,8 +28471,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 721,
-"endlineno": 724,
+"lineno": 725,
+"endlineno": 728,
 "labels": [
 "module-attribute"
 ],
@@ -28512,8 +28520,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 726,
-"endlineno": 737,
+"lineno": 730,
+"endlineno": 741,
 "labels": [
 "module-attribute"
 ],
@@ -28673,8 +28681,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 740,
-"endlineno": 749,
+"lineno": 744,
+"endlineno": 753,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -28736,8 +28744,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 752,
-"endlineno": 757,
+"lineno": 756,
+"endlineno": 761,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -28799,8 +28807,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 760,
-"endlineno": 764,
+"lineno": 764,
+"endlineno": 768,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -28862,8 +28870,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 767,
-"endlineno": 770,
+"lineno": 771,
+"endlineno": 774,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -28925,8 +28933,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 773,
-"endlineno": 778,
+"lineno": 777,
+"endlineno": 782,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -28988,8 +28996,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 781,
-"endlineno": 787,
+"lineno": 785,
+"endlineno": 791,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29051,8 +29059,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 790,
-"endlineno": 825,
+"lineno": 794,
+"endlineno": 829,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29158,8 +29166,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 828,
-"endlineno": 832,
+"lineno": 832,
+"endlineno": 836,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29221,8 +29229,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 835,
-"endlineno": 840,
+"lineno": 839,
+"endlineno": 844,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29284,8 +29292,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 843,
-"endlineno": 844,
+"lineno": 847,
+"endlineno": 854,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29326,6 +29334,15 @@
 "default": null
 },
 {
+"name": "in_formatted_str",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "False"
+},
+{
 "name": "kwargs",
 "annotation": {
 "name": "Any",
@@ -29347,8 +29364,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 847,
-"endlineno": 851,
+"lineno": 857,
+"endlineno": 861,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29410,8 +29427,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 854,
-"endlineno": 859,
+"lineno": 864,
+"endlineno": 869,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29473,8 +29490,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 862,
-"endlineno": 869,
+"lineno": 872,
+"endlineno": 879,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29545,8 +29562,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 872,
-"endlineno": 875,
+"lineno": 882,
+"endlineno": 885,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29608,8 +29625,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 878,
-"endlineno": 883,
+"lineno": 888,
+"endlineno": 893,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29671,8 +29688,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 886,
-"endlineno": 887,
+"lineno": 896,
+"endlineno": 897,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29734,8 +29751,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 890,
-"endlineno": 891,
+"lineno": 900,
+"endlineno": 901,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29797,8 +29814,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 894,
-"endlineno": 895,
+"lineno": 904,
+"endlineno": 905,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29860,8 +29877,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 898,
-"endlineno": 899,
+"lineno": 908,
+"endlineno": 909,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29923,8 +29940,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 902,
-"endlineno": 903,
+"lineno": 912,
+"endlineno": 913,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -29986,8 +30003,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 906,
-"endlineno": 907,
+"lineno": 916,
+"endlineno": 917,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -30049,8 +30066,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 910,
-"endlineno": 915,
+"lineno": 920,
+"endlineno": 925,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -30112,8 +30129,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 918,
-"endlineno": 919,
+"lineno": 928,
+"endlineno": 929,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -30175,8 +30192,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 922,
-"endlineno": 948,
+"lineno": 932,
+"endlineno": 958,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -30265,8 +30282,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 951,
-"endlineno": 958,
+"lineno": 961,
+"endlineno": 968,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -30337,8 +30354,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 961,
-"endlineno": 962,
+"lineno": 971,
+"endlineno": 972,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -30400,8 +30417,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 965,
-"endlineno": 966,
+"lineno": 975,
+"endlineno": 976,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -30463,8 +30480,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 969,
-"endlineno": 997,
+"lineno": 979,
+"endlineno": 1007,
 "labels": [
 "module-attribute"
 ],
@@ -30998,8 +31015,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 1002,
-"endlineno": 1003,
+"lineno": 1012,
+"endlineno": 1013,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -31061,8 +31078,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 1005,
-"endlineno": 1006,
+"lineno": 1015,
+"endlineno": 1016,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -31124,8 +31141,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 1012,
-"endlineno": 1013,
+"lineno": 1022,
+"endlineno": 1023,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -31187,12 +31204,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 1016,
-"endlineno": 1041,
+"lineno": 1026,
+"endlineno": 1051,
 "docstring": {
 "value": "Build an expression from an AST.\n\nParameters:\n    node: The annotation node.\n    parent: The parent used to resolve the name.\n    parse_strings: Whether to try and parse strings as type annotations.\n\nReturns:\n    A string or resovable name or expression.",
-"lineno": 1022,
-"endlineno": 1031,
+"lineno": 1032,
+"endlineno": 1041,
 "parsed": [
 {
 "kind": "text",
@@ -31351,12 +31368,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 1044,
-"endlineno": 1079,
+"lineno": 1054,
+"endlineno": 1089,
 "docstring": {
 "value": "Safely (no exception) build a resolvable annotation.\n\nParameters:\n    node: The annotation node.\n    parent: The parent used to resolve the name.\n    parse_strings: Whether to try and parse strings as type annotations.\n    log_level: Log level to use to log a message. None to disable logging.\n    msg_format: A format string for the log message. Available placeholders:\n        path, lineno, node, error.\n\nReturns:\n    A string or resovable name or expression.",
-"lineno": 1052,
-"endlineno": 1064,
+"lineno": 1062,
+"endlineno": 1074,
 "parsed": [
 {
 "kind": "text",
@@ -31585,8 +31602,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 1082,
-"endlineno": 1082,
+"lineno": 1092,
+"endlineno": 1092,
 "labels": [
 "module-attribute"
 ],
@@ -31600,8 +31617,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 1083,
-"endlineno": 1083,
+"lineno": 1093,
+"endlineno": 1093,
 "labels": [
 "module-attribute"
 ],
@@ -31632,8 +31649,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 1084,
-"endlineno": 1088,
+"lineno": 1094,
+"endlineno": 1098,
 "labels": [
 "module-attribute"
 ],
@@ -31677,8 +31694,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 1089,
-"endlineno": 1089,
+"lineno": 1099,
+"endlineno": 1099,
 "labels": [
 "module-attribute"
 ],
@@ -31709,8 +31726,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 1090,
-"endlineno": 1094,
+"lineno": 1100,
+"endlineno": 1104,
 "labels": [
 "module-attribute"
 ],
@@ -31754,8 +31771,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 1095,
-"endlineno": 1095,
+"lineno": 1105,
+"endlineno": 1105,
 "labels": [
 "module-attribute"
 ],
@@ -31786,8 +31803,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 1096,
-"endlineno": 1100,
+"lineno": 1106,
+"endlineno": 1110,
 "labels": [
 "module-attribute"
 ],
@@ -31831,8 +31848,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/expressions.py",
 "relative_filepath": "src/griffe/expressions.py",
 "relative_package_filepath": "griffe/expressions.py",
-"lineno": 1103,
-"endlineno": 1143,
+"lineno": 1113,
+"endlineno": 1153,
 "labels": [
 "module-attribute"
 ],
@@ -53583,6 +53600,15 @@
 "default": null
 },
 {
+"name": "in_formatted_str",
+"annotation": {
+"name": "bool",
+"cls": "ExprName"
+},
+"kind": "keyword-only",
+"default": "False"
+},
+{
 "name": "kwargs",
 "annotation": {
 "name": "Any",
@@ -73998,7 +74024,7 @@
 "relative_filepath": "src/griffe/extensions/base.py",
 "relative_package_filepath": "griffe/extensions/base.py",
 "lineno": 357,
-"endlineno": 441,
+"endlineno": 447,
 "docstring": {
 "value": "Load a configured extension.\n\nParameters:\n    extension: An extension, with potential configuration options.\n\nRaises:\n    ExtensionNotLoadedError: When the extension cannot be loaded,\n        either because the module is not found, or because it does not expose\n        the Extension attribute. ImportError will bubble up so users can see\n        the traceback.\n\nReturns:\n    An extension instance.",
 "lineno": 360,
@@ -74200,12 +74226,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/extensions/base.py",
 "relative_filepath": "src/griffe/extensions/base.py",
 "relative_package_filepath": "griffe/extensions/base.py",
-"lineno": 444,
-"endlineno": 460,
+"lineno": 450,
+"endlineno": 466,
 "docstring": {
 "value": "Load configured extensions.\n\nParameters:\n    exts: A sequence of extension, with potential configuration options.\n\nReturns:\n    An extensions container.",
-"lineno": 445,
-"endlineno": 452,
+"lineno": 451,
+"endlineno": 458,
 "parsed": [
 {
 "kind": "text",
@@ -74375,8 +74401,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/extensions/base.py",
 "relative_filepath": "src/griffe/extensions/base.py",
 "relative_package_filepath": "griffe/extensions/base.py",
-"lineno": 463,
-"endlineno": 472,
+"lineno": 469,
+"endlineno": 478,
 "labels": [
 "module-attribute"
 ],
