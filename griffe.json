@@ -3720,7 +3720,7 @@
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
 "lineno": 74,
-"endlineno": 158,
+"endlineno": 155,
 "docstring": {
 "value": "This class represents docstrings.",
 "lineno": 75,
@@ -4297,43 +4297,18 @@
 }
 },
 {
-"kind": "function",
-"name": "__bool__",
-"path": "griffe.dataclasses.Docstring.__bool__",
-"filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
-"relative_filepath": "src/griffe/dataclasses.py",
-"relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 110,
-"endlineno": 111,
-"labels": [],
-"members": [],
-"decorators": [],
-"parameters": [
-{
-"name": "self",
-"annotation": null,
-"kind": "positional or keyword",
-"default": null
-}
-],
-"returns": {
-"name": "bool",
-"cls": "ExprName"
-}
-},
-{
 "kind": "attribute",
 "name": "lines",
 "path": "griffe.dataclasses.Docstring.lines",
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 114,
-"endlineno": 116,
+"lineno": 111,
+"endlineno": 113,
 "docstring": {
 "value": "The lines of the docstring.",
-"lineno": 115,
-"endlineno": 115,
+"lineno": 112,
+"endlineno": 112,
 "parsed": [
 {
 "kind": "text",
@@ -4364,12 +4339,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 119,
-"endlineno": 121,
+"lineno": 116,
+"endlineno": 118,
 "docstring": {
 "value": "The docstring sections, parsed into structured data.",
-"lineno": 120,
-"endlineno": 120,
+"lineno": 117,
+"endlineno": 117,
 "parsed": [
 {
 "kind": "text",
@@ -4401,12 +4376,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 123,
-"endlineno": 138,
+"lineno": 120,
+"endlineno": 135,
 "docstring": {
 "value": "Parse the docstring into structured data.\n\nParameters:\n    parser: The docstring parser to use.\n        In order: use the given parser, or the self parser, or no parser (return a single text section).\n    **options: Additional docstring parsing options.\n\nReturns:\n    The parsed docstring as a list of sections.",
-"lineno": 128,
-"endlineno": 137,
+"lineno": 125,
+"endlineno": 134,
 "parsed": [
 {
 "kind": "text",
@@ -4555,12 +4530,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 140,
-"endlineno": 158,
+"lineno": 137,
+"endlineno": 155,
 "docstring": {
 "value": "Return this docstring's data as a dictionary.\n\nParameters:\n    full: Whether to return full info, or just base info.\n    docstring_parser: The docstring parser to parse the docstring with. By default, no parsing is done.\n    **kwargs: Additional serialization or docstring parsing options.\n\nReturns:\n    A dictionary.",
-"lineno": 141,
-"endlineno": 150,
+"lineno": 138,
+"endlineno": 147,
 "parsed": [
 {
 "kind": "text",
@@ -4711,12 +4686,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 161,
-"endlineno": 217,
+"lineno": 158,
+"endlineno": 214,
 "docstring": {
 "value": "This class represent a function parameter.",
-"lineno": 162,
-"endlineno": 162,
+"lineno": 159,
+"endlineno": 159,
 "parsed": [
 {
 "kind": "text",
@@ -4733,12 +4708,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 164,
-"endlineno": 187,
+"lineno": 161,
+"endlineno": 184,
 "docstring": {
 "value": "Initialize the parameter.\n\nParameters:\n    name: The parameter name.\n    annotation: The parameter annotation, if any.\n    kind: The parameter kind.\n    default: The parameter default, if any.",
-"lineno": 172,
-"endlineno": 179,
+"lineno": 169,
+"endlineno": 176,
 "parsed": [
 {
 "kind": "parameters",
@@ -4900,12 +4875,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 180,
-"endlineno": 180,
+"lineno": 177,
+"endlineno": 177,
 "docstring": {
 "value": "The parameter name.",
-"lineno": 181,
-"endlineno": 181,
+"lineno": 178,
+"endlineno": 178,
 "parsed": [
 {
 "kind": "text",
@@ -4933,12 +4908,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 182,
-"endlineno": 182,
+"lineno": 179,
+"endlineno": 179,
 "docstring": {
 "value": "The parameter type annotation.",
-"lineno": 183,
-"endlineno": 183,
+"lineno": 180,
+"endlineno": 180,
 "parsed": [
 {
 "kind": "text",
@@ -4979,12 +4954,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 184,
-"endlineno": 184,
+"lineno": 181,
+"endlineno": 181,
 "docstring": {
 "value": "The parameter kind.",
-"lineno": 185,
-"endlineno": 185,
+"lineno": 182,
+"endlineno": 182,
 "parsed": [
 {
 "kind": "text",
@@ -5017,12 +4992,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 186,
-"endlineno": 186,
+"lineno": 183,
+"endlineno": 183,
 "docstring": {
 "value": "The parameter default value.",
-"lineno": 187,
-"endlineno": 187,
+"lineno": 184,
+"endlineno": 184,
 "parsed": [
 {
 "kind": "text",
@@ -5063,8 +5038,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 189,
-"endlineno": 193,
+"lineno": 186,
+"endlineno": 190,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -5088,8 +5063,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 195,
-"endlineno": 196,
+"lineno": 192,
+"endlineno": 193,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -5113,12 +5088,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 199,
-"endlineno": 201,
+"lineno": 196,
+"endlineno": 198,
 "docstring": {
 "value": "Whether this parameter is required.",
-"lineno": 200,
-"endlineno": 200,
+"lineno": 197,
+"endlineno": 197,
 "parsed": [
 {
 "kind": "text",
@@ -5142,12 +5117,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 203,
-"endlineno": 217,
+"lineno": 200,
+"endlineno": 214,
 "docstring": {
 "value": "Return this parameter's data as a dictionary.\n\nParameters:\n    **kwargs: Additional serialization options.\n\nReturns:\n    A dictionary.",
-"lineno": 204,
-"endlineno": 211,
+"lineno": 201,
+"endlineno": 208,
 "parsed": [
 {
 "kind": "text",
@@ -5252,12 +5227,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 220,
-"endlineno": 273,
+"lineno": 217,
+"endlineno": 270,
 "docstring": {
 "value": "This class is a container for parameters.\n\nIt allows to get parameters using their position (index) or their name:\n\n```pycon\n>>> parameters = Parameters(Parameter(\"hello\"))\n>>> parameters[0] is parameters[\"hello\"]\nTrue\n```",
-"lineno": 221,
-"endlineno": 230,
+"lineno": 218,
+"endlineno": 227,
 "parsed": [
 {
 "kind": "text",
@@ -5274,12 +5249,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 232,
-"endlineno": 241,
+"lineno": 229,
+"endlineno": 238,
 "docstring": {
 "value": "Initialize the parameters container.\n\nParameters:\n    *parameters: The initial parameters to add to the container.",
-"lineno": 233,
-"endlineno": 237,
+"lineno": 230,
+"endlineno": 234,
 "parsed": [
 {
 "kind": "parameters",
@@ -5326,8 +5301,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 238,
-"endlineno": 238,
+"lineno": 235,
+"endlineno": 235,
 "labels": [
 "instance-attribute"
 ],
@@ -5355,8 +5330,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 239,
-"endlineno": 239,
+"lineno": 236,
+"endlineno": 236,
 "labels": [
 "instance-attribute"
 ],
@@ -5395,8 +5370,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 243,
-"endlineno": 244,
+"lineno": 240,
+"endlineno": 241,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -5420,8 +5395,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 246,
-"endlineno": 249,
+"lineno": 243,
+"endlineno": 246,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -5462,8 +5437,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 251,
-"endlineno": 252,
+"lineno": 248,
+"endlineno": 249,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -5484,8 +5459,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 254,
-"endlineno": 255,
+"lineno": 251,
+"endlineno": 252,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -5506,8 +5481,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 257,
-"endlineno": 258,
+"lineno": 254,
+"endlineno": 255,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -5537,12 +5512,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 260,
-"endlineno": 273,
+"lineno": 257,
+"endlineno": 270,
 "docstring": {
 "value": "Add a parameter to the container.\n\nParameters:\n    parameter: The function parameter to add.\n\nRaises:\n    ValueError: When a parameter with the same name is already present.",
-"lineno": 261,
-"endlineno": 268,
+"lineno": 258,
+"endlineno": 265,
 "parsed": [
 {
 "kind": "text",
@@ -5608,12 +5583,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 276,
-"endlineno": 726,
+"lineno": 273,
+"endlineno": 723,
 "docstring": {
 "value": "An abstract class representing a Python object.",
-"lineno": 277,
-"endlineno": 277,
+"lineno": 274,
+"endlineno": 274,
 "parsed": [
 {
 "kind": "text",
@@ -5630,12 +5605,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 279,
-"endlineno": 279,
+"lineno": 276,
+"endlineno": 276,
 "docstring": {
 "value": "The object kind.",
-"lineno": 280,
-"endlineno": 280,
+"lineno": 277,
+"endlineno": 277,
 "parsed": [
 {
 "kind": "text",
@@ -5659,12 +5634,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 281,
-"endlineno": 281,
+"lineno": 278,
+"endlineno": 278,
 "docstring": {
 "value": "Whether this object is an alias.",
-"lineno": 282,
-"endlineno": 282,
+"lineno": 279,
+"endlineno": 279,
 "parsed": [
 {
 "kind": "text",
@@ -5690,12 +5665,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 283,
-"endlineno": 283,
+"lineno": 280,
+"endlineno": 280,
 "docstring": {
 "value": "Whether this object is a (modules) collection.",
-"lineno": 284,
-"endlineno": 284,
+"lineno": 281,
+"endlineno": 281,
 "parsed": [
 {
 "kind": "text",
@@ -5721,12 +5696,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 285,
-"endlineno": 285,
+"lineno": 282,
+"endlineno": 282,
 "docstring": {
 "value": "Whether this object (alias) is inherited.\n\nObjects can never be inherited, only aliases can.",
-"lineno": 286,
-"endlineno": 289,
+"lineno": 283,
+"endlineno": 286,
 "parsed": [
 {
 "kind": "text",
@@ -5752,12 +5727,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 291,
-"endlineno": 372,
+"lineno": 288,
+"endlineno": 369,
 "docstring": {
 "value": "Initialize the object.\n\nParameters:\n    name: The object name, as declared in the code.\n    lineno: The object starting line, or None for modules. Lines start at 1.\n    endlineno: The object ending line (inclusive), or None for modules.\n    runtime: Whether this object is present at runtime or not.\n    docstring: The object docstring.\n    parent: The object parent.\n    lines_collection: A collection of source code lines.\n    modules_collection: A collection of modules.",
-"lineno": 303,
-"endlineno": 314,
+"lineno": 300,
+"endlineno": 311,
 "parsed": [
 {
 "kind": "parameters",
@@ -6005,12 +5980,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 315,
-"endlineno": 315,
+"lineno": 312,
+"endlineno": 312,
 "docstring": {
 "value": "The object name.",
-"lineno": 316,
-"endlineno": 316,
+"lineno": 313,
+"endlineno": 313,
 "parsed": [
 {
 "kind": "text",
@@ -6038,12 +6013,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 317,
-"endlineno": 317,
+"lineno": 314,
+"endlineno": 314,
 "docstring": {
 "value": "The starting line number of the object.",
-"lineno": 318,
-"endlineno": 318,
+"lineno": 315,
+"endlineno": 315,
 "parsed": [
 {
 "kind": "text",
@@ -6076,12 +6051,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 319,
-"endlineno": 319,
+"lineno": 316,
+"endlineno": 316,
 "docstring": {
 "value": "The ending line number of the object.",
-"lineno": 320,
-"endlineno": 320,
+"lineno": 317,
+"endlineno": 317,
 "parsed": [
 {
 "kind": "text",
@@ -6114,12 +6089,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 321,
-"endlineno": 321,
+"lineno": 318,
+"endlineno": 318,
 "docstring": {
 "value": "The object docstring.",
-"lineno": 322,
-"endlineno": 322,
+"lineno": 319,
+"endlineno": 319,
 "parsed": [
 {
 "kind": "text",
@@ -6152,12 +6127,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 323,
-"endlineno": 323,
+"lineno": 320,
+"endlineno": 320,
 "docstring": {
 "value": "The parent of the object (none if top module).",
-"lineno": 324,
-"endlineno": 324,
+"lineno": 321,
+"endlineno": 321,
 "parsed": [
 {
 "kind": "text",
@@ -6198,12 +6173,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 325,
-"endlineno": 325,
+"lineno": 322,
+"endlineno": 322,
 "docstring": {
 "value": "The object members (modules, classes, functions, attributes).",
-"lineno": 326,
-"endlineno": 326,
+"lineno": 323,
+"endlineno": 323,
 "parsed": [
 {
 "kind": "text",
@@ -6257,12 +6232,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 327,
-"endlineno": 327,
+"lineno": 324,
+"endlineno": 324,
 "docstring": {
 "value": "The object labels (`property`, `dataclass`, etc.).",
-"lineno": 328,
-"endlineno": 328,
+"lineno": 325,
+"endlineno": 325,
 "parsed": [
 {
 "kind": "text",
@@ -6301,12 +6276,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 330,
-"endlineno": 330,
+"lineno": 327,
+"endlineno": 327,
 "docstring": {
 "value": "The other objects imported by this object.\n\nKeys are the names within the object (`from ... import ... as AS_NAME`),\nwhile the values are the actual names of the objects (`from ... import REAL_NAME as ...`).",
-"lineno": 331,
-"endlineno": 335,
+"lineno": 328,
+"endlineno": 332,
 "parsed": [
 {
 "kind": "text",
@@ -6352,12 +6327,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 337,
-"endlineno": 337,
+"lineno": 334,
+"endlineno": 334,
 "docstring": {
 "value": "The names of the objects exported by this (module) object through the `__all__` variable.\n\nExports can contain string (object names) or resolvable names,\nlike other lists of exports coming from submodules:\n\n```python\nfrom .submodule import __all__ as submodule_all\n\n__all__ = [\"hello\", *submodule_all]\n```\n\nExports get expanded by the loader before it expands wildcards and resolves aliases.",
-"lineno": 338,
-"endlineno": 350,
+"lineno": 335,
+"endlineno": 347,
 "parsed": [
 {
 "kind": "text",
@@ -6417,12 +6392,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 352,
-"endlineno": 352,
+"lineno": 349,
+"endlineno": 349,
 "docstring": {
 "value": "The aliases pointing to this object.",
-"lineno": 353,
-"endlineno": 353,
+"lineno": 350,
+"endlineno": 350,
 "parsed": [
 {
 "kind": "text",
@@ -6468,12 +6443,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 355,
-"endlineno": 355,
+"lineno": 352,
+"endlineno": 352,
 "docstring": {
 "value": "Whether this object is available at runtime.\n\nTypically, type-guarded objects (under an `if TYPE_CHECKING` condition)\nare not available at runtime.",
-"lineno": 356,
-"endlineno": 360,
+"lineno": 353,
+"endlineno": 357,
 "parsed": [
 {
 "kind": "text",
@@ -6501,12 +6476,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 362,
-"endlineno": 362,
+"lineno": 359,
+"endlineno": 359,
 "docstring": {
 "value": "Namespaced dictionaries storing extra metadata for this object, used by extensions.",
-"lineno": 363,
-"endlineno": 363,
+"lineno": 360,
+"endlineno": 360,
 "parsed": [
 {
 "kind": "text",
@@ -6577,12 +6552,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 364,
-"endlineno": 364,
+"lineno": 361,
+"endlineno": 361,
 "docstring": {
 "value": "Whether this object is public.",
-"lineno": 365,
-"endlineno": 365,
+"lineno": 362,
+"endlineno": 362,
 "parsed": [
 {
 "kind": "text",
@@ -6612,8 +6587,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 367,
-"endlineno": 367,
+"lineno": 364,
+"endlineno": 364,
 "labels": [
 "instance-attribute"
 ],
@@ -6639,8 +6614,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 368,
-"endlineno": 368,
+"lineno": 365,
+"endlineno": 365,
 "labels": [
 "instance-attribute"
 ],
@@ -6666,8 +6641,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 374,
-"endlineno": 375,
+"lineno": 371,
+"endlineno": 372,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -6691,8 +6666,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 377,
-"endlineno": 378,
+"lineno": 374,
+"endlineno": 375,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -6716,8 +6691,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 380,
-"endlineno": 381,
+"lineno": 377,
+"endlineno": 378,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -6741,16 +6716,16 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 384,
-"endlineno": 386,
+"lineno": 381,
+"endlineno": 383,
 "docstring": {
-"value": "Whether this object has a non-empty docstring.",
-"lineno": 385,
-"endlineno": 385,
+"value": "Whether this object has a docstring (empty or not).",
+"lineno": 382,
+"endlineno": 382,
 "parsed": [
 {
 "kind": "text",
-"value": "Whether this object has a non-empty docstring."
+"value": "Whether this object has a docstring (empty or not)."
 }
 ]
 },
@@ -6770,16 +6745,16 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 389,
-"endlineno": 393,
-"docstring": {
-"value": "Whether this object or any of its members has a non-empty docstring.",
-"lineno": 390,
+"lineno": 386,
 "endlineno": 390,
+"docstring": {
+"value": "Whether this object or any of its members has a docstring (empty or not).",
+"lineno": 387,
+"endlineno": 387,
 "parsed": [
 {
 "kind": "text",
-"value": "Whether this object or any of its members has a non-empty docstring."
+"value": "Whether this object or any of its members has a docstring (empty or not)."
 }
 ]
 },
@@ -6799,12 +6774,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 395,
-"endlineno": 415,
+"lineno": 392,
+"endlineno": 412,
 "docstring": {
 "value": "Whether a member of this object is \"exported\".\n\nBy exported, we mean that the object is included in the `__all__` attribute\nof its parent module or class. When `__all__` is not defined,\nwe consider the member to be *implicitely* exported,\nunless it's a module and it was not imported,\nand unless it's not defined at runtime.\n\nParameters:\n    member: The member to verify.\n    explicitely: Whether to only return True when `__all__` is defined.\n\nReturns:\n    True or False.",
-"lineno": 396,
-"endlineno": 410,
+"lineno": 393,
+"endlineno": 407,
 "parsed": [
 {
 "kind": "text",
@@ -6904,12 +6879,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 417,
-"endlineno": 435,
+"lineno": 414,
+"endlineno": 432,
 "docstring": {
 "value": "Tell if this object is of the given kind.\n\nParameters:\n    kind: An instance or set of kinds (strings or enumerations).\n\nRaises:\n    ValueError: When an empty set is given as argument.\n\nReturns:\n    True or False.",
-"lineno": 418,
-"endlineno": 428,
+"lineno": 415,
+"endlineno": 425,
 "parsed": [
 {
 "kind": "text",
@@ -7049,12 +7024,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 438,
-"endlineno": 451,
+"lineno": 435,
+"endlineno": 448,
 "docstring": {
 "value": "Members that are inherited from base classes.\n\nThis method is part of the consumer API:\ndo not use when producing Griffe trees!",
-"lineno": 439,
-"endlineno": 443,
+"lineno": 436,
+"endlineno": 440,
 "parsed": [
 {
 "kind": "text",
@@ -7096,12 +7071,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 454,
-"endlineno": 456,
+"lineno": 451,
+"endlineno": 453,
 "docstring": {
 "value": "Whether this object is a module.",
-"lineno": 455,
-"endlineno": 455,
+"lineno": 452,
+"endlineno": 452,
 "parsed": [
 {
 "kind": "text",
@@ -7125,12 +7100,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 459,
-"endlineno": 461,
+"lineno": 456,
+"endlineno": 458,
 "docstring": {
 "value": "Whether this object is a class.",
-"lineno": 460,
-"endlineno": 460,
+"lineno": 457,
+"endlineno": 457,
 "parsed": [
 {
 "kind": "text",
@@ -7154,12 +7129,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 464,
-"endlineno": 466,
+"lineno": 461,
+"endlineno": 463,
 "docstring": {
 "value": "Whether this object is a function.",
-"lineno": 465,
-"endlineno": 465,
+"lineno": 462,
+"endlineno": 462,
 "parsed": [
 {
 "kind": "text",
@@ -7183,12 +7158,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 469,
-"endlineno": 471,
+"lineno": 466,
+"endlineno": 468,
 "docstring": {
 "value": "Whether this object is an attribute.",
-"lineno": 470,
-"endlineno": 470,
+"lineno": 467,
+"endlineno": 467,
 "parsed": [
 {
 "kind": "text",
@@ -7212,12 +7187,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 473,
-"endlineno": 482,
+"lineno": 470,
+"endlineno": 479,
 "docstring": {
 "value": "Tell if this object has all the given labels.\n\nParameters:\n    labels: A set of labels.\n\nReturns:\n    True or False.",
-"lineno": 474,
-"endlineno": 481,
+"lineno": 471,
+"endlineno": 478,
 "parsed": [
 {
 "kind": "text",
@@ -7297,12 +7272,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 484,
-"endlineno": 499,
+"lineno": 481,
+"endlineno": 496,
 "docstring": {
 "value": "Filter and return members based on predicates.\n\nParameters:\n    *predicates: A list of predicates, i.e. callables accepting a member as argument and returning a boolean.\n\nReturns:\n    A dictionary of members.",
-"lineno": 485,
-"endlineno": 492,
+"lineno": 482,
+"endlineno": 489,
 "parsed": [
 {
 "kind": "text",
@@ -7479,12 +7454,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 502,
-"endlineno": 512,
+"lineno": 499,
+"endlineno": 509,
 "docstring": {
 "value": "The parent module of this object.\n\nRaises:\n    ValueError: When the object is not a module and does not have a parent.",
-"lineno": 503,
-"endlineno": 507,
+"lineno": 500,
+"endlineno": 504,
 "parsed": [
 {
 "kind": "text",
@@ -7520,12 +7495,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 515,
-"endlineno": 520,
+"lineno": 512,
+"endlineno": 517,
 "docstring": {
 "value": "The absolute top module (the package) of this object.",
-"lineno": 516,
-"endlineno": 516,
+"lineno": 513,
+"endlineno": 513,
 "parsed": [
 {
 "kind": "text",
@@ -7549,12 +7524,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 523,
-"endlineno": 525,
+"lineno": 520,
+"endlineno": 522,
 "docstring": {
 "value": "The file path (or directory list for namespace packages) where this object was defined.",
-"lineno": 524,
-"endlineno": 524,
+"lineno": 521,
+"endlineno": 521,
 "parsed": [
 {
 "kind": "text",
@@ -7593,12 +7568,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 528,
-"endlineno": 566,
+"lineno": 525,
+"endlineno": 563,
 "docstring": {
 "value": "The file path where this object was defined, relative to the top module path.\n\nRaises:\n    ValueError: When the relative path could not be computed.",
-"lineno": 529,
-"endlineno": 533,
+"lineno": 526,
+"endlineno": 530,
 "parsed": [
 {
 "kind": "text",
@@ -7634,12 +7609,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 569,
-"endlineno": 586,
+"lineno": 566,
+"endlineno": 583,
 "docstring": {
 "value": "The file path where this object was defined, relative to the current working directory.\n\nIf this object's file path is not relative to the current working directory, return its absolute path.\n\nRaises:\n    ValueError: When the relative path could not be computed.",
-"lineno": 570,
-"endlineno": 576,
+"lineno": 567,
+"endlineno": 573,
 "parsed": [
 {
 "kind": "text",
@@ -7675,12 +7650,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 589,
-"endlineno": 594,
+"lineno": 586,
+"endlineno": 591,
 "docstring": {
 "value": "The dotted path of this object.\n\nOn regular objects (not aliases), the path is the canonical path.",
-"lineno": 590,
-"endlineno": 593,
+"lineno": 587,
+"endlineno": 590,
 "parsed": [
 {
 "kind": "text",
@@ -7704,12 +7679,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 597,
-"endlineno": 604,
+"lineno": 594,
+"endlineno": 601,
 "docstring": {
 "value": "The full dotted path of this object.\n\nThe canonical path is the path where the object was defined (not imported).",
-"lineno": 598,
-"endlineno": 601,
+"lineno": 595,
+"endlineno": 598,
 "parsed": [
 {
 "kind": "text",
@@ -7733,12 +7708,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 607,
-"endlineno": 617,
+"lineno": 604,
+"endlineno": 614,
 "docstring": {
 "value": "The modules collection attached to this object or its parents.\n\nRaises:\n    ValueError: When no modules collection can be found in the object or its parents.",
-"lineno": 608,
-"endlineno": 612,
+"lineno": 605,
+"endlineno": 609,
 "parsed": [
 {
 "kind": "text",
@@ -7774,12 +7749,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 620,
-"endlineno": 630,
+"lineno": 617,
+"endlineno": 627,
 "docstring": {
 "value": "The lines collection attached to this object or its parents.\n\nRaises:\n    ValueError: When no modules collection can be found in the object or its parents.",
-"lineno": 621,
-"endlineno": 625,
+"lineno": 618,
+"endlineno": 622,
 "parsed": [
 {
 "kind": "text",
@@ -7815,12 +7790,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 633,
-"endlineno": 648,
+"lineno": 630,
+"endlineno": 645,
 "docstring": {
 "value": "The lines containing the source of this object.",
-"lineno": 634,
-"endlineno": 634,
+"lineno": 631,
+"endlineno": 631,
 "parsed": [
 {
 "kind": "text",
@@ -7851,12 +7826,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 651,
-"endlineno": 653,
+"lineno": 648,
+"endlineno": 650,
 "docstring": {
 "value": "The source code of this object.",
-"lineno": 652,
-"endlineno": 652,
+"lineno": 649,
+"endlineno": 649,
 "parsed": [
 {
 "kind": "text",
@@ -7880,12 +7855,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 655,
-"endlineno": 688,
+"lineno": 652,
+"endlineno": 685,
 "docstring": {
 "value": "Resolve a name within this object's and parents' scope.\n\nParameters:\n    name: The name to resolve.\n\nRaises:\n    NameResolutionError: When the name could not be resolved.\n\nReturns:\n    The resolved name.",
-"lineno": 656,
-"endlineno": 666,
+"lineno": 653,
+"endlineno": 663,
 "parsed": [
 {
 "kind": "text",
@@ -7963,12 +7938,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 690,
-"endlineno": 726,
+"lineno": 687,
+"endlineno": 723,
 "docstring": {
 "value": "Return this object's data as a dictionary.\n\nParameters:\n    full: Whether to return full info, or just base info.\n    **kwargs: Additional serialization options.\n\nReturns:\n    A dictionary.",
-"lineno": 691,
-"endlineno": 699,
+"lineno": 688,
+"endlineno": 696,
 "parsed": [
 {
 "kind": "text",
@@ -8108,12 +8083,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 729,
-"endlineno": 1195,
+"lineno": 726,
+"endlineno": 1192,
 "docstring": {
 "value": "This class represents an alias, or indirection, to an object declared in another module.\n\nAliases represent objects that are in the scope of a module or class,\nbut were imported from another module.\n\nThey behave almost exactly like regular objects, to a few exceptions:\n\n- line numbers are those of the alias, not the target\n- the path is the alias path, not the canonical one\n- the name can be different from the target's\n- if the target can be resolved, the kind is the target's kind\n- if the target cannot be resolved, the kind becomes [Kind.ALIAS][griffe.dataclasses.Kind]",
-"lineno": 730,
-"endlineno": 742,
+"lineno": 727,
+"endlineno": 739,
 "parsed": [
 {
 "kind": "text",
@@ -8130,8 +8105,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 744,
-"endlineno": 744,
+"lineno": 741,
+"endlineno": 741,
 "labels": [
 "class-attribute",
 "instance-attribute"
@@ -8150,8 +8125,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 745,
-"endlineno": 745,
+"lineno": 742,
+"endlineno": 742,
 "labels": [
 "class-attribute",
 "instance-attribute"
@@ -8170,12 +8145,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 747,
-"endlineno": 793,
+"lineno": 744,
+"endlineno": 790,
 "docstring": {
 "value": "Initialize the alias.\n\nParameters:\n    name: The alias name.\n    target: If it's a string, the target resolution is delayed until accessing the target property.\n        If it's an object, or even another alias, the target is immediately set.\n    lineno: The alias starting line number.\n    endlineno: The alias ending line number.\n    runtime: Whether this alias is present at runtime or not.\n    parent: The alias parent.\n    inherited: Whether this alias wraps an inherited member.",
-"lineno": 758,
-"endlineno": 769,
+"lineno": 755,
+"endlineno": 766,
 "parsed": [
 {
 "kind": "parameters",
@@ -8422,12 +8397,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 770,
-"endlineno": 770,
+"lineno": 767,
+"endlineno": 767,
 "docstring": {
 "value": "The alias name.",
-"lineno": 771,
-"endlineno": 771,
+"lineno": 768,
+"endlineno": 768,
 "parsed": [
 {
 "kind": "text",
@@ -8455,12 +8430,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 772,
-"endlineno": 772,
+"lineno": 769,
+"endlineno": 769,
 "docstring": {
 "value": "The starting line number of the alias.",
-"lineno": 773,
-"endlineno": 773,
+"lineno": 770,
+"endlineno": 770,
 "parsed": [
 {
 "kind": "text",
@@ -8493,12 +8468,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 774,
-"endlineno": 774,
+"lineno": 771,
+"endlineno": 771,
 "docstring": {
 "value": "The ending line number of the alias.",
-"lineno": 775,
-"endlineno": 775,
+"lineno": 772,
+"endlineno": 772,
 "parsed": [
 {
 "kind": "text",
@@ -8531,12 +8506,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 776,
-"endlineno": 776,
+"lineno": 773,
+"endlineno": 773,
 "docstring": {
 "value": "Whether this alias is available at runtime.",
-"lineno": 777,
-"endlineno": 777,
+"lineno": 774,
+"endlineno": 774,
 "parsed": [
 {
 "kind": "text",
@@ -8564,12 +8539,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 778,
-"endlineno": 778,
+"lineno": 775,
+"endlineno": 775,
 "docstring": {
 "value": "Whether this alias represents an inherited member.",
-"lineno": 779,
-"endlineno": 779,
+"lineno": 776,
+"endlineno": 776,
 "parsed": [
 {
 "kind": "text",
@@ -8597,12 +8572,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 780,
-"endlineno": 780,
+"lineno": 777,
+"endlineno": 777,
 "docstring": {
 "value": "Whether this alias is public.",
-"lineno": 781,
-"endlineno": 781,
+"lineno": 778,
+"endlineno": 778,
 "parsed": [
 {
 "kind": "text",
@@ -8632,8 +8607,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 782,
-"endlineno": 782,
+"lineno": 779,
+"endlineno": 779,
 "labels": [
 "instance-attribute"
 ],
@@ -8675,8 +8650,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 783,
-"endlineno": 783,
+"lineno": 780,
+"endlineno": 780,
 "labels": [
 "instance-attribute"
 ],
@@ -8694,12 +8669,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 785,
-"endlineno": 785,
+"lineno": 782,
+"endlineno": 782,
 "docstring": {
 "value": "The path of this alias' target.",
-"lineno": 786,
-"endlineno": 786,
+"lineno": 783,
+"endlineno": 783,
 "parsed": [
 {
 "kind": "text",
@@ -8723,8 +8698,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 788,
-"endlineno": 788,
+"lineno": 785,
+"endlineno": 785,
 "labels": [
 "instance-attribute"
 ],
@@ -8755,8 +8730,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 795,
-"endlineno": 796,
+"lineno": 792,
+"endlineno": 793,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -8780,8 +8755,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 798,
-"endlineno": 800,
+"lineno": 795,
+"endlineno": 797,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -8833,8 +8808,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 802,
-"endlineno": 804,
+"lineno": 799,
+"endlineno": 801,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -8903,8 +8878,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 806,
-"endlineno": 808,
+"lineno": 803,
+"endlineno": 805,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -8956,8 +8931,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 810,
-"endlineno": 811,
+"lineno": 807,
+"endlineno": 808,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -8981,12 +8956,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 818,
-"endlineno": 824,
+"lineno": 815,
+"endlineno": 821,
 "docstring": {
 "value": "The target's kind, or `Kind.ALIAS` if the target cannot be resolved.",
-"lineno": 819,
-"endlineno": 819,
+"lineno": 816,
+"endlineno": 816,
 "parsed": [
 {
 "kind": "text",
@@ -9010,12 +8985,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 827,
-"endlineno": 832,
+"lineno": 824,
+"endlineno": 829,
 "docstring": {
 "value": "Whether this alias' target has a non-empty docstring.",
-"lineno": 828,
-"endlineno": 828,
+"lineno": 825,
+"endlineno": 825,
 "parsed": [
 {
 "kind": "text",
@@ -9039,12 +9014,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 835,
-"endlineno": 840,
+"lineno": 832,
+"endlineno": 837,
 "docstring": {
 "value": "Whether this alias' target or any of its members has a non-empty docstring.",
-"lineno": 836,
-"endlineno": 836,
+"lineno": 833,
+"endlineno": 833,
 "parsed": [
 {
 "kind": "text",
@@ -9068,12 +9043,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 843,
-"endlineno": 845,
+"lineno": 840,
+"endlineno": 842,
 "docstring": {
 "value": "The parent of this alias.",
-"lineno": 844,
-"endlineno": 844,
+"lineno": 841,
+"endlineno": 841,
 "parsed": [
 {
 "kind": "text",
@@ -9119,12 +9094,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 853,
-"endlineno": 855,
+"lineno": 850,
+"endlineno": 852,
 "docstring": {
 "value": "The dotted path / import path of this object.",
-"lineno": 854,
-"endlineno": 854,
+"lineno": 851,
+"endlineno": 851,
 "parsed": [
 {
 "kind": "text",
@@ -9148,12 +9123,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 858,
-"endlineno": 861,
+"lineno": 855,
+"endlineno": 858,
 "docstring": {
 "value": "The modules collection attached to the alias parents.",
-"lineno": 859,
-"endlineno": 859,
+"lineno": 856,
+"endlineno": 856,
 "parsed": [
 {
 "kind": "text",
@@ -9177,8 +9152,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 864,
-"endlineno": 874,
+"lineno": 861,
+"endlineno": 871,
 "labels": [
 "cached",
 "property"
@@ -9221,8 +9196,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 877,
-"endlineno": 887,
+"lineno": 874,
+"endlineno": 884,
 "labels": [
 "cached",
 "property"
@@ -9257,12 +9232,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 895,
-"endlineno": 897,
+"lineno": 892,
+"endlineno": 894,
 "docstring": {
 "value": "The target lineno or the alias lineno.",
-"lineno": 896,
-"endlineno": 896,
+"lineno": 893,
+"endlineno": 893,
 "parsed": [
 {
 "kind": "text",
@@ -9291,12 +9266,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 900,
-"endlineno": 902,
+"lineno": 897,
+"endlineno": 899,
 "docstring": {
 "value": "The target endlineno or the alias endlineno.",
-"lineno": 901,
-"endlineno": 901,
+"lineno": 898,
+"endlineno": 898,
 "parsed": [
 {
 "kind": "text",
@@ -9325,8 +9300,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 905,
-"endlineno": 906,
+"lineno": 902,
+"endlineno": 903,
 "labels": [
 "property",
 "writable"
@@ -9349,8 +9324,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 913,
-"endlineno": 914,
+"lineno": 910,
+"endlineno": 911,
 "labels": [
 "property"
 ],
@@ -9374,8 +9349,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 917,
-"endlineno": 918,
+"lineno": 914,
+"endlineno": 915,
 "labels": [
 "property"
 ],
@@ -9409,8 +9384,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 921,
-"endlineno": 922,
+"lineno": 918,
+"endlineno": 919,
 "labels": [
 "property"
 ],
@@ -9462,8 +9437,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 925,
-"endlineno": 926,
+"lineno": 922,
+"endlineno": 923,
 "labels": [
 "property"
 ],
@@ -9497,8 +9472,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 928,
-"endlineno": 929,
+"lineno": 925,
+"endlineno": 926,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -9548,8 +9523,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 931,
-"endlineno": 932,
+"lineno": 928,
+"endlineno": 929,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -9613,8 +9588,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 935,
-"endlineno": 936,
+"lineno": 932,
+"endlineno": 933,
 "labels": [
 "property"
 ],
@@ -9631,8 +9606,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 939,
-"endlineno": 940,
+"lineno": 936,
+"endlineno": 937,
 "labels": [
 "property"
 ],
@@ -9649,8 +9624,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 943,
-"endlineno": 944,
+"lineno": 940,
+"endlineno": 941,
 "labels": [
 "property"
 ],
@@ -9667,8 +9642,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 947,
-"endlineno": 948,
+"lineno": 944,
+"endlineno": 945,
 "labels": [
 "property"
 ],
@@ -9685,8 +9660,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 950,
-"endlineno": 951,
+"lineno": 947,
+"endlineno": 948,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -9726,8 +9701,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 953,
-"endlineno": 954,
+"lineno": 950,
+"endlineno": 951,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -9815,8 +9790,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 957,
-"endlineno": 958,
+"lineno": 954,
+"endlineno": 955,
 "labels": [
 "property"
 ],
@@ -9833,8 +9808,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 961,
-"endlineno": 962,
+"lineno": 958,
+"endlineno": 959,
 "labels": [
 "property"
 ],
@@ -9851,8 +9826,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 965,
-"endlineno": 966,
+"lineno": 962,
+"endlineno": 963,
 "labels": [
 "property"
 ],
@@ -9884,8 +9859,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 969,
-"endlineno": 970,
+"lineno": 966,
+"endlineno": 967,
 "labels": [
 "property"
 ],
@@ -9902,8 +9877,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 973,
-"endlineno": 974,
+"lineno": 970,
+"endlineno": 971,
 "labels": [
 "property"
 ],
@@ -9920,8 +9895,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 977,
-"endlineno": 978,
+"lineno": 974,
+"endlineno": 975,
 "labels": [
 "property"
 ],
@@ -9938,8 +9913,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 981,
-"endlineno": 982,
+"lineno": 978,
+"endlineno": 979,
 "labels": [
 "property"
 ],
@@ -9963,8 +9938,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 985,
-"endlineno": 986,
+"lineno": 982,
+"endlineno": 983,
 "labels": [
 "property"
 ],
@@ -9981,8 +9956,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 988,
-"endlineno": 989,
+"lineno": 985,
+"endlineno": 986,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -10015,8 +9990,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 991,
-"endlineno": 992,
+"lineno": 988,
+"endlineno": 989,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -10072,8 +10047,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 994,
-"endlineno": 995,
+"lineno": 991,
+"endlineno": 992,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -10135,8 +10110,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 997,
-"endlineno": 998,
+"lineno": 994,
+"endlineno": 995,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -10181,8 +10156,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1006,
-"endlineno": 1007,
+"lineno": 1003,
+"endlineno": 1004,
 "labels": [
 "property"
 ],
@@ -10219,8 +10194,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1010,
-"endlineno": 1011,
+"lineno": 1007,
+"endlineno": 1008,
 "labels": [
 "property"
 ],
@@ -10252,8 +10227,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1014,
-"endlineno": 1015,
+"lineno": 1011,
+"endlineno": 1012,
 "labels": [
 "property"
 ],
@@ -10277,8 +10252,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1018,
-"endlineno": 1019,
+"lineno": 1015,
+"endlineno": 1016,
 "labels": [
 "property",
 "writable"
@@ -10340,8 +10315,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1026,
-"endlineno": 1027,
+"lineno": 1023,
+"endlineno": 1024,
 "labels": [
 "property"
 ],
@@ -10358,8 +10333,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1030,
-"endlineno": 1031,
+"lineno": 1027,
+"endlineno": 1028,
 "labels": [
 "property",
 "writable"
@@ -10390,8 +10365,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1038,
-"endlineno": 1039,
+"lineno": 1035,
+"endlineno": 1036,
 "labels": [
 "property"
 ],
@@ -10413,8 +10388,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1042,
-"endlineno": 1043,
+"lineno": 1039,
+"endlineno": 1040,
 "labels": [
 "property"
 ],
@@ -10436,8 +10411,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1046,
-"endlineno": 1047,
+"lineno": 1043,
+"endlineno": 1044,
 "labels": [
 "property"
 ],
@@ -10467,8 +10442,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1050,
-"endlineno": 1051,
+"lineno": 1047,
+"endlineno": 1048,
 "labels": [
 "property",
 "writable"
@@ -10499,8 +10474,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1058,
-"endlineno": 1059,
+"lineno": 1055,
+"endlineno": 1056,
 "labels": [
 "property"
 ],
@@ -10524,8 +10499,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1061,
-"endlineno": 1062,
+"lineno": 1058,
+"endlineno": 1059,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -10556,12 +10531,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1069,
-"endlineno": 1077,
+"lineno": 1066,
+"endlineno": 1074,
 "docstring": {
 "value": "The resolved target (actual object), if possible.\n\nUpon accessing this property, if the target is not already resolved,\na lookup is done using the modules collection to find the target.",
-"lineno": 1070,
-"endlineno": 1074,
+"lineno": 1067,
+"endlineno": 1071,
 "parsed": [
 {
 "kind": "text",
@@ -10594,12 +10569,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1089,
-"endlineno": 1108,
+"lineno": 1086,
+"endlineno": 1105,
 "docstring": {
 "value": "The final, resolved target, if possible.\n\nThis will iterate through the targets until a non-alias object is found.",
-"lineno": 1090,
-"endlineno": 1093,
+"lineno": 1087,
+"endlineno": 1090,
 "parsed": [
 {
 "kind": "text",
@@ -10623,12 +10598,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1110,
-"endlineno": 1137,
+"lineno": 1107,
+"endlineno": 1134,
 "docstring": {
 "value": "Resolve the target.\n\nRaises:\n    AliasResolutionError: When the target cannot be resolved.\n        It happens when the target does not exist,\n        or could not be loaded (unhandled dynamic object?),\n        or when the target is from a module that was not loaded\n        and added to the collection.\n    CyclicAliasError: When the resolved target is the alias itself.",
-"lineno": 1111,
-"endlineno": 1120,
+"lineno": 1108,
+"endlineno": 1117,
 "parsed": [
 {
 "kind": "text",
@@ -10675,8 +10650,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1139,
-"endlineno": 1153,
+"lineno": 1136,
+"endlineno": 1150,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -10697,8 +10672,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1155,
-"endlineno": 1157,
+"lineno": 1152,
+"endlineno": 1154,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -10719,12 +10694,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1160,
-"endlineno": 1162,
+"lineno": 1157,
+"endlineno": 1159,
 "docstring": {
 "value": "Whether this alias' target is resolved.",
-"lineno": 1161,
-"endlineno": 1161,
+"lineno": 1158,
+"endlineno": 1158,
 "parsed": [
 {
 "kind": "text",
@@ -10748,12 +10723,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1165,
-"endlineno": 1169,
+"lineno": 1162,
+"endlineno": 1166,
 "docstring": {
 "value": "The module on which the wildcard import is performed (if any).",
-"lineno": 1166,
-"endlineno": 1166,
+"lineno": 1163,
+"endlineno": 1163,
 "parsed": [
 {
 "kind": "text",
@@ -10782,12 +10757,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1171,
-"endlineno": 1195,
+"lineno": 1168,
+"endlineno": 1192,
 "docstring": {
 "value": "Return this alias' data as a dictionary.\n\nParameters:\n    full: Whether to return full info, or just base info.\n    **kwargs: Additional serialization options.\n\nReturns:\n    A dictionary.",
-"lineno": 1172,
-"endlineno": 1180,
+"lineno": 1169,
+"endlineno": 1177,
 "parsed": [
 {
 "kind": "text",
@@ -10915,12 +10890,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1198,
-"endlineno": 1300,
+"lineno": 1195,
+"endlineno": 1297,
 "docstring": {
 "value": "The class representing a Python module.",
-"lineno": 1199,
-"endlineno": 1199,
+"lineno": 1196,
+"endlineno": 1196,
 "parsed": [
 {
 "kind": "text",
@@ -10937,8 +10912,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1201,
-"endlineno": 1201,
+"lineno": 1198,
+"endlineno": 1198,
 "labels": [
 "class-attribute",
 "instance-attribute"
@@ -10965,12 +10940,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1203,
-"endlineno": 1214,
+"lineno": 1200,
+"endlineno": 1211,
 "docstring": {
 "value": "Initialize the module.\n\nParameters:\n    *args: See [`griffe.dataclasses.Object`][].\n    filepath: The module file path (directory for namespace [sub]packages, none for builtin modules).\n    **kwargs: See [`griffe.dataclasses.Object`][].",
-"lineno": 1204,
-"endlineno": 1210,
+"lineno": 1201,
+"endlineno": 1207,
 "parsed": [
 {
 "kind": "parameters",
@@ -11093,8 +11068,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1212,
-"endlineno": 1212,
+"lineno": 1209,
+"endlineno": 1209,
 "labels": [
 "instance-attribute"
 ],
@@ -11135,12 +11110,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1213,
-"endlineno": 1213,
+"lineno": 1210,
+"endlineno": 1210,
 "docstring": {
 "value": "The overloaded signature declared in this module.",
-"lineno": 1214,
-"endlineno": 1214,
+"lineno": 1211,
+"endlineno": 1211,
 "parsed": [
 {
 "kind": "text",
@@ -11201,8 +11176,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1216,
-"endlineno": 1220,
+"lineno": 1213,
+"endlineno": 1217,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -11226,12 +11201,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1223,
-"endlineno": 1231,
+"lineno": 1220,
+"endlineno": 1228,
 "docstring": {
 "value": "The file path of this module.\n\nRaises:\n    BuiltinModuleError: When the instance filepath is None.",
-"lineno": 1224,
-"endlineno": 1228,
+"lineno": 1221,
+"endlineno": 1225,
 "parsed": [
 {
 "kind": "text",
@@ -11282,12 +11257,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1234,
-"endlineno": 1240,
+"lineno": 1231,
+"endlineno": 1237,
 "docstring": {
 "value": "Whether this module import future annotations.",
-"lineno": 1235,
-"endlineno": 1235,
+"lineno": 1232,
+"endlineno": 1232,
 "parsed": [
 {
 "kind": "text",
@@ -11311,12 +11286,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1243,
-"endlineno": 1250,
+"lineno": 1240,
+"endlineno": 1247,
 "docstring": {
 "value": "Whether this module is an `__init__.py` module.",
-"lineno": 1244,
-"endlineno": 1244,
+"lineno": 1241,
+"endlineno": 1241,
 "parsed": [
 {
 "kind": "text",
@@ -11340,12 +11315,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1253,
-"endlineno": 1255,
+"lineno": 1250,
+"endlineno": 1252,
 "docstring": {
 "value": "Whether this module is a package (top module).",
-"lineno": 1254,
-"endlineno": 1254,
+"lineno": 1251,
+"endlineno": 1251,
 "parsed": [
 {
 "kind": "text",
@@ -11369,12 +11344,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1258,
-"endlineno": 1260,
+"lineno": 1255,
+"endlineno": 1257,
 "docstring": {
 "value": "Whether this module is a subpackage.",
-"lineno": 1259,
-"endlineno": 1259,
+"lineno": 1256,
+"endlineno": 1256,
 "parsed": [
 {
 "kind": "text",
@@ -11398,12 +11373,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1263,
-"endlineno": 1268,
+"lineno": 1260,
+"endlineno": 1265,
 "docstring": {
 "value": "Whether this module is a namespace package (top folder, no `__init__.py`).",
-"lineno": 1264,
-"endlineno": 1264,
+"lineno": 1261,
+"endlineno": 1261,
 "parsed": [
 {
 "kind": "text",
@@ -11427,12 +11402,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1271,
-"endlineno": 1282,
+"lineno": 1268,
+"endlineno": 1279,
 "docstring": {
 "value": "Whether this module is a namespace subpackage.",
-"lineno": 1272,
-"endlineno": 1272,
+"lineno": 1269,
+"endlineno": 1269,
 "parsed": [
 {
 "kind": "text",
@@ -11456,12 +11431,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1284,
-"endlineno": 1300,
+"lineno": 1281,
+"endlineno": 1297,
 "docstring": {
 "value": "Return this module's data as a dictionary.\n\nParameters:\n    **kwargs: Additional serialization options.\n\nReturns:\n    A dictionary.",
-"lineno": 1285,
-"endlineno": 1292,
+"lineno": 1282,
+"endlineno": 1289,
 "parsed": [
 {
 "kind": "text",
@@ -11571,12 +11546,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1303,
-"endlineno": 1398,
+"lineno": 1300,
+"endlineno": 1395,
 "docstring": {
 "value": "The class representing a Python class.",
-"lineno": 1304,
-"endlineno": 1304,
+"lineno": 1301,
+"endlineno": 1301,
 "parsed": [
 {
 "kind": "text",
@@ -11593,8 +11568,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1306,
-"endlineno": 1306,
+"lineno": 1303,
+"endlineno": 1303,
 "labels": [
 "class-attribute",
 "instance-attribute"
@@ -11621,12 +11596,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1308,
-"endlineno": 1329,
+"lineno": 1305,
+"endlineno": 1326,
 "docstring": {
 "value": "Initialize the class.\n\nParameters:\n    *args: See [`griffe.dataclasses.Object`][].\n    bases: The list of base classes, if any.\n    decorators: The class decorators, if any.\n    **kwargs: See [`griffe.dataclasses.Object`][].",
-"lineno": 1315,
-"endlineno": 1322,
+"lineno": 1312,
+"endlineno": 1319,
 "parsed": [
 {
 "kind": "parameters",
@@ -11791,12 +11766,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1324,
-"endlineno": 1324,
+"lineno": 1321,
+"endlineno": 1321,
 "docstring": {
 "value": "The class bases.",
-"lineno": 1325,
-"endlineno": 1325,
+"lineno": 1322,
+"endlineno": 1322,
 "parsed": [
 {
 "kind": "text",
@@ -11859,12 +11834,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1326,
-"endlineno": 1326,
+"lineno": 1323,
+"endlineno": 1323,
 "docstring": {
 "value": "The class decorators.",
-"lineno": 1327,
-"endlineno": 1327,
+"lineno": 1324,
+"endlineno": 1324,
 "parsed": [
 {
 "kind": "text",
@@ -11909,12 +11884,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1328,
-"endlineno": 1328,
+"lineno": 1325,
+"endlineno": 1325,
 "docstring": {
 "value": "The overloaded signatures declared in this class.",
-"lineno": 1329,
-"endlineno": 1329,
+"lineno": 1326,
+"endlineno": 1326,
 "parsed": [
 {
 "kind": "text",
@@ -11975,12 +11950,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1332,
-"endlineno": 1349,
+"lineno": 1329,
+"endlineno": 1346,
 "docstring": {
 "value": "The parameters of this class' `__init__` method, if any.\n\nThis property fetches inherited members,\nand therefore is part of the consumer API:\ndo not use when producing Griffe trees!",
-"lineno": 1333,
-"endlineno": 1338,
+"lineno": 1330,
+"endlineno": 1335,
 "parsed": [
 {
 "kind": "text",
@@ -12004,12 +11979,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1352,
-"endlineno": 1369,
+"lineno": 1349,
+"endlineno": 1366,
 "docstring": {
 "value": "Resolved class bases.\n\nThis method is part of the consumer API:\ndo not use when producing Griffe trees!",
-"lineno": 1353,
-"endlineno": 1357,
+"lineno": 1350,
+"endlineno": 1354,
 "parsed": [
 {
 "kind": "text",
@@ -12041,8 +12016,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1371,
-"endlineno": 1380,
+"lineno": 1368,
+"endlineno": 1377,
 "labels": [],
 "members": [],
 "decorators": [],
@@ -12100,12 +12075,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1382,
-"endlineno": 1384,
+"lineno": 1379,
+"endlineno": 1381,
 "docstring": {
 "value": "Return a list of classes in order corresponding to Python's MRO.",
-"lineno": 1383,
-"endlineno": 1383,
+"lineno": 1380,
+"endlineno": 1380,
 "parsed": [
 {
 "kind": "text",
@@ -12143,12 +12118,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1386,
-"endlineno": 1398,
+"lineno": 1383,
+"endlineno": 1395,
 "docstring": {
 "value": "Return this class' data as a dictionary.\n\nParameters:\n    **kwargs: Additional serialization options.\n\nReturns:\n    A dictionary.",
-"lineno": 1387,
-"endlineno": 1394,
+"lineno": 1384,
+"endlineno": 1391,
 "parsed": [
 {
 "kind": "text",
@@ -12258,12 +12233,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1401,
-"endlineno": 1455,
+"lineno": 1398,
+"endlineno": 1452,
 "docstring": {
 "value": "The class representing a Python function.",
-"lineno": 1402,
-"endlineno": 1402,
+"lineno": 1399,
+"endlineno": 1399,
 "parsed": [
 {
 "kind": "text",
@@ -12280,8 +12255,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1404,
-"endlineno": 1404,
+"lineno": 1401,
+"endlineno": 1401,
 "labels": [
 "class-attribute",
 "instance-attribute"
@@ -12308,12 +12283,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1406,
-"endlineno": 1435,
+"lineno": 1403,
+"endlineno": 1432,
 "docstring": {
 "value": "Initialize the function.\n\nParameters:\n    *args: See [`griffe.dataclasses.Object`][].\n    parameters: The function parameters.\n    returns: The function return annotation.\n    decorators: The function decorators, if any.\n    **kwargs: See [`griffe.dataclasses.Object`][].",
-"lineno": 1414,
-"endlineno": 1422,
+"lineno": 1411,
+"endlineno": 1419,
 "parsed": [
 {
 "kind": "parameters",
@@ -12492,12 +12467,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1424,
-"endlineno": 1424,
+"lineno": 1421,
+"endlineno": 1421,
 "docstring": {
 "value": "The function parameters.",
-"lineno": 1425,
-"endlineno": 1425,
+"lineno": 1422,
+"endlineno": 1422,
 "parsed": [
 {
 "kind": "text",
@@ -12539,12 +12514,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1426,
-"endlineno": 1426,
+"lineno": 1423,
+"endlineno": 1423,
 "docstring": {
 "value": "The function return type annotation.",
-"lineno": 1427,
-"endlineno": 1427,
+"lineno": 1424,
+"endlineno": 1424,
 "parsed": [
 {
 "kind": "text",
@@ -12585,12 +12560,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1428,
-"endlineno": 1428,
+"lineno": 1425,
+"endlineno": 1425,
 "docstring": {
 "value": "The function decorators.",
-"lineno": 1429,
-"endlineno": 1429,
+"lineno": 1426,
+"endlineno": 1426,
 "parsed": [
 {
 "kind": "text",
@@ -12635,12 +12610,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1430,
-"endlineno": 1430,
+"lineno": 1427,
+"endlineno": 1427,
 "docstring": {
 "value": "The setter linked to this function (property).",
-"lineno": 1431,
-"endlineno": 1431,
+"lineno": 1428,
+"endlineno": 1428,
 "parsed": [
 {
 "kind": "text",
@@ -12670,12 +12645,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1432,
-"endlineno": 1432,
+"lineno": 1429,
+"endlineno": 1429,
 "docstring": {
 "value": "The deleter linked to this function (property).",
-"lineno": 1433,
-"endlineno": 1433,
+"lineno": 1430,
+"endlineno": 1430,
 "parsed": [
 {
 "kind": "text",
@@ -12705,12 +12680,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1434,
-"endlineno": 1434,
+"lineno": 1431,
+"endlineno": 1431,
 "docstring": {
 "value": "The overloaded signatures of this function.",
-"lineno": 1435,
-"endlineno": 1435,
+"lineno": 1432,
+"endlineno": 1432,
 "parsed": [
 {
 "kind": "text",
@@ -12747,12 +12722,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1438,
-"endlineno": 1440,
+"lineno": 1435,
+"endlineno": 1437,
 "docstring": {
 "value": "The type annotation of the returned value.",
-"lineno": 1439,
-"endlineno": 1439,
+"lineno": 1436,
+"endlineno": 1436,
 "parsed": [
 {
 "kind": "text",
@@ -12789,12 +12764,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1442,
-"endlineno": 1455,
+"lineno": 1439,
+"endlineno": 1452,
 "docstring": {
 "value": "Return this function's data as a dictionary.\n\nParameters:\n    **kwargs: Additional serialization options.\n\nReturns:\n    A dictionary.",
-"lineno": 1443,
-"endlineno": 1450,
+"lineno": 1440,
+"endlineno": 1447,
 "parsed": [
 {
 "kind": "text",
@@ -12904,12 +12879,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1458,
-"endlineno": 1498,
+"lineno": 1455,
+"endlineno": 1495,
 "docstring": {
 "value": "The class representing a Python module/class/instance attribute.",
-"lineno": 1459,
-"endlineno": 1459,
+"lineno": 1456,
+"endlineno": 1456,
 "parsed": [
 {
 "kind": "text",
@@ -12926,8 +12901,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1461,
-"endlineno": 1461,
+"lineno": 1458,
+"endlineno": 1458,
 "labels": [
 "class-attribute",
 "instance-attribute"
@@ -12954,12 +12929,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1463,
-"endlineno": 1482,
+"lineno": 1460,
+"endlineno": 1479,
 "docstring": {
 "value": "Initialize the function.\n\nParameters:\n    *args: See [`griffe.dataclasses.Object`][].\n    value: The attribute value, if any.\n    annotation: The attribute annotation, if any.\n    **kwargs: See [`griffe.dataclasses.Object`][].",
-"lineno": 1470,
-"endlineno": 1477,
+"lineno": 1467,
+"endlineno": 1474,
 "parsed": [
 {
 "kind": "parameters",
@@ -13112,12 +13087,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1479,
-"endlineno": 1479,
+"lineno": 1476,
+"endlineno": 1476,
 "docstring": {
 "value": "The attribute value.",
-"lineno": 1480,
-"endlineno": 1480,
+"lineno": 1477,
+"endlineno": 1477,
 "parsed": [
 {
 "kind": "text",
@@ -13158,12 +13133,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1481,
-"endlineno": 1481,
+"lineno": 1478,
+"endlineno": 1478,
 "docstring": {
 "value": "The attribute type annotation.",
-"lineno": 1482,
-"endlineno": 1482,
+"lineno": 1479,
+"endlineno": 1479,
 "parsed": [
 {
 "kind": "text",
@@ -13204,12 +13179,12 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1484,
-"endlineno": 1498,
+"lineno": 1481,
+"endlineno": 1495,
 "docstring": {
 "value": "Return this function's data as a dictionary.\n\nParameters:\n    **kwargs: Additional serialization options.\n\nReturns:\n    A dictionary.",
-"lineno": 1485,
-"endlineno": 1492,
+"lineno": 1482,
+"endlineno": 1489,
 "parsed": [
 {
 "kind": "text",
@@ -13319,8 +13294,8 @@
 "filepath": "/media/data/dev/griffe/src/griffe/dataclasses.py",
 "relative_filepath": "src/griffe/dataclasses.py",
 "relative_package_filepath": "griffe/dataclasses.py",
-"lineno": 1501,
-"endlineno": 1515,
+"lineno": 1498,
+"endlineno": 1512,
 "labels": [
 "module-attribute"
 ],
