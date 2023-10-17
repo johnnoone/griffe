@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Coverage for tests/test_loader.py: 99.22%</title>
+    <title>Coverage for tests/test_loader.py: 99.20%</title>
     <link rel="icon" sizes="32x32" href="favicon_32.png">
     <link rel="stylesheet" href="style.css" type="text/css">
     <script type="text/javascript" src="coverage_html.js" defer></script>
@@ -12,7 +12,7 @@
     <div class="content">
         <h1>
             <span class="text">Coverage for </span><b>tests/test_loader.py</b>:
-            <span class="pc_cov">99.22%</span>
+            <span class="pc_cov">99.20%</span>
         </h1>
         <aside id="help_panel_wrapper">
             <input id="help_panel_state" type="checkbox">
@@ -66,8 +66,8 @@
             <a id="indexLink" class="nav" href="covindex.html">&Hat; index</a> &nbsp; &nbsp;
             <a id="nextFileLink" class="nav" href="d_a44f0ac069e85531_test_merger_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
-            <a class="nav" href="https://coverage.readthedocs.io/en/7.3.1">coverage.py v7.3.1</a>,
-            created at 2023-09-28 16:45 +0200
+            <a class="nav" href="https://coverage.readthedocs.io/en/7.3.2">coverage.py v7.3.2</a>,
+            created at 2023-10-17 14:46 +0200
         </p>
         <aside class="hidden">
             <button type="button" class="button_next_chunk" data-shortcut="j"/>
@@ -336,8 +336,8 @@
     <p class="pln"><span class="n"><a id="t252" href="#t252">252</a></span><span class="t"><span class="str">    """</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t253" href="#t253">253</a></span><span class="t">    <span class="nam">item_name</span> <span class="op">=</span> <span class="str">"XXX"</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t254" href="#t254">254</a></span><span class="t">    <span class="key">with</span> <span class="nam">temporary_pypackage</span><span class="op">(</span><span class="str">"package"</span><span class="op">,</span> <span class="op">[</span><span class="str">"mod.py"</span><span class="op">]</span><span class="op">)</span> <span class="key">as</span> <span class="nam">tmp_folder</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t255" href="#t255">255</a></span><span class="t">        <span class="nam">tmp_folder</span><span class="op">.</span><span class="nam">path</span><span class="op">.</span><span class="nam">joinpath</span><span class="op">(</span><span class="str">"__init__.py"</span><span class="op">)</span><span class="op">.</span><span class="nam">write_text</span><span class="op">(</span><span class="str">f"from .mod import {item_name}\n__all__ = [{item_name}]"</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t256" href="#t256">256</a></span><span class="t">        <span class="nam">tmp_folder</span><span class="op">.</span><span class="nam">path</span><span class="op">.</span><span class="nam">joinpath</span><span class="op">(</span><span class="str">"mod.py"</span><span class="op">)</span><span class="op">.</span><span class="nam">write_text</span><span class="op">(</span><span class="str">f"class {item_name}: ..."</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t255" href="#t255">255</a></span><span class="t">        <span class="nam">tmp_folder</span><span class="op">.</span><span class="nam">path</span><span class="op">.</span><span class="nam">joinpath</span><span class="op">(</span><span class="str">"__init__.py"</span><span class="op">)</span><span class="op">.</span><span class="nam">write_text</span><span class="op">(</span><span class="fst">f"</span><span class="fst">from .mod import </span><span class="op">{</span><span class="nam">item_name</span><span class="op">}</span><span class="fst">\n__all__ = [</span><span class="op">{</span><span class="nam">item_name</span><span class="op">}</span><span class="fst">]</span><span class="fst">"</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t256" href="#t256">256</a></span><span class="t">        <span class="nam">tmp_folder</span><span class="op">.</span><span class="nam">path</span><span class="op">.</span><span class="nam">joinpath</span><span class="op">(</span><span class="str">"mod.py"</span><span class="op">)</span><span class="op">.</span><span class="nam">write_text</span><span class="op">(</span><span class="fst">f"</span><span class="fst">class </span><span class="op">{</span><span class="nam">item_name</span><span class="op">}</span><span class="fst">: ...</span><span class="fst">"</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t257" href="#t257">257</a></span><span class="t">        <span class="nam">loader</span> <span class="op">=</span> <span class="nam">GriffeLoader</span><span class="op">(</span><span class="nam">search_paths</span><span class="op">=</span><span class="op">[</span><span class="nam">tmp_folder</span><span class="op">.</span><span class="nam">tmpdir</span><span class="op">]</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t258" href="#t258">258</a></span><span class="t">        <span class="nam">loader</span><span class="op">.</span><span class="nam">expand_exports</span><span class="op">(</span><span class="nam">loader</span><span class="op">.</span><span class="nam">load_module</span><span class="op">(</span><span class="str">"package"</span><span class="op">)</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="par run show_par"><span class="n"><a id="t259" href="#t259">259</a></span><span class="t">    <span class="key">assert</span> <span class="nam">any</span><span class="op">(</span><span class="nam">item_name</span> <span class="key">in</span> <span class="nam">record</span><span class="op">.</span><span class="nam">message</span> <span class="key">and</span> <span class="nam">record</span><span class="op">.</span><span class="nam">levelname</span> <span class="op">==</span> <span class="str">"WARNING"</span> <span class="key">for</span> <span class="nam">record</span> <span class="key">in</span> <span class="nam">caplog</span><span class="op">.</span><span class="nam">records</span><span class="op">)</span>&nbsp;</span><span class="r"><span class="annotate short">259&#x202F;&#x219B;&#x202F;exit</span><span class="annotate long">line 259 didn't finish the generator expression on line 259</span></span></p>
@@ -451,8 +451,8 @@
             <a id="indexLink" class="nav" href="covindex.html">&Hat; index</a> &nbsp; &nbsp;
             <a id="nextFileLink" class="nav" href="d_a44f0ac069e85531_test_merger_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
-            <a class="nav" href="https://coverage.readthedocs.io/en/7.3.1">coverage.py v7.3.1</a>,
-            created at 2023-09-28 16:45 +0200
+            <a class="nav" href="https://coverage.readthedocs.io/en/7.3.2">coverage.py v7.3.2</a>,
+            created at 2023-10-17 14:46 +0200
         </p>
     </div>
 </footer>
